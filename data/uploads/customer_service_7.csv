@@ -1,0 +1,261 @@
+ticket_id,created_at,first_response_hours,resolved_at,category,subcategory,priority,channel,team,agent,customer_tier,status,csat_score,reopened,sla_breached
+TK00001,2025-01-02,7.8,2025-01-03 04:06:00,Technical,Integration issue,Medium,Phone,Tier 2,F. Moore,Business,Resolved,4.4,False,False
+TK00002,2025-01-03,11.3,2025-01-03 14:24:00,Shipping,Late delivery,Low,Portal,Tier 1,G. Lopez,Pro,Resolved,4.3,False,False
+TK00003,2025-01-04,17.4,2025-01-04 14:42:00,Account,Access request,Low,Email,Tier 1,F. Moore,Enterprise,Resolved,4.4,False,False
+TK00004,2025-01-05,13.0,,Product,How-to,Medium,Chat,Customer Success,C. Lee,Business,Pending Customer,,False,True
+TK00005,2025-01-07,3.0,2025-01-07 13:48:00,Technical,Bug report,High,Chat,Tier 1,D. Evans,Free,Resolved,4.1,False,False
+TK00006,2025-01-08,5.4,2025-01-08 13:54:00,Technical,Login problem,Medium,Portal,Tier 2,I. Ahmed,Free,Resolved,,False,False
+TK00007,2025-01-08,29.0,2025-01-08 21:00:00,Product,Missing functionality,Low,Chat,Customer Success,B. Wilson,Enterprise,Resolved,4.9,False,True
+TK00008,2025-01-09,8.9,,Technical,API error,Medium,Chat,Tier 2,H. Clark,Free,Escalated,,False,True
+TK00009,2025-01-09,9.4,2025-01-10 14:42:00,Technical,API error,Low,Chat,Tier 2,F. Moore,Free,Resolved,4.4,True,False
+TK00010,2025-01-10,16.4,2025-01-10 21:00:00,Technical,Login problem,Low,Portal,Tier 1,C. Lee,Pro,Resolved,5.0,True,False
+TK00011,2025-01-12,4.8,,Technical,Integration issue,Medium,Portal,Tier 1,C. Lee,Business,Open,,False,False
+TK00012,2025-01-13,1.4,,Shipping,Address correction,Urgent,Portal,Tier 1,C. Lee,Business,Pending Customer,,False,False
+TK00013,2025-01-13,1.8,2025-01-14 01:42:00,Billing,Invoice issue,Urgent,Email,Billing,C. Lee,Enterprise,Resolved,4.5,False,False
+TK00014,2025-01-13,4.3,2025-01-13 19:48:00,Product,Feature question,Low,Phone,Tier 2,C. Lee,Enterprise,Resolved,4.9,False,False
+TK00015,2025-01-14,2.6,2025-01-14 22:42:00,Billing,Payment failure,Medium,Email,Tier 1,I. Ahmed,Pro,Resolved,4.2,False,False
+TK00016,2025-01-14,4.6,2025-01-14 09:36:00,Product,Feature question,Medium,Chat,Customer Success,G. Lopez,Enterprise,Resolved,5.0,False,False
+TK00017,2025-01-16,3.6,2025-01-16 17:42:00,Billing,Chargeback,Medium,Chat,Billing,B. Wilson,Free,Resolved,3.6,False,False
+TK00018,2025-01-16,14.5,,Billing,Invoice issue,Low,Email,Tier 1,H. Clark,Business,Escalated,,False,False
+TK00019,2025-01-18,7.4,2025-01-18 15:24:00,Billing,Invoice issue,Low,Phone,Billing,N. Adams,Pro,Resolved,4.2,False,False
+TK00020,2025-01-18,3.0,,Account,Profile update,Medium,Phone,Tier 2,G. Lopez,Business,Escalated,,False,False
+TK00021,2025-01-19,6.4,2025-01-22 12:12:00,Billing,Invoice issue,High,Chat,Tier 2,B. Wilson,Pro,Resolved,4.3,False,True
+TK00022,2025-01-19,10.8,2025-01-19 22:24:00,Technical,Login problem,Low,Portal,Tier 2,F. Moore,Business,Resolved,5.0,False,False
+TK00023,2025-01-20,6.3,2025-01-21 12:54:00,Technical,API error,Medium,Email,Tier 1,D. Evans,Pro,Resolved,4.9,False,False
+TK00024,2025-01-21,1.7,,Product,Feature question,High,Phone,Tier 1,F. Moore,Free,Pending Customer,,False,False
+TK00025,2025-01-22,4.6,,Product,Missing functionality,Medium,Chat,Customer Success,F. Moore,Pro,Pending Customer,,False,False
+TK00026,2025-01-23,12.9,2025-01-23 21:00:00,Account,Profile update,Low,Chat,Tier 1,I. Ahmed,Free,Resolved,4.4,False,False
+TK00027,2025-01-24,3.4,,Technical,Bug report,Medium,Chat,Technical Escalations,D. Evans,Free,Pending Customer,,False,False
+TK00028,2025-01-25,15.0,2025-01-25 17:18:00,Billing,Refund request,Low,Phone,Billing,B. Wilson,Enterprise,Resolved,5.0,False,False
+TK00029,2025-01-25,4.5,,Product,Missing functionality,Medium,Chat,Tier 2,C. Lee,Pro,Escalated,,False,False
+TK00030,2025-01-26,10.4,2025-01-26 06:18:00,Billing,Chargeback,Low,Phone,Tier 2,G. Lopez,Business,Resolved,3.8,False,False
+TK00031,2025-01-26,1.3,2025-01-26 09:18:00,Technical,Login problem,Urgent,Email,Tier 1,Unassigned,Business,Resolved,5.0,False,False
+TK00032,2025-01-27,15.3,2025-01-28 06:00:00,Account,Password reset,Medium,Email,Tier 1,B. Wilson,Pro,Resolved,4.4,True,True
+TK00033,2025-01-28,6.0,2025-01-28 17:23:59,Technical,Bug report,Medium,Email,Tier 1,D. Evans,Enterprise,Resolved,4.3,False,False
+TK00034,2025-01-28,6.8,2025-01-29 03:48:00,Billing,Invoice issue,Low,Phone,Billing,D. Evans,Enterprise,Resolved,3.6,False,False
+TK00035,2025-01-29,19.2,2025-01-29 20:30:00,Shipping,Tracking issue,Low,Phone,Tier 1,H. Clark,Free,Resolved,4.9,False,False
+TK00036,2025-01-30,3.3,2025-01-30 21:54:00,Technical,Integration issue,Medium,Portal,Tier 2,F. Moore,Pro,Resolved,3.0,False,False
+TK00037,2025-02-01,3.6,2025-02-01 21:30:00,Billing,Invoice issue,High,Chat,Billing,C. Lee,Pro,Resolved,4.9,False,False
+TK00038,2025-02-01,0.8,,Technical,API error,Urgent,Email,Tier 1,H. Clark,Pro,Pending Customer,,False,False
+TK00039,2025-02-01,1.8,,Technical,Login problem,High,Email,Tier 2,N. Adams,Enterprise,Escalated,,False,False
+TK00040,2025-02-02,13.6,,Product,How-to,Low,Phone,Customer Success,N. Adams,Business,Open,,False,False
+TK00041,2025-02-02,8.8,2025-02-03 02:12:00,Shipping,Damaged item,Medium,Chat,Customer Success,B. Wilson,Pro,Resolved,3.9,False,True
+TK00042,2025-02-02,13.4,2025-02-02 09:36:00,Shipping,Damaged item,Low,Chat,Tier 1,D. Evans,Business,Resolved,4.8,False,False
+TK00043,2025-02-03,11.4,,Product,Missing functionality,Low,Portal,Customer Success,B. Wilson,Pro,Open,,False,False
+TK00044,2025-02-06,10.3,2025-02-06 21:12:00,Product,How-to,Low,Chat,Tier 1,D. Evans,Free,Resolved,3.9,False,False
+TK00045,2025-02-06,2.9,,Product,Missing functionality,Medium,Phone,Tier 1,C. Lee,Enterprise,Escalated,,False,False
+TK00046,2025-02-07,2.4,,Technical,Login problem,High,Email,Tier 1,N. Adams,Pro,Escalated,,False,False
+TK00047,2025-02-07,1.4,,Technical,Integration issue,Urgent,Phone,Tier 2,I. Ahmed,Pro,Open,,False,False
+TK00048,2025-02-09,21.8,,Account,Permission issue,Low,Chat,Customer Success,G. Lopez,Enterprise,Escalated,,False,False
+TK00049,2025-02-09,7.2,2025-02-10 08:00:00,Technical,Bug report,Medium,Portal,Tier 1,D. Evans,Pro,Resolved,4.6,False,False
+TK00050,2025-02-10,1.5,2025-02-11 01:06:00,Technical,Integration issue,High,Phone,Tier 1,I. Ahmed,Free,Resolved,4.6,False,False
+TK00051,2025-02-13,3.8,2025-02-13 20:42:00,Product,How-to,High,Email,Tier 1,F. Moore,Pro,Resolved,4.1,False,False
+TK00052,2025-02-13,9.9,2025-02-13 15:24:00,Billing,Invoice issue,Low,Email,Tier 1,H. Clark,Free,Resolved,5.0,False,False
+TK00053,2025-02-14,8.4,2025-02-14 11:36:00,Shipping,Address correction,Low,Phone,Billing,I. Ahmed,Business,Resolved,4.4,False,False
+TK00054,2025-02-15,8.2,2025-02-16 00:48:00,Billing,Refund request,Medium,Phone,Billing,B. Wilson,Business,Resolved,3.6,False,True
+TK00055,2025-02-15,10.1,2025-02-16 05:30:00,Billing,Invoice issue,Medium,Email,Billing,B. Wilson,Free,Resolved,2.9,False,True
+TK00056,2025-02-15,5.0,2025-02-15 18:30:00,Technical,API error,High,Chat,Technical Escalations,C. Lee,Business,Resolved,4.7,False,True
+TK00057,2025-02-16,2.3,,Technical,Integration issue,High,Chat,Tier 1,H. Clark,Pro,Pending Customer,,False,False
+TK00058,2025-02-17,10.3,2025-02-18 15:18:00,Billing,Chargeback,Low,Email,Tier 2,C. Lee,Pro,Resolved,4.6,False,False
+TK00059,2025-02-18,14.6,2025-02-18 09:18:00,Product,Feature question,Low,Email,Tier 2,H. Clark,Business,Resolved,4.6,False,False
+TK00060,2025-02-19,5.1,,Account,Permission issue,High,Chat,Tier 1,H. Clark,Pro,Escalated,,False,True
+TK00061,2025-02-19,2.7,2025-02-19 14:18:00,Technical,Integration issue,High,Chat,Technical Escalations,F. Moore,Pro,Resolved,4.6,False,False
+TK00062,2025-02-22,5.5,2025-02-22 23:18:00,Technical,Bug report,Medium,Portal,Technical Escalations,B. Wilson,Pro,Resolved,4.8,True,False
+TK00063,2025-02-23,3.5,2025-02-24 01:36:00,Product,How-to,Medium,Portal,Customer Success,D. Evans,Free,Resolved,5.0,False,False
+TK00064,2025-02-24,1.0,2025-02-24 09:24:00,Billing,Chargeback,Urgent,Email,Tier 2,D. Evans,Pro,Resolved,4.5,False,False
+TK00065,2025-02-24,2.3,2025-02-24 07:12:00,Technical,Integration issue,Urgent,Chat,Tier 2,I. Ahmed,Enterprise,Resolved,5.0,False,True
+TK00066,2025-02-25,25.7,2025-02-26 00:36:00,Account,Access request,Low,Phone,Customer Success,C. Lee,Pro,Resolved,4.0,False,True
+TK00067,2025-02-25,5.8,2025-02-25 22:00:00,Shipping,Late delivery,Medium,Chat,Tier 1,D. Evans,Enterprise,Resolved,4.6,False,False
+TK00068,2025-02-26,21.2,2025-02-27 03:18:00,Product,Feature question,Low,Chat,Tier 2,N. Adams,Enterprise,Resolved,2.6,False,False
+TK00069,2025-02-28,14.9,2025-03-01 07:36:00,Account,Password reset,Low,Chat,Tier 1,C. Lee,Free,Resolved,3.7,False,False
+TK00070,2025-02-28,4.4,2025-02-28 13:12:00,Account,Permission issue,Medium,Email,Tier 1,C. Lee,Free,Resolved,3.0,False,False
+TK00071,2025-02-28,7.2,2025-03-01 09:00:00,Product,How-to,Medium,Phone,Tier 2,F. Moore,Free,Resolved,4.3,False,False
+TK00072,2025-03-01,28.4,2025-03-01 19:30:00,Product,Feature question,Low,Email,Customer Success,F. Moore,Pro,Resolved,,True,True
+TK00073,2025-03-02,5.9,,Product,How-to,Medium,Email,Customer Success,I. Ahmed,Pro,Escalated,,False,False
+TK00074,2025-03-02,28.8,2025-03-02 15:06:00,Product,Feature question,Low,Chat,Tier 2,G. Lopez,Business,Resolved,4.5,False,True
+TK00075,2025-03-03,1.0,,Product,UX feedback,High,Portal,Tier 2,N. Adams,Free,Escalated,,False,False
+TK00076,2025-03-04,19.1,,Technical,Login problem,Low,Chat,Tier 2,F. Moore,Free,Pending Customer,,False,False
+TK00077,2025-03-04,12.8,2025-03-04 23:00:00,Shipping,Late delivery,Low,Portal,Tier 1,I. Ahmed,Pro,Resolved,4.9,False,False
+TK00078,2025-03-05,5.2,2025-03-05 18:54:00,Account,Profile update,Medium,Chat,Tier 1,C. Lee,Business,Resolved,5.0,False,False
+TK00079,2025-03-11,12.8,,Product,Feature question,Low,Email,Customer Success,B. Wilson,Free,Open,,False,False
+TK00080,2025-03-13,2.2,2025-03-14 02:24:00,Billing,Payment failure,Medium,Portal,Billing,N. Adams,Enterprise,Resolved,4.4,False,False
+TK00081,2025-03-15,10.8,2025-03-15 23:30:00,Technical,Login problem,Low,Phone,Tier 2,F. Moore,Business,Resolved,5.0,False,False
+TK00082,2025-03-16,3.9,,Technical,Login problem,High,Portal,Technical Escalations,I. Ahmed,Business,Open,,False,False
+TK00083,2025-03-17,27.5,2025-03-18 04:42:00,Shipping,Late delivery,Low,Chat,Customer Success,B. Wilson,Pro,Resolved,5.0,False,True
+TK00084,2025-03-17,4.7,2025-03-17 23:36:00,Technical,Integration issue,Medium,Chat,Technical Escalations,H. Clark,Pro,Resolved,4.7,False,False
+TK00085,2025-03-17,7.8,2025-03-17 10:30:00,Technical,Integration issue,Low,Portal,Tier 1,N. Adams,Pro,Resolved,4.9,False,False
+TK00086,2025-03-18,4.7,2025-03-18 13:06:00,Account,Profile update,Medium,Chat,Tier 1,C. Lee,Free,Resolved,4.7,False,False
+TK00087,2025-03-18,5.0,,Account,Access request,High,Portal,Tier 1,D. Evans,Business,Open,,False,True
+TK00088,2025-03-19,1.9,2025-03-19 13:36:00,Product,Feature question,Urgent,Email,Tier 1,C. Lee,Business,Resolved,5.0,False,False
+TK00089,2025-03-19,9.1,2025-03-20 10:24:00,Product,Feature question,Low,Chat,Customer Success,C. Lee,Business,Resolved,2.0,True,False
+TK00090,2025-03-19,7.8,,Account,Access request,Medium,Chat,Customer Success,N. Adams,Free,Open,,False,False
+TK00091,2025-03-19,6.4,,Shipping,Address correction,Medium,Email,Tier 1,D. Evans,Pro,Pending Customer,,False,False
+TK00092,2025-03-19,9.8,,Billing,Refund request,Medium,Email,Billing,N. Adams,Free,Open,,False,True
+TK00093,2025-03-20,4.3,2025-03-20 14:24:00,Technical,Bug report,Medium,Portal,Tier 1,C. Lee,Pro,Resolved,4.7,False,False
+TK00094,2025-03-21,5.1,2025-03-21 16:53:59,Shipping,Address correction,Medium,Email,Customer Success,G. Lopez,Business,Resolved,5.0,False,False
+TK00095,2025-03-22,1.4,,Billing,Chargeback,Urgent,Portal,Tier 1,F. Moore,Pro,Escalated,,False,False
+TK00096,2025-03-25,2.9,2025-03-25 18:06:00,Billing,Refund request,Medium,Email,Billing,F. Moore,Pro,Resolved,1.5,False,False
+TK00097,2025-03-25,7.0,2025-03-25 19:06:00,Billing,Refund request,Medium,Chat,Billing,D. Evans,Pro,Resolved,3.2,False,False
+TK00098,2025-03-26,14.1,,Shipping,Tracking issue,Low,Chat,Customer Success,C. Lee,Pro,Escalated,,False,False
+TK00099,2025-03-27,6.1,2025-03-28 01:36:00,Shipping,Tracking issue,Medium,Portal,Tier 1,B. Wilson,Free,Resolved,5.0,False,False
+TK00100,2025-03-27,5.4,2025-03-28 20:30:00,Shipping,Damaged item,Medium,Portal,Customer Success,N. Adams,Free,Resolved,4.2,False,False
+TK00101,2025-03-28,1.8,2025-03-29 10:36:00,Billing,Chargeback,High,Phone,Tier 1,C. Lee,Business,Resolved,1.0,False,False
+TK00102,2025-03-28,2.7,,Shipping,Damaged item,High,Email,Tier 1,H. Clark,Pro,Pending Customer,,False,False
+TK00103,2025-03-28,5.1,2025-03-29 00:06:00,Account,Permission issue,Medium,Portal,Tier 1,H. Clark,Pro,Resolved,4.0,False,False
+TK00104,2025-03-28,4.1,2025-03-28 15:54:00,Billing,Refund request,Medium,Email,Tier 2,C. Lee,Enterprise,Resolved,4.5,False,False
+TK00105,2025-03-29,5.6,,Technical,API error,Medium,Phone,Tier 1,I. Ahmed,Pro,Open,,False,False
+TK00106,2025-03-30,7.4,2025-03-31 02:30:00,Technical,Integration issue,Medium,Chat,Tier 1,G. Lopez,Pro,Resolved,4.9,False,False
+TK00107,2025-03-30,7.8,2025-03-30 09:30:00,Billing,Invoice issue,High,Email,Tier 1,H. Clark,Enterprise,Resolved,4.5,False,True
+TK00108,2025-04-04,3.6,,Account,Permission issue,High,Phone,Customer Success,B. Wilson,Pro,Pending Customer,,False,False
+TK00109,2025-04-05,6.9,,Account,Access request,Medium,Portal,Customer Success,H. Clark,Pro,Pending Customer,,False,False
+TK00110,2025-04-05,5.8,,Shipping,Damaged item,Medium,Email,Customer Success,D. Evans,Free,Pending Customer,,False,False
+TK00111,2025-04-05,1.4,,Product,Feature question,High,Chat,Customer Success,C. Lee,Business,Escalated,,False,False
+TK00112,2025-04-05,6.0,2025-04-05 21:18:00,Product,Missing functionality,Medium,Portal,Customer Success,F. Moore,Pro,Resolved,4.2,False,False
+TK00113,2025-04-05,12.6,,Product,How-to,Low,Portal,Tier 1,F. Moore,Pro,Escalated,,False,False
+TK00114,2025-04-07,47.2,,Shipping,Damaged item,Low,Portal,Tier 1,G. Lopez,Pro,Pending Customer,,False,True
+TK00115,2025-04-10,11.0,,Billing,Payment failure,Low,Phone,Billing,D. Evans,Business,Pending Customer,,False,False
+TK00116,2025-04-10,14.4,2025-04-11 13:54:00,Product,Missing functionality,Low,Phone,Tier 2,C. Lee,Free,Resolved,4.8,False,False
+TK00117,2025-04-10,5.9,2025-04-10 10:18:00,Billing,Invoice issue,Medium,Email,Billing,I. Ahmed,Business,Resolved,4.6,False,False
+TK00118,2025-04-13,6.4,2025-04-14 01:06:00,Technical,Integration issue,Low,Email,Tier 2,I. Ahmed,Free,Resolved,4.7,False,False
+TK00119,2025-04-13,5.6,2025-04-13 12:30:00,Account,Permission issue,High,Chat,Tier 1,I. Ahmed,Enterprise,Resolved,4.6,False,True
+TK00120,2025-04-14,8.8,,Technical,API error,Medium,Chat,Tier 2,B. Wilson,Pro,Pending Customer,,False,True
+TK00121,2025-04-14,9.0,,Billing,Invoice issue,Medium,Chat,Billing,H. Clark,Enterprise,Escalated,,False,True
+TK00122,2025-04-14,2.2,2025-04-15 14:12:00,Account,Password reset,High,Email,Tier 1,F. Moore,Business,Resolved,4.7,False,False
+TK00123,2025-04-14,12.2,2025-04-14 22:12:00,Shipping,Damaged item,Medium,Email,Tier 1,F. Moore,Pro,Resolved,5.0,False,True
+TK00124,2025-04-14,3.0,,Product,UX feedback,Medium,Phone,Tier 1,H. Clark,Free,Pending Customer,,False,False
+TK00125,2025-04-15,16.8,,Product,UX feedback,Low,Email,Tier 1,N. Adams,Pro,Pending Customer,,False,False
+TK00126,2025-04-16,18.1,2025-04-17 04:30:00,Account,Profile update,Medium,Chat,Tier 2,N. Adams,Enterprise,Resolved,3.5,False,True
+TK00127,2025-04-18,7.1,,Technical,Bug report,Low,Email,Tier 1,N. Adams,Business,Escalated,,False,False
+TK00128,2025-04-19,8.9,2025-04-20 03:54:00,Billing,Payment failure,Low,Portal,Billing,G. Lopez,Enterprise,Resolved,4.7,False,False
+TK00129,2025-04-19,12.9,,Product,Missing functionality,Low,Email,Customer Success,G. Lopez,Pro,Pending Customer,,False,False
+TK00130,2025-04-21,2.6,,Billing,Invoice issue,High,Phone,Tier 1,B. Wilson,Pro,Pending Customer,,False,False
+TK00131,2025-04-22,2.8,2025-04-24 06:30:00,Billing,Chargeback,Medium,Chat,Billing,G. Lopez,Free,Resolved,4.5,False,False
+TK00132,2025-04-23,6.3,2025-04-24 09:12:00,Product,Feature question,Medium,Phone,Tier 2,I. Ahmed,Pro,Resolved,4.5,False,False
+TK00133,2025-04-24,6.8,2025-04-25 16:36:00,Technical,Bug report,Low,Phone,Tier 1,H. Clark,Enterprise,Resolved,4.6,False,False
+TK00134,2025-04-25,4.1,,Technical,Login problem,High,Phone,Technical Escalations,D. Evans,Business,Pending Customer,,False,True
+TK00135,2025-04-26,3.8,,Billing,Payment failure,Medium,Chat,Billing,F. Moore,Free,Open,,False,False
+TK00136,2025-04-26,6.7,2025-04-26 16:18:00,Technical,Bug report,High,Chat,Technical Escalations,N. Adams,Pro,Resolved,4.3,False,True
+TK00137,2025-04-27,4.1,,Technical,Bug report,Medium,Chat,Tier 2,D. Evans,Business,Open,,False,False
+TK00138,2025-04-28,2.9,2025-04-29 12:06:00,Product,Missing functionality,High,Phone,Tier 2,N. Adams,Business,Resolved,4.3,False,False
+TK00139,2025-04-29,4.8,2025-04-29 07:00:00,Shipping,Damaged item,High,Chat,Tier 1,C. Lee,Pro,Resolved,1.2,True,True
+TK00140,2025-04-30,3.3,2025-05-01 00:00:00,Billing,Invoice issue,Medium,Email,Billing,H. Clark,Business,Resolved,4.9,False,False
+TK00141,2025-05-01,6.8,,Product,Missing functionality,Medium,Phone,Tier 2,B. Wilson,Enterprise,Escalated,,False,False
+TK00142,2025-05-03,2.8,2025-05-04 00:36:00,Billing,Payment failure,Urgent,Email,Billing,C. Lee,Pro,Resolved,3.9,False,True
+TK00143,2025-05-05,2.7,2025-05-06 05:12:00,Technical,Integration issue,Medium,Phone,Tier 2,B. Wilson,Business,Resolved,4.2,False,False
+TK00144,2025-05-05,3.6,2025-05-05 16:30:00,Technical,Bug report,High,Phone,Tier 2,N. Adams,Pro,Resolved,3.9,False,False
+TK00145,2025-05-06,14.1,2025-05-07 01:06:00,Billing,Refund request,Low,Email,Billing,G. Lopez,Free,Resolved,2.7,True,False
+TK00146,2025-05-06,8.9,2025-05-07 16:12:00,Technical,API error,Medium,Portal,Tier 2,H. Clark,Pro,Resolved,4.0,False,True
+TK00147,2025-05-07,3.3,2025-05-07 11:12:00,Product,Missing functionality,Medium,Portal,Tier 1,D. Evans,Free,Resolved,4.8,False,False
+TK00148,2025-05-08,5.9,2025-05-09 04:24:00,Technical,Bug report,Low,Email,Technical Escalations,H. Clark,Pro,Resolved,4.7,False,False
+TK00149,2025-05-08,16.2,2025-05-08 22:54:00,Technical,Bug report,Low,Email,Tier 1,C. Lee,Pro,Resolved,4.6,False,False
+TK00150,2025-05-08,3.8,2025-05-08 21:54:00,Product,Missing functionality,High,Chat,Customer Success,C. Lee,Business,Resolved,4.6,False,False
+TK00151,2025-05-08,14.0,2025-05-08 07:30:00,Billing,Refund request,Low,Chat,Tier 2,I. Ahmed,Pro,Resolved,4.7,False,False
+TK00152,2025-05-10,7.2,2025-05-10 13:24:00,Account,Permission issue,Medium,Email,Customer Success,C. Lee,Business,Resolved,4.1,False,False
+TK00153,2025-05-12,4.3,2025-05-12 11:30:00,Product,UX feedback,Medium,Phone,Customer Success,G. Lopez,Enterprise,Resolved,3.5,False,False
+TK00154,2025-05-13,6.8,2025-05-13 15:42:00,Account,Profile update,Medium,Portal,Tier 2,H. Clark,Free,Resolved,3.9,False,False
+TK00155,2025-05-13,14.3,,Account,Profile update,Low,Chat,Tier 1,I. Ahmed,Free,Escalated,,False,False
+TK00156,2025-05-14,4.2,2025-05-14 16:48:00,Account,Access request,Medium,Email,Tier 1,C. Lee,Pro,Resolved,4.8,False,False
+TK00157,2025-05-14,3.5,2025-05-14 10:24:00,Billing,Invoice issue,Urgent,Phone,Billing,F. Moore,Business,Resolved,5.0,False,True
+TK00158,2025-05-14,15.8,2025-05-15 08:30:00,Technical,Integration issue,Low,Chat,Tier 1,F. Moore,Free,Resolved,5.0,False,False
+TK00159,2025-05-14,6.3,,Billing,Invoice issue,Low,Chat,Billing,C. Lee,Pro,Pending Customer,,False,False
+TK00160,2025-05-16,4.5,2025-05-17 22:42:00,Technical,API error,High,Email,Tier 1,B. Wilson,Free,Resolved,4.8,True,True
+TK00161,2025-05-16,7.1,2025-05-16 20:36:00,Product,How-to,Low,Phone,Tier 2,C. Lee,Enterprise,Resolved,,False,False
+TK00162,2025-05-20,4.7,2025-05-21 20:30:00,Technical,Login problem,High,Email,Technical Escalations,H. Clark,Free,Resolved,3.7,False,True
+TK00163,2025-05-20,23.0,2025-05-20 19:12:00,Shipping,Address correction,Low,Email,Customer Success,I. Ahmed,Enterprise,Resolved,4.4,True,False
+TK00164,2025-05-21,7.8,2025-05-22 16:06:00,Technical,Login problem,Low,Chat,Tier 2,C. Lee,Free,Resolved,4.0,False,False
+TK00165,2025-05-21,20.7,2025-05-21 11:18:00,Technical,Login problem,Low,Chat,Tier 1,N. Adams,Free,Resolved,4.2,False,False
+TK00166,2025-05-21,15.3,,Product,How-to,Low,Chat,Tier 2,B. Wilson,Pro,Pending Customer,,False,False
+TK00167,2025-05-21,9.1,2025-05-22 09:54:00,Shipping,Tracking issue,Medium,Email,Customer Success,I. Ahmed,Business,Resolved,4.3,False,True
+TK00168,2025-05-22,34.6,,Product,How-to,Low,Portal,Customer Success,D. Evans,Business,Pending Customer,,False,True
+TK00169,2025-05-23,3.0,2025-05-23 23:36:00,Technical,Login problem,High,Portal,Technical Escalations,I. Ahmed,Enterprise,Resolved,4.8,False,False
+TK00170,2025-05-25,4.2,2025-05-26 09:24:00,Account,Access request,Medium,Phone,Customer Success,B. Wilson,Pro,Resolved,4.0,False,False
+TK00171,2025-05-26,3.9,,Shipping,Tracking issue,Medium,Email,Billing,H. Clark,Business,Escalated,,False,False
+TK00172,2025-05-26,4.0,2025-05-27 10:30:00,Shipping,Late delivery,Medium,Portal,Customer Success,I. Ahmed,Free,Resolved,4.5,False,False
+TK00173,2025-05-27,5.8,2025-05-28 11:12:00,Product,Feature question,Medium,Email,Tier 1,C. Lee,Free,Resolved,4.7,False,False
+TK00174,2025-05-29,7.2,,Product,How-to,Medium,Email,Customer Success,C. Lee,Free,Escalated,,False,False
+TK00175,2025-06-06,6.9,2025-06-06 15:36:00,Account,Access request,Medium,Email,Customer Success,D. Evans,Free,Resolved,4.0,False,False
+TK00176,2025-06-07,19.2,2025-06-07 11:00:00,Technical,Bug report,Low,Chat,Technical Escalations,N. Adams,Business,Resolved,3.0,False,False
+TK00177,2025-06-09,3.3,2025-06-10 08:17:59,Product,Missing functionality,High,Email,Customer Success,D. Evans,Pro,Resolved,4.3,False,False
+TK00178,2025-06-10,6.4,2025-06-11 09:54:00,Product,How-to,High,Chat,Customer Success,H. Clark,Pro,Resolved,4.5,True,True
+TK00179,2025-06-11,10.5,2025-06-12 06:42:00,Technical,Login problem,Low,Email,Tier 1,F. Moore,Pro,Resolved,4.7,True,False
+TK00180,2025-06-11,23.6,2025-06-11 18:18:00,Product,UX feedback,Medium,Phone,Tier 2,H. Clark,Pro,Resolved,4.1,False,True
+TK00181,2025-06-12,17.2,,Billing,Payment failure,Low,Portal,Tier 2,I. Ahmed,Pro,Open,,False,False
+TK00182,2025-06-13,2.3,,Account,Password reset,High,Phone,Tier 1,Unassigned,Enterprise,Pending Customer,,False,False
+TK00183,2025-06-14,3.5,,Technical,Login problem,Medium,Chat,Tier 2,H. Clark,Pro,Pending Customer,,False,False
+TK00184,2025-06-15,4.1,,Technical,Integration issue,High,Portal,Technical Escalations,I. Ahmed,Pro,Escalated,,False,True
+TK00185,2025-06-15,3.0,,Technical,API error,High,Email,Technical Escalations,B. Wilson,Pro,Open,,False,False
+TK00186,2025-06-16,2.2,2025-06-16 08:24:00,Product,UX feedback,Urgent,Chat,Tier 2,Unassigned,Pro,Resolved,4.9,False,True
+TK00187,2025-06-18,4.1,,Billing,Payment failure,High,Portal,Tier 1,I. Ahmed,Business,Open,,False,True
+TK00188,2025-06-19,1.6,2025-06-19 21:30:00,Product,Feature question,Urgent,Email,Customer Success,F. Moore,Business,Resolved,4.8,False,False
+TK00189,2025-06-20,7.6,2025-06-21 00:24:00,Billing,Invoice issue,Low,Email,Billing,I. Ahmed,Pro,Resolved,3.5,False,False
+TK00190,2025-06-21,1.7,2025-06-22 05:36:00,Account,Permission issue,High,Portal,Tier 1,C. Lee,Enterprise,Resolved,,True,False
+TK00191,2025-06-21,4.8,,Technical,API error,Medium,Chat,Tier 1,H. Clark,Business,Open,,False,False
+TK00192,2025-06-21,9.3,2025-06-21 15:18:00,Technical,Bug report,Medium,Portal,Technical Escalations,H. Clark,Enterprise,Resolved,4.7,False,True
+TK00193,2025-06-22,1.8,2025-06-22 12:18:00,Technical,Login problem,Urgent,Portal,Technical Escalations,F. Moore,Free,Resolved,3.7,False,False
+TK00194,2025-06-23,6.1,2025-06-24 14:12:00,Product,Feature question,Low,Email,Tier 2,G. Lopez,Free,Resolved,4.6,False,False
+TK00195,2025-06-23,6.6,2025-06-24 02:18:00,Technical,API error,Medium,Portal,Technical Escalations,B. Wilson,Pro,Resolved,4.0,False,False
+TK00196,2025-06-24,3.9,,Product,How-to,High,Portal,Tier 1,H. Clark,Free,Pending Customer,,False,False
+TK00197,2025-06-26,7.5,2025-06-27 16:00:00,Product,Feature question,Low,Portal,Tier 1,G. Lopez,Free,Resolved,4.8,False,False
+TK00198,2025-06-27,6.5,,Technical,Integration issue,Medium,Chat,Technical Escalations,I. Ahmed,Enterprise,Open,,False,False
+TK00199,2025-06-28,12.6,,Shipping,Tracking issue,Low,Portal,Customer Success,F. Moore,Free,Pending Customer,,False,False
+TK00200,2025-06-28,6.5,2025-06-28 15:36:00,Technical,Login problem,Low,Chat,Tier 1,N. Adams,Pro,Resolved,4.5,False,False
+TK00201,2025-06-29,3.9,2025-06-29 18:54:00,Billing,Refund request,High,Portal,Billing,B. Wilson,Pro,Resolved,4.7,False,False
+TK00202,2025-07-02,8.0,2025-07-02 12:12:00,Product,Missing functionality,Medium,Portal,Customer Success,N. Adams,Business,Resolved,4.9,False,False
+TK00203,2025-07-02,5.4,2025-07-03 11:12:00,Technical,Bug report,High,Portal,Technical Escalations,G. Lopez,Business,Resolved,4.7,False,True
+TK00204,2025-07-03,21.7,2025-07-03 15:42:00,Technical,API error,Low,Email,Tier 2,G. Lopez,Free,Resolved,,False,False
+TK00205,2025-07-03,3.0,,Technical,Integration issue,Medium,Portal,Tier 1,N. Adams,Business,Open,,False,False
+TK00206,2025-07-04,3.8,,Shipping,Address correction,Medium,Portal,Customer Success,F. Moore,Enterprise,Pending Customer,,False,False
+TK00207,2025-07-05,16.2,2025-07-06 00:30:00,Technical,API error,Low,Email,Tier 2,G. Lopez,Pro,Resolved,4.6,False,False
+TK00208,2025-07-07,7.8,2025-07-08 20:54:00,Technical,API error,Medium,Email,Tier 1,F. Moore,Pro,Resolved,3.6,False,False
+TK00209,2025-07-08,16.2,2025-07-08 18:42:00,Billing,Invoice issue,Low,Phone,Billing,F. Moore,Business,Resolved,4.4,False,False
+TK00210,2025-07-09,41.5,,Account,Profile update,Medium,Chat,Tier 2,F. Moore,Pro,Open,,False,True
+TK00211,2025-07-10,8.0,2025-07-10 23:42:00,Technical,Login problem,Medium,Email,Tier 2,G. Lopez,Business,Resolved,2.2,False,False
+TK00212,2025-07-10,5.5,2025-07-10 19:00:00,Technical,Login problem,High,Email,Technical Escalations,H. Clark,Business,Resolved,5.0,False,True
+TK00213,2025-07-11,20.6,2025-07-11 16:23:59,Account,Password reset,Low,Phone,Tier 1,D. Evans,Pro,Resolved,4.4,False,False
+TK00214,2025-07-13,17.4,2025-07-13 23:24:00,Billing,Chargeback,Low,Chat,Tier 1,G. Lopez,Business,Resolved,4.2,False,False
+TK00215,2025-07-14,10.2,2025-07-16 22:30:00,Technical,Login problem,Low,Portal,Tier 2,G. Lopez,Enterprise,Resolved,,False,False
+TK00216,2025-07-15,8.8,2025-07-16 09:24:00,Account,Access request,Medium,Chat,Tier 2,D. Evans,Pro,Resolved,,False,True
+TK00217,2025-07-17,8.0,2025-07-17 21:24:00,Shipping,Address correction,Low,Portal,Customer Success,H. Clark,Free,Resolved,4.3,False,False
+TK00218,2025-07-18,5.4,2025-07-18 10:00:00,Account,Profile update,Medium,Phone,Tier 1,N. Adams,Pro,Resolved,5.0,False,False
+TK00219,2025-07-19,9.3,2025-07-19 21:00:00,Technical,Bug report,Low,Phone,Tier 1,N. Adams,Business,Resolved,4.5,False,False
+TK00220,2025-07-22,12.7,2025-07-22 22:54:00,Billing,Chargeback,Low,Phone,Billing,G. Lopez,Pro,Resolved,4.7,False,False
+TK00221,2025-07-22,43.5,,Shipping,Late delivery,Low,Chat,Customer Success,N. Adams,Business,Open,,False,True
+TK00222,2025-07-22,2.4,,Account,Permission issue,Medium,Portal,Tier 2,H. Clark,Enterprise,Escalated,,False,False
+TK00223,2025-07-25,17.8,,Account,Profile update,Low,Portal,Tier 2,G. Lopez,Business,Pending Customer,,False,False
+TK00224,2025-07-26,5.0,,Technical,API error,Low,Portal,Tier 1,Unassigned,Pro,Open,,False,False
+TK00225,2025-08-02,4.8,2025-08-02 22:30:00,Technical,Integration issue,Medium,Chat,Tier 1,C. Lee,Enterprise,Resolved,4.8,False,False
+TK00226,2025-08-03,10.4,2025-08-03 19:06:00,Product,How-to,Medium,Email,Customer Success,D. Evans,Business,Resolved,4.4,False,True
+TK00227,2025-08-04,3.4,,Account,Profile update,High,Portal,Tier 1,B. Wilson,Pro,Escalated,,False,False
+TK00228,2025-08-04,6.7,,Technical,API error,Low,Chat,Tier 2,I. Ahmed,Enterprise,Open,,False,False
+TK00229,2025-08-05,4.2,2025-08-06 01:30:00,Shipping,Late delivery,Medium,Portal,Tier 1,C. Lee,Enterprise,Resolved,4.4,False,False
+TK00230,2025-08-05,17.7,,Billing,Refund request,Low,Email,Billing,I. Ahmed,Pro,Escalated,,False,False
+TK00231,2025-08-05,8.2,2025-08-05 23:06:00,Product,How-to,Low,Portal,Tier 2,N. Adams,Pro,Resolved,3.1,False,False
+TK00232,2025-08-07,13.7,,Account,Password reset,Low,Portal,Tier 1,I. Ahmed,Free,Escalated,,False,False
+TK00233,2025-08-08,6.2,2025-08-08 14:00:00,Technical,Login problem,Medium,Chat,Tier 2,B. Wilson,Pro,Resolved,4.1,False,False
+TK00234,2025-08-09,8.5,2025-08-09 09:36:00,Product,How-to,Low,Email,Tier 1,F. Moore,Business,Resolved,1.9,False,False
+TK00235,2025-08-10,39.6,,Technical,Login problem,Low,Phone,Technical Escalations,F. Moore,Pro,Escalated,,False,True
+TK00236,2025-08-10,17.3,2025-08-10 18:36:00,Shipping,Damaged item,Low,Email,Tier 1,D. Evans,Business,Resolved,4.0,False,False
+TK00237,2025-08-11,1.3,2025-08-11 13:30:00,Account,Profile update,High,Email,Customer Success,G. Lopez,Pro,Resolved,2.1,False,False
+TK00238,2025-08-12,13.5,2025-08-13 04:54:00,Product,Missing functionality,Low,Chat,Tier 2,C. Lee,Pro,Resolved,5.0,False,False
+TK00239,2025-08-13,8.5,2025-08-14 07:18:00,Account,Access request,Low,Phone,Tier 1,D. Evans,Free,Resolved,5.0,False,False
+TK00240,2025-08-13,4.9,2025-08-14 10:12:00,Billing,Invoice issue,High,Portal,Tier 2,B. Wilson,Business,Resolved,4.2,False,True
+TK00241,2025-08-13,4.1,2025-08-14 09:12:00,Technical,API error,Medium,Portal,Tier 2,I. Ahmed,Pro,Resolved,3.2,False,False
+TK00242,2025-08-14,11.4,,Technical,API error,Low,Email,Tier 1,C. Lee,Business,Pending Customer,,False,False
+TK00243,2025-08-15,7.8,2025-08-16 18:06:00,Technical,Bug report,Medium,Chat,Tier 2,C. Lee,Free,Resolved,1.4,False,False
+TK00244,2025-08-16,9.3,2025-08-17 07:54:00,Account,Password reset,Medium,Chat,Customer Success,N. Adams,Pro,Resolved,4.8,False,True
+TK00245,2025-08-18,1.9,2025-08-18 15:18:00,Billing,Invoice issue,High,Phone,Billing,C. Lee,Business,Resolved,4.5,False,False
+TK00246,2025-08-18,5.1,,Technical,Login problem,Medium,Phone,Tier 1,F. Moore,Business,Open,,False,False
+TK00247,2025-08-19,4.8,2025-08-19 14:36:00,Product,UX feedback,Medium,Email,Tier 1,D. Evans,Pro,Resolved,3.4,False,False
+TK00248,2025-08-19,4.4,2025-08-19 23:48:00,Technical,Bug report,Medium,Chat,Tier 1,B. Wilson,Enterprise,Resolved,4.9,False,False
+TK00249,2025-08-20,7.3,2025-08-20 22:12:00,Product,Feature question,High,Email,Customer Success,C. Lee,Free,Resolved,4.5,False,True
+TK00250,2025-08-21,15.2,2025-08-22 00:54:00,Billing,Invoice issue,Low,Chat,Billing,F. Moore,Free,Resolved,4.3,False,False
+TK00251,2025-08-22,6.1,,Technical,Bug report,Low,Chat,Tier 1,H. Clark,Pro,Open,,False,False
+TK00252,2025-08-22,5.0,2025-08-22 20:24:00,Account,Profile update,High,Email,Tier 1,C. Lee,Enterprise,Resolved,1.9,False,True
+TK00253,2025-08-23,8.6,2025-08-24 05:18:00,Product,Feature question,High,Email,Customer Success,G. Lopez,Pro,Resolved,4.6,False,True
+TK00254,2025-08-24,21.5,2025-08-24 13:18:00,Technical,Bug report,Low,Email,Tier 2,F. Moore,Pro,Resolved,4.5,False,False
+TK00255,2025-08-24,1.7,2025-08-24 14:24:00,Technical,Integration issue,High,Chat,Tier 1,F. Moore,Pro,Resolved,4.7,False,False
+TK00256,2025-08-27,9.3,,Account,Profile update,Low,Email,Tier 1,G. Lopez,Business,Escalated,,False,False
+TK00257,2025-08-28,11.4,2025-08-30 02:06:00,Product,How-to,Medium,Portal,Tier 2,N. Adams,Enterprise,Resolved,4.8,False,True
+TK00258,2025-08-28,8.3,2025-08-29 07:30:00,Billing,Invoice issue,Low,Portal,Billing,B. Wilson,Pro,Resolved,3.3,False,False
+TK00259,2025-08-29,4.1,2025-08-29 13:42:00,Technical,Login problem,High,Portal,Tier 2,H. Clark,Pro,Resolved,4.5,False,True
+TK00260,2025-08-29,8.9,2025-08-30 03:36:00,Product,Missing functionality,Medium,Chat,Customer Success,I. Ahmed,Pro,Resolved,4.7,False,True

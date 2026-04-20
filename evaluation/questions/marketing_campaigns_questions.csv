@@ -1,0 +1,21 @@
+question_id,question
+Q1,What is the overall ROAS for all our campaigns?
+Q2,What is the conversion rate for Campaign CM0126?
+Q3,Are there any campaigns where the clicks are actually higher than the impressions?
+Q4,What is the average conversion rate (CVR) for each marketing channel?
+Q5,"Which region is giving us the best ""Value for Money"" in terms of Cost Per Click (CPC)?"
+Q6,How is our ROI looking for campaigns where we don't have the 'revenue_attributed' data yet?
+Q7,How much total revenue has each campaign manager generated for us?
+Q8,Which audience segment is clicking our ads the most?
+Q9,List the top 3 longest-running active campaigns.
+Q10,"Which channel (Email, Social, etc.) is our biggest revenue driver?"
+Q11,"Is there a big difference in spend between ""Active"" and ""Completed"" campaigns?"
+Q12,"For every 10,000 impressions we get, how many conversions do we usually see?"
+Q13,"Identify any ""Viral"" campaigns that have an ROI double the account average."
+Q14,"Is it cheaper to acquire a conversion from ""Existing Customers"" or ""Prospecting"" audiences?"
+Q15,How many new campaigns did we launch in each quarter of the year?
+Q16,"Show me ""Low Performance"" campaigns that have spent over $10,000 but got fewer than 10 conversions."
+Q17,Which geographical region has the highest marketing efficiency?
+Q18,"Can you spot any campaigns that are ""Over-performing"" in clicks but ""Under-performing"" in revenue?"
+Q19,"If we could increase our overall conversion rate by 10%, how much more revenue would that bring?"
+Q20,Who is our most successful campaign manager based on average ROI?

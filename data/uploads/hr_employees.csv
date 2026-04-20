@@ -1,0 +1,181 @@
+employee_id,department,role,location,work_mode,employment_type,hire_date,termination_date,salary,bonus_pct,performance_rating,manager_id,status
+E2155,Finance,Payroll Specialist,Remote,Remote,Intern,2018-01-03,,83423,0.1,1,E2014,Active
+E2152,Engineering,Data Engineer,Austin,Remote,Full-time,2018-01-19,,145493,0.08,4,E2029,Active
+E2051,Support,Support Lead,Austin,Hybrid,Full-time,2018-02-12,,44543,0.15,3,E2011,Active
+E2176,Sales,Sales Manager,Austin,Remote,Full-time,2018-04-04,,113459,0.08,5,,Active
+E2010,Marketing,Growth Manager,New York,Hybrid,Full-time,2018-04-20,2023-04-19,105144,0.15,3,,Terminated
+E2086,Engineering,Data Engineer,New York,Hybrid,Full-time,2018-05-25,,107226,0.09,3,E2010,Active
+E2148,Engineering,Engineering Manager,San Francisco,Remote,Full-time,2018-07-05,,188879,0.14,3,E2029,Active
+E2154,Sales,Account Executive,Remote,Hybrid,Full-time,2018-08-11,,73242,0.17,4,E2025,Active
+E2159,Sales,Sales Manager,Singapore,Hybrid,Full-time,2018-08-16,,115573,0.13,3,E2023,Leave of Absence
+E2151,Support,Support Agent,New York,On-site,Contractor,2018-09-10,2023-07-09,54877,0.13,4,E2025,Terminated
+E2003,Sales,Sales Development Rep,Singapore,Remote,Full-time,2018-10-04,2022-10-14,73934,0.24,3,,Terminated
+E2120,Finance,Finance Manager,Austin,Remote,Full-time,2018-10-24,,117782,0.12,1,E2008,Active
+E2070,Support,Support Lead,Austin,Remote,Full-time,2018-10-26,,73429,0.12,4,E2007,Active
+E2128,Sales,Account Executive,Austin,Hybrid,Full-time,2018-11-26,,86875,0.08,3,E2020,Active
+E2018,Marketing,Marketing Analyst,New York,Hybrid,Contractor,2018-11-29,,59108,0.06,3,,Active
+E2054,Sales,Solutions Consultant,New York,Remote,Full-time,2018-12-16,,73858,0.02,3,E2022,Active
+E2132,Sales,Sales Development Rep,London,Remote,Full-time,2019-01-17,,93716,0.18,5,E2015,Active
+E2136,Engineering,Software Engineer,San Francisco,Remote,Full-time,2019-01-31,,129669,0.1,2,E2019,Active
+E2060,Engineering,Software Engineer,San Francisco,Hybrid,Intern,2019-03-08,,104471,0.12,4,E2017,Active
+E2180,Sales,Sales Development Rep,Singapore,Remote,Full-time,2019-03-12,,61235,,4,E2020,Active
+E2138,Marketing,Growth Manager,Berlin,Hybrid,Full-time,2019-03-26,,92217,0.08,3,E2023,Active
+E2161,Support,Support Agent,London,Remote,Full-time,2019-05-14,,48735,0.0,3,E2015,Active
+E2036,Operations,Operations Analyst,London,Remote,Full-time,2019-06-06,,74064,0.03,3,E2017,Active
+E2100,Operations,Operations Analyst,Singapore,Hybrid,Full-time,2019-06-15,,86556,0.16,5,E2016,Active
+E2023,Engineering,QA Engineer,New York,Hybrid,Full-time,2019-06-24,,114674,0.08,4,,Active
+E2011,Engineering,Software Engineer,San Francisco,On-site,Full-time,2019-06-29,,104556,0.19,4,,Active
+E2008,Engineering,QA Engineer,Remote,Remote,Full-time,2019-06-30,,87711,0.01,4,,Active
+E2177,Sales,Sales Development Rep,Singapore,Remote,Full-time,2019-07-14,,87238,0.12,3,E2025,Active
+E2042,Support,Technical Support,Remote,Remote,Contractor,2019-07-14,,52321,0.17,3,E2024,Active
+E2098,Sales,Sales Development Rep,San Francisco,Remote,Intern,2019-07-22,,99815,0.2,2,E2007,Active
+E2059,Marketing,Growth Manager,San Francisco,Remote,Full-time,2019-08-07,,105491,0.12,4,E2010,Active
+E2021,Engineering,Data Engineer,San Francisco,On-site,Full-time,2019-08-15,,104019,0.12,5,,Active
+E2027,Sales,Sales Development Rep,San Francisco,On-site,Full-time,2019-09-11,,69139,0.09,3,,Active
+E2110,Sales,Account Executive,Remote,Remote,Full-time,2019-10-30,,80815,0.13,1,E2022,Active
+E2103,Operations,Ops Manager,London,On-site,Full-time,2019-11-12,,94259,0.03,4,E2026,Active
+E2112,Engineering,Data Engineer,Remote,Remote,Full-time,2019-11-12,,93457,0.05,3,E2020,Active
+E2170,Marketing,Content Strategist,Singapore,Hybrid,Full-time,2019-12-16,,57037,0.11,3,E2026,Active
+E2039,Sales,Account Executive,Singapore,Remote,Full-time,2019-12-18,,81497,0.14,5,E2018,Active
+E2107,Support,Support Agent,Remote,Hybrid,Full-time,2019-12-30,,62132,0.08,4,E2003,Active
+E2013,Engineering,QA Engineer,Austin,Hybrid,Full-time,2020-01-13,,136783,0.08,3,,Active
+E2022,Sales,Sales Development Rep,Berlin,Hybrid,Full-time,2020-02-22,,85562,0.13,3,,Active
+E2072,Marketing,Demand Gen Specialist,London,On-site,Full-time,2020-02-28,,98167,0.11,4,E2022,Active
+E2047,Sales,Sales Development Rep,Remote,Remote,Full-time,2020-03-03,,57838,,3,E2014,Active
+E2050,Finance,Accountant,Austin,Remote,Full-time,2020-03-12,,76356,0.09,2,E2030,Active
+E2119,Support,Support Lead,London,Hybrid,Full-time,2020-04-06,,79815,0.14,2,E2010,Active
+E2134,Sales,Account Executive,New York,Hybrid,Full-time,2020-04-22,,83839,0.11,4,E2029,Active
+E2073,Sales,Solutions Consultant,London,Hybrid,Full-time,2020-04-29,,78189,0.15,4,E2013,Active
+E2157,Sales,Sales Development Rep,Austin,Remote,Intern,2020-05-03,,60554,0.15,2,E2006,Active
+E2174,Sales,Account Executive,Austin,Hybrid,Full-time,2020-05-19,,92576,0.19,3,E2018,Active
+E2078,Finance,Accountant,Berlin,On-site,Full-time,2020-05-27,,77005,0.09,3,E2020,Active
+E2046,Sales,Account Executive,Remote,Hybrid,Full-time,2020-06-08,,78241,0.14,3,E2012,Active
+E2038,Operations,Operations Analyst,Berlin,Hybrid,Intern,2020-07-05,,78682,0.0,3,E2026,Active
+E2171,Finance,Payroll Specialist,Remote,Remote,Full-time,2020-08-05,,91008,0.07,4,E2015,Active
+E2043,Marketing,Content Strategist,London,Remote,Contractor,2020-08-26,,81179,0.15,2,E2024,Active
+E2113,Operations,Ops Manager,Singapore,Remote,Full-time,2020-08-30,,111296,0.11,3,E2011,Active
+E2049,Marketing,Growth Manager,Austin,Hybrid,Full-time,2020-09-08,,96353,0.0,2,E2022,Active
+E2029,Marketing,Growth Manager,Austin,On-site,Intern,2020-09-18,,98891,0.11,1,,Active
+E2105,Engineering,Data Engineer,Austin,On-site,Full-time,2020-12-06,,101406,0.11,3,E2006,Active
+E2175,Support,Support Agent,Singapore,On-site,Full-time,2020-12-06,,51370,0.02,4,E2020,Active
+E2169,Engineering,Data Engineer,San Francisco,Hybrid,Full-time,2020-12-12,,106719,0.07,5,E2005,Active
+E2045,Marketing,Growth Manager,Remote,Remote,Full-time,2020-12-13,,98846,0.08,4,E2007,Active
+E2017,Engineering,QA Engineer,San Francisco,Remote,Contractor,2020-12-24,,120140,0.1,3,,Active
+E2094,Engineering,Engineering Manager,Remote,Remote,Full-time,2021-01-03,,138927,0.04,4,E2015,Active
+E2056,Finance,Accountant,Berlin,Hybrid,Full-time,2021-02-03,,93760,0.08,3,E2004,Active
+E2079,Marketing,Content Strategist,London,Remote,Full-time,2021-02-12,,80492,0.02,2,E2019,Active
+E2095,Sales,Account Executive,Austin,On-site,Full-time,2021-02-25,,83051,0.21,4,E2015,Active
+E2130,Sales,Account Executive,San Francisco,Hybrid,Full-time,2021-03-01,,71805,0.17,5,E2025,Active
+E2020,Marketing,Growth Manager,Remote,Remote,Full-time,2021-03-02,,89672,0.1,3,,Active
+E2153,Support,Support Lead,New York,Hybrid,Intern,2021-03-05,,64116,0.04,3,E2004,Active
+E2068,Support,Technical Support,New York,On-site,Full-time,2021-03-08,,78329,0.07,3,E2018,Active
+E2166,Engineering,Data Engineer,Remote,Remote,Intern,2021-03-08,,126719,0.08,1,E2028,Active
+E2076,Marketing,Growth Manager,New York,Remote,Intern,2021-03-23,,102967,0.08,3,E2029,Leave of Absence
+E2067,Engineering,Software Engineer,Singapore,On-site,Full-time,2021-04-04,,121768,0.13,2,E2010,Active
+E2089,Sales,Sales Development Rep,Remote,Remote,Contractor,2021-04-17,,79900,0.12,3,E2026,Active
+E2149,Engineering,Data Engineer,San Francisco,Remote,Full-time,2021-05-18,,119690,0.08,5,E2025,Active
+E2121,Operations,Ops Manager,Austin,Remote,Full-time,2021-06-07,,96258,0.1,3,E2026,Active
+E2156,Engineering,Software Engineer,Austin,Remote,Full-time,2021-06-13,,126875,0.08,4,,Active
+E2015,Engineering,Software Engineer,San Francisco,On-site,Full-time,2021-07-13,,114702,0.08,3,,Active
+E2145,Support,Support Lead,San Francisco,Hybrid,Full-time,2021-07-17,,51127,0.09,3,E2021,Active
+E2142,Marketing,Demand Gen Specialist,Remote,Hybrid,Full-time,2021-07-21,,69047,0.08,3,E2013,Active
+E2167,Operations,Operations Analyst,San Francisco,Hybrid,Full-time,2021-07-23,,110429,0.12,1,E2004,Active
+E2141,Sales,Account Executive,London,Remote,Full-time,2021-08-01,,69879,0.22,3,E2016,Active
+E2064,Support,Support Lead,Singapore,Hybrid,Full-time,2021-09-10,,69977,0.06,4,E2011,Active
+E2139,Engineering,Data Engineer,Austin,Remote,Full-time,2021-09-16,,109391,0.03,3,E2023,Active
+E2075,Marketing,Marketing Analyst,Singapore,Hybrid,Full-time,2021-10-09,,90236,0.1,3,E2024,Active
+E2085,Support,Support Agent,New York,On-site,Full-time,2021-10-14,,66936,0.08,3,E2010,Active
+E2150,Marketing,Content Strategist,San Francisco,Remote,Contractor,2021-12-08,,92512,0.13,5,E2028,Active
+E2158,Marketing,Growth Manager,Berlin,Remote,Full-time,2022-01-28,2022-09-27,94738,0.04,2,E2026,Terminated
+E2034,Sales,Sales Development Rep,Remote,Remote,Full-time,2022-02-27,,83044,0.23,3,E2014,Active
+E2025,Engineering,Software Engineer,New York,Hybrid,Full-time,2022-02-28,,85332,0.15,3,,Active
+E2019,Sales,Sales Development Rep,London,On-site,Full-time,2022-03-17,,88629,0.16,3,,Active
+E2024,Marketing,Content Strategist,Remote,Remote,Full-time,2022-04-08,,68395,0.03,5,,Active
+E2102,Support,Support Lead,Austin,Hybrid,Full-time,2022-04-11,,61615,0.12,4,E2029,Active
+E2055,Operations,Ops Manager,Remote,Remote,Full-time,2022-04-17,,113591,0.0,4,E2028,Active
+E2080,Engineering,Software Engineer,Singapore,Remote,Contractor,2022-04-27,,115838,0.09,3,E2010,Active
+E2052,Operations,Ops Manager,New York,Remote,Full-time,2022-05-29,,78295,0.06,5,E2020,Active
+E2111,Engineering,QA Engineer,London,On-site,Intern,2022-06-01,,141336,0.05,4,E2021,Active
+E2033,Sales,Sales Manager,San Francisco,Remote,Full-time,2022-06-05,,83347,0.15,3,E2023,Active
+E2083,Support,Support Agent,Austin,Remote,Full-time,2022-07-05,,74167,0.08,3,E2027,Active
+E2160,Operations,Operations Analyst,New York,Remote,Full-time,2022-08-05,,95344,0.08,4,E2017,Active
+E2001,Engineering,Data Engineer,San Francisco,Remote,Full-time,2022-08-30,,136427,0.15,3,,Active
+E2126,Sales,Account Executive,San Francisco,Remote,Full-time,2022-09-25,,71800,0.25,4,E2008,Active
+E2108,Support,Support Agent,New York,Hybrid,Full-time,2022-09-26,,59046,0.05,5,E2010,Active
+E2096,Engineering,QA Engineer,New York,Hybrid,Full-time,2022-10-01,2023-05-19,115089,0.03,5,E2015,Terminated
+E2178,Sales,Sales Development Rep,New York,Remote,Full-time,2022-11-11,,74996,0.16,3,E2029,Active
+E2053,Marketing,Demand Gen Specialist,Berlin,Hybrid,Full-time,2022-11-13,,69414,0.13,3,E2011,Active
+E2058,Sales,Sales Development Rep,London,Hybrid,Full-time,2022-11-16,,90920,0.08,3,E2029,Active
+E2004,Finance,FP&A Analyst,New York,Remote,Full-time,2022-12-12,,62728,0.08,5,,Active
+E2099,Operations,Program Coordinator,Singapore,Hybrid,Full-time,2022-12-19,,83650,0.11,4,E2017,Active
+E2028,Sales,Account Executive,London,Remote,Full-time,2023-01-08,,96806,0.19,5,,Active
+E2147,Finance,Accountant,Singapore,Hybrid,Full-time,2023-01-24,,114660,0.11,5,E2001,Active
+E2091,Marketing,Growth Manager,New York,On-site,Full-time,2023-01-29,,115190,0.1,4,E2020,Active
+E2090,Sales,Sales Development Rep,New York,Hybrid,Contractor,2023-02-05,,56255,0.12,1,E2019,Active
+E2093,Engineering,QA Engineer,New York,On-site,Full-time,2023-02-10,,141497,0.09,3,E2011,Active
+E2016,Marketing,Growth Manager,London,Hybrid,Full-time,2023-02-19,2025-05-28,118037,0.07,3,,Terminated
+E2164,Finance,FP&A Analyst,Remote,Hybrid,Contractor,2023-03-01,,72549,0.0,3,E2008,Active
+E2131,Engineering,Data Engineer,Singapore,Remote,Full-time,2023-03-06,,124424,0.1,5,E2003,Active
+E2084,Engineering,Engineering Manager,Austin,Remote,Full-time,2023-03-19,,152506,0.11,3,E2001,Active
+E2061,Engineering,Data Engineer,New York,Hybrid,Full-time,2023-04-17,,118658,0.01,3,E2010,Active
+E2041,Marketing,Content Strategist,New York,Hybrid,Intern,2023-04-21,,65855,0.07,3,E2024,Active
+E2006,Marketing,Growth Manager,San Francisco,Hybrid,Full-time,2023-04-24,,90316,0.15,3,,Active
+E2071,Support,Support Agent,Berlin,Hybrid,Full-time,2023-04-24,,43948,0.04,4,E2014,Active
+E2077,Support,Technical Support,San Francisco,Remote,Full-time,2023-05-04,,56646,0.12,3,E2006,Leave of Absence
+E2140,Finance,FP&A Analyst,Berlin,Hybrid,Full-time,2023-06-10,,98218,0.08,4,E2013,Active
+E2002,Sales,Solutions Consultant,New York,Remote,Full-time,2023-06-25,,52077,0.16,4,,Active
+E2165,Engineering,Software Engineer,Remote,Hybrid,Full-time,2023-07-09,,140917,0.11,5,E2030,Active
+E2127,Sales,Sales Development Rep,Singapore,On-site,Full-time,2023-07-18,,68086,0.12,5,E2016,Active
+E2066,Support,Support Agent,Berlin,Remote,Full-time,2023-07-24,,47559,0.05,5,E2023,Active
+E2057,Operations,Supply Chain Specialist,Remote,Remote,Full-time,2023-08-11,,85605,0.1,3,E2024,Active
+E2143,Support,Technical Support,Remote,Remote,Full-time,2023-08-30,,49841,0.15,3,E2008,Active
+E2104,Marketing,Marketing Analyst,San Francisco,Remote,Full-time,2023-09-02,,68623,0.09,4,E2024,Active
+E2062,Support,Support Agent,Singapore,Hybrid,Contractor,2023-10-02,,62145,0.0,2,E2022,Leave of Absence
+E2114,Operations,Ops Manager,Austin,Hybrid,Full-time,2023-11-03,,107787,0.06,1,E2003,Active
+E2030,Engineering,Software Engineer,New York,Hybrid,Contractor,2023-11-17,,103397,0.17,4,,Active
+E2007,Sales,Sales Manager,New York,On-site,Full-time,2023-11-23,,126354,0.11,2,,Active
+E2125,Support,Support Lead,San Francisco,Remote,Full-time,2023-11-23,,59584,0.06,3,E2002,Active
+E2032,Finance,Accountant,London,Remote,Full-time,2023-12-11,,79099,0.17,3,E2002,Active
+E2133,Engineering,Engineering Manager,Berlin,On-site,Intern,2023-12-26,,167702,0.11,2,E2014,Active
+E2109,Marketing,Growth Manager,Berlin,Remote,Contractor,2024-01-01,,98072,0.03,3,E2017,Active
+E2065,Operations,Operations Analyst,San Francisco,On-site,Full-time,2024-01-04,,64819,0.11,3,E2013,Active
+E2101,Marketing,Growth Manager,San Francisco,On-site,Full-time,2024-01-16,,96935,0.08,3,E2026,Active
+E2074,Finance,Accountant,Remote,Remote,Full-time,2024-02-04,,87515,0.1,3,E2022,Active
+E2005,Engineering,Data Engineer,Remote,On-site,Full-time,2024-02-14,,153256,0.13,4,,Active
+E2179,Engineering,Software Engineer,Austin,Remote,Full-time,2024-03-10,,94806,0.08,4,E2015,Active
+E2144,Engineering,QA Engineer,Austin,Hybrid,Full-time,2024-04-05,,117605,0.0,3,E2005,Active
+E2048,Engineering,Software Engineer,Austin,Remote,Full-time,2024-05-01,,129560,0.03,3,E2003,Active
+E2135,Sales,Account Executive,New York,Remote,Full-time,2024-05-06,,57057,0.12,2,E2021,Active
+E2087,Support,Support Lead,Remote,On-site,Full-time,2024-05-11,,47869,0.02,3,E2007,Active
+E2168,Engineering,Software Engineer,New York,On-site,Intern,2024-05-27,,148269,0.03,3,E2015,Active
+E2040,Marketing,Growth Manager,Austin,Hybrid,Full-time,2024-06-20,,98525,0.11,4,E2022,Active
+E2014,Engineering,Software Engineer,Austin,Hybrid,Full-time,2024-06-22,,80486,0.05,3,,Active
+E2031,Engineering,Software Engineer,San Francisco,Hybrid,Contractor,2024-06-22,,125449,0.06,4,E2009,Active
+E2012,Sales,Solutions Consultant,Austin,Hybrid,Full-time,2024-07-29,,78795,0.13,4,,Active
+E2044,Sales,Sales Development Rep,New York,Hybrid,Full-time,2024-07-31,,60802,,5,E2022,Active
+E2123,Engineering,Engineering Manager,Remote,On-site,Contractor,2024-08-22,,176540,0.1,3,E2005,Active
+E2009,Finance,Accountant,Berlin,Remote,Full-time,2024-08-24,2025-07-13,89954,0.02,4,,Terminated
+E2115,Support,Support Agent,Remote,Hybrid,Full-time,2024-09-29,,49285,0.06,3,E2027,Active
+E2146,Marketing,Growth Manager,Austin,On-site,Full-time,2024-10-01,,104203,0.09,5,E2023,Active
+E2124,Operations,Supply Chain Specialist,Remote,On-site,Full-time,2024-10-04,,63116,0.02,2,E2001,Active
+E2129,Sales,Sales Manager,London,Remote,Contractor,2024-10-22,,97895,0.18,1,E2028,Active
+E2081,Support,Support Lead,Berlin,Remote,Full-time,2024-10-28,,68785,0.05,3,E2013,Active
+E2118,Marketing,Growth Manager,Berlin,Remote,Contractor,2024-11-08,,103539,0.05,3,E2022,Active
+E2035,Engineering,Software Engineer,London,Hybrid,Full-time,2024-11-09,,110752,0.09,2,E2001,Active
+E2137,Finance,FP&A Analyst,Singapore,On-site,Full-time,2024-11-16,,89099,0.13,3,E2007,Active
+E2092,Finance,Accountant,New York,Remote,Full-time,2024-11-29,,105785,0.05,2,E2021,Active
+E2117,Engineering,Engineering Manager,New York,Remote,Full-time,2024-12-04,,204805,0.1,2,E2008,Active
+E2088,Sales,Sales Development Rep,Berlin,Remote,Contractor,2024-12-31,,74713,0.22,3,E2014,Active
+E2037,Operations,Supply Chain Specialist,Austin,Hybrid,Full-time,2025-01-11,,72339,0.11,3,E2030,Active
+E2063,Sales,Sales Development Rep,Singapore,On-site,Full-time,2025-01-11,,63858,0.24,1,E2014,Active
+E2162,Operations,Supply Chain Specialist,London,Hybrid,Full-time,2025-01-12,,75144,0.14,5,E2002,Active
+E2106,Engineering,QA Engineer,Austin,Remote,Full-time,2025-01-16,,88581,0.15,4,E2022,Active
+E2082,Marketing,Growth Manager,San Francisco,Remote,Full-time,2025-04-03,2025-08-06,100533,0.13,3,E2018,Terminated
+E2026,Engineering,Data Engineer,San Francisco,On-site,Full-time,2025-04-22,,124791,0.06,5,,Active
+E2069,Sales,Account Executive,Berlin,Remote,Full-time,2025-04-30,,52098,0.13,3,E2005,Active
+E2172,Support,Technical Support,Remote,Hybrid,Full-time,2025-05-19,,61631,0.02,3,E2022,Active
+E2097,Marketing,Content Strategist,San Francisco,Hybrid,Full-time,2025-06-06,,71923,0.06,3,E2022,Active
+E2122,Engineering,Data Engineer,London,Hybrid,Full-time,2025-06-20,,144605,0.06,3,E2007,Active
+E2173,Support,Support Lead,Remote,Remote,Full-time,2025-06-24,,56903,0.07,3,E2017,Active
+E2116,Engineering,Data Engineer,London,Hybrid,Full-time,2025-07-04,,110396,0.04,3,E2025,Active
+E2163,Support,Support Agent,Austin,Hybrid,Full-time,2025-07-12,,59558,0.07,3,E2018,Active

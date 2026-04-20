@@ -1,0 +1,107 @@
+{
+  "execution": {
+    "total": 1200,
+    "success": 300,
+    "error": 900,
+    "success_rate": 25.0
+  },
+  "accuracy": {
+    "overall": 22.0,
+    "correct": 66,
+    "total": 300
+  },
+  "by_dataset": {
+    "customer_service": {
+      "accuracy": 25.0,
+      "correct": 15,
+      "total": 60
+    },
+    "finance_expenses": {
+      "accuracy": 6.7,
+      "correct": 4,
+      "total": 60
+    },
+    "hr_employees": {
+      "accuracy": 5.0,
+      "correct": 3,
+      "total": 60
+    },
+    "marketing_campaigns": {
+      "accuracy": 20.0,
+      "correct": 12,
+      "total": 60
+    },
+    "sales_orders": {
+      "accuracy": 53.3,
+      "correct": 32,
+      "total": 60
+    }
+  },
+  "by_model": {
+    "openai/gpt-3.5-turbo": {
+      "accuracy": 22.0,
+      "correct": 66,
+      "total": 300
+    }
+  },
+  "by_prompt_mode": {
+    "CoT": {
+      "accuracy": 20.0,
+      "correct": 20,
+      "total": 100
+    },
+    "baseline": {
+      "accuracy": 23.0,
+      "correct": 23,
+      "total": 100
+    },
+    "structured": {
+      "accuracy": 23.0,
+      "correct": 23,
+      "total": 100
+    }
+  },
+  "model_x_prompt_matrix": {
+    "openai/gpt-3.5-turbo": {
+      "CoT": 20.0,
+      "baseline": 23.0,
+      "structured": 23.0
+    }
+  },
+  "exec_success_by_model": {
+    "meta-llama/llama-3.3-70b-instruct:free": {
+      "success": 0,
+      "total": 300,
+      "rate": 0.0
+    },
+    "nvidia/nemotron-3-super-120b-a12b:free": {
+      "success": 0,
+      "total": 300,
+      "rate": 0.0
+    },
+    "openai/gpt-3.5-turbo": {
+      "success": 300,
+      "total": 300,
+      "rate": 100.0
+    },
+    "qwen/qwen3-coder:free": {
+      "success": 0,
+      "total": 300,
+      "rate": 0.0
+    }
+  },
+  "code_efficiency": {
+    "CoT": {
+      "avg_lines": 1.1,
+      "avg_elapsed_sec": 4.3
+    },
+    "baseline": {
+      "avg_lines": 1.0,
+      "avg_elapsed_sec": 4.42
+    },
+    "structured": {
+      "avg_lines": 1.1,
+      "avg_elapsed_sec": 4.56
+    }
+  }
+}

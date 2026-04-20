@@ -1,0 +1,151 @@
+campaign_id,campaign_name,start_date,end_date,channel,audience,region,manager,status,impressions,clicks,conversions,spend,revenue_attributed
+CM0126,Mid-Market Expansion C,2024-01-02,2024-02-28,Display,Trial Users,North America,K. Martin,Active,40612,1481,1722,6425.88,20947.2
+CM0127,Pipeline Accelerator B,2024-01-10,2024-02-24,Paid Search,Existing Customers,Europe,E. Wilson,Completed,78106,3182,232,9561.26,25580.36
+CM0036,Trial Nurture A,2024-01-13,2024-03-29,Email,Lookalike,LATAM,P. Scott,Active,62288,2129,42,7457.32,12731.36
+CM0124,Brand Lift Wave B,2024-01-16,2024-02-18,Paid Social,Prospecting,APAC,P. Scott,Active,25451,409,31,6820.97,10441.17
+CM0038,Regional Promo D,2024-01-18,2024-02-21,Paid Search,Prospecting,North America,T. Nguyen,Completed,23413,362,3,3366.14,13240.67
+CM0148,Pipeline Accelerator A,2024-01-27,2024-03-13,Display,Trial Users,Europe,K. Martin,Completed,51469,1891,174,10205.51,30456.16
+CM0147,Retargeting Sprint D,2024-02-13,2024-04-28,Display,Lookalike,North America,T. Nguyen,Paused,61051,1457,101,10868.44,15888.78
+CM0140,Pipeline Accelerator C,2024-02-14,2024-05-10,Display,Lookalike,Europe,T. Nguyen,Paused,79093,2385,232,6112.42,10742.99
+CM0058,New Feature Awareness A,2024-02-21,2024-04-05,Organic Social,Retargeting,Europe,P. Scott,Active,46582,528,55,3661.25,9678.83
+CM0110,Trial Nurture B,2024-02-23,2024-04-24,Email,Retargeting,LATAM,P. Scott,Active,77593,2535,183,5395.73,10823.21
+CM0035,Brand Lift Wave C,2024-02-25,2024-04-29,Paid Search,Prospecting,North America,K. Martin,Completed,33310,957,72,7934.37,19726.92
+CM0137,Q1 Acquisition Push C,2024-02-27,2024-04-23,Paid Search,Prospecting,Europe,T. Nguyen,Paused,103784,5941,123,11173.07,30226.06
+CM0023,Spring Launch B,2024-02-28,2024-05-05,Email,Prospecting,APAC,P. Scott,Paused,35504,909,70,1677.42,2577.11
+CM0109,Trial Nurture C,2024-03-01,2024-04-10,Paid Social,Prospecting,LATAM,K. Martin,Active,58216,1458,199,9899.77,35337.7
+CM0112,Brand Lift Wave C,2024-03-05,2024-03-26,Organic Social,Retargeting,LATAM,T. Nguyen,Paused,66393,1818,158,5288.76,8304.35
+CM0069,Enterprise ABM D,2024-03-05,2024-04-23,Email,Prospecting,Europe,E. Wilson,Active,55026,1382,47,4103.94,9600.06
+CM0056,Upsell Sequence A,2024-03-08,2024-04-29,Organic Social,Trial Users,North America,P. Scott,Completed,73377,2337,157,9400.67,29248.56
+CM0048,Q1 Acquisition Push A,2024-03-11,2024-06-01,Paid Social,Lookalike,North America,T. Nguyen,Active,32334,462,34,1052.6,520.92
+CM0045,Regional Promo D,2024-03-19,2024-04-21,Paid Search,Lookalike,Europe,P. Scott,Completed,49197,1233,79,7423.45,
+CM0130,Brand Lift Wave A,2024-03-21,2024-05-12,Display,Prospecting,Europe,P. Scott,Completed,37940,1223,78,7888.88,28344.13
+CM0021,Regional Promo D,2024-03-22,2024-05-31,Email,Existing Customers,North America,E. Wilson,Active,114422,2912,164,493.15,1252.06
+CM0075,Holiday Demand Gen B,2024-03-23,2024-05-30,Email,Prospecting,APAC,T. Nguyen,Paused,74785,1275,125,9141.53,16432.57
+CM0141,Brand Lift Wave D,2024-04-06,2024-04-29,Email,Prospecting,North America,P. Scott,Completed,28511,693,8,1250.74,5610.81
+CM0149,Enterprise ABM B,2024-04-06,2024-05-11,Paid Search,Existing Customers,Europe,K. Martin,Active,246034,8480,504,4891.49,12368.91
+CM0015,Regional Promo B,2024-04-06,2024-05-27,Email,Retargeting,North America,E. Wilson,Completed,75041,2894,259,6181.08,18130.59
+CM0028,Mid-Market Expansion A,2024-04-14,2024-07-11,Display,Trial Users,North America,P. Scott,Completed,136452,3635,286,11192.06,17549.65
+CM0027,New Feature Awareness B,2024-04-15,2024-06-28,Paid Search,Trial Users,North America,T. Nguyen,Completed,43358,1731,9,7037.47,27790.13
+CM0119,Pipeline Accelerator C,2024-04-17,2024-07-11,Paid Search,Prospecting,North America,P. Scott,Completed,145250,5751,725,7308.89,23413.69
+CM0096,New Feature Awareness C,2024-04-19,2024-05-19,Paid Search,Lookalike,North America,T. Nguyen,Completed,55548,1548,48,10121.41,16960.52
+CM0088,New Feature Awareness D,2024-04-21,2024-06-04,Paid Social,Trial Users,LATAM,K. Martin,Completed,29489,223,16,6964.51,14247.79
+CM0039,Holiday Demand Gen D,2024-04-22,2024-07-14,Display,Trial Users,North America,P. Scott,Active,92856,528,39,8621.68,38423.79
+CM0102,Holiday Demand Gen B,2024-04-23,2024-05-19,Paid Social,Existing Customers,North America,E. Wilson,Active,38857,430,28,13838.22,47866.09
+CM0090,Trial Nurture B,2024-05-01,2024-06-05,Email,Lookalike,APAC,T. Nguyen,Active,77681,2445,110,8880.57,26657.6
+CM0020,Holiday Demand Gen B,2024-05-04,2024-06-19,Email,Lookalike,North America,E. Wilson,Completed,65706,1240,85,3782.76,7528.07
+CM0129,Mid-Market Expansion C,2024-05-04,2024-06-07,Paid Search,Prospecting,APAC,K. Martin,Completed,50069,839,44,8819.42,22485.44
+CM0081,Trial Nurture C,2024-05-05,2024-06-28,Organic Social,Existing Customers,APAC,E. Wilson,Completed,27833,768,18,5628.35,13234.41
+CM0066,Mid-Market Expansion D,2024-05-07,2024-06-17,Affiliate,Existing Customers,North America,T. Nguyen,Completed,87099,1735,92,3385.02,11655.74
+CM0134,Spring Launch C,2024-05-08,2024-06-26,Paid Social,Lookalike,Europe,T. Nguyen,Completed,85615,1378,76,2134.36,6095.9
+CM0018,Regional Promo B,2024-05-11,2024-08-08,Paid Search,Prospecting,LATAM,T. Nguyen,Completed,32275,1355,98,9363.15,30123.5
+CM0050,Brand Lift Wave A,2024-05-25,2024-08-15,Paid Search,Lookalike,Europe,T. Nguyen,Active,44905,1624,61,9367.99,26224.98
+CM0132,Retargeting Sprint A,2024-05-29,2024-08-21,Organic Social,Existing Customers,North America,K. Martin,Completed,66469,1284,92,9677.35,39229.21
+CM0010,Upsell Sequence D,2024-06-05,2024-07-31,Paid Social,Prospecting,Europe,P. Scott,Completed,42641,1311,58,4723.28,12209.06
+CM0087,Enterprise ABM D,2024-06-06,2024-09-03,Paid Social,Trial Users,North America,K. Martin,Completed,44246,1563,136,6668.75,19165.04
+CM0025,Retargeting Sprint D,2024-06-09,2024-09-04,Paid Social,Retargeting,APAC,T. Nguyen,Active,35015,1374,135,4726.82,21977.7
+CM0120,Brand Lift Wave B,2024-06-10,2024-09-02,Email,Prospecting,Europe,P. Scott,Completed,63600,2480,332,3179.58,11327.83
+CM0003,Spring Launch B,2024-06-13,2024-08-25,Display,Retargeting,APAC,T. Nguyen,Active,51381,1231,60,2605.03,9855.67
+CM0041,Upsell Sequence A,2024-06-19,2024-08-01,Email,Lookalike,Europe,K. Martin,Active,42788,1457,37,2018.05,8143.01
+CM0114,Trial Nurture B,2024-06-19,2024-07-19,Paid Social,Prospecting,Europe,E. Wilson,Active,57263,1575,161,3020.19,11294.42
+CM0105,Retargeting Sprint D,2024-06-27,2024-09-05,Display,Lookalike,LATAM,E. Wilson,Completed,63995,2173,45,7096.01,4359.81
+CM0046,Pipeline Accelerator B,2024-06-30,2024-07-30,Paid Search,Lookalike,North America,P. Scott,Completed,65647,2452,95,9387.71,38764.71
+CM0043,Q1 Acquisition Push C,2024-07-07,2024-08-28,Paid Search,Retargeting,Europe,E. Wilson,Completed,49118,1684,161,6153.22,9179.08
+CM0055,New Feature Awareness C,2024-07-11,2024-09-23,Display,Prospecting,APAC,P. Scott,Active,47885,986,88,5932.16,22080.71
+CM0138,Retargeting Sprint B,2024-07-16,2024-08-25,Paid Social,Existing Customers,APAC,T. Nguyen,Active,128477,2404,232,3291.55,10672.43
+CM0065,Spring Launch D,2024-07-16,2024-10-02,Email,Prospecting,Europe,K. Martin,Active,58318,1396,127,4092.71,7773.78
+CM0122,Retargeting Sprint B,2024-07-24,2024-08-14,Paid Social,Prospecting,Europe,K. Martin,Completed,94598,2796,35,10071.93,22263.57
+CM0095,Spring Launch D,2024-07-25,2024-10-20,Email,Existing Customers,North America,K. Martin,Completed,36809,801,12,5034.4,12828.31
+CM0139,Enterprise ABM D,2024-07-29,2024-10-15,Paid Social,Prospecting,APAC,P. Scott,Completed,47293,1560,140,10140.14,44693.77
+CM0080,Regional Promo C,2024-07-30,2024-08-30,Email,Trial Users,APAC,P. Scott,Completed,75654,2593,92,450.0,180.0
+CM0017,Q1 Acquisition Push A,2024-08-03,2024-08-22,Paid Social,Existing Customers,North America,E. Wilson,Completed,81834,1261,142,12734.34,73248.65
+CM0106,Pipeline Accelerator C,2024-08-06,2024-08-24,Paid Search,Lookalike,Europe,K. Martin,Completed,54362,1327,75,16732.48,57344.89
+CM0030,Holiday Demand Gen C,2024-08-15,2024-10-08,Paid Social,Retargeting,Europe,E. Wilson,Completed,54025,1266,71,8117.04,19408.59
+CM0040,Mid-Market Expansion A,2024-08-16,2024-10-08,Email,Lookalike,Europe,P. Scott,Paused,45937,1283,138,1281.07,3996.81
+CM0070,Mid-Market Expansion C,2024-08-28,2024-09-24,Display,Trial Users,Europe,T. Nguyen,Completed,30296,452,43,5808.81,15905.63
+CM0049,Q1 Acquisition Push D,2024-09-04,2024-11-24,Affiliate,Existing Customers,North America,K. Martin,Completed,32813,1115,102,1655.03,3280.11
+CM0012,New Feature Awareness B,2024-09-07,2024-09-22,Display,Trial Users,Europe,P. Scott,Active,75585,2546,128,12271.13,39984.16
+CM0019,Mid-Market Expansion C,2024-09-16,2024-11-06,Paid Social,Lookalike,North America,T. Nguyen,Active,65150,1936,189,4813.34,9637.46
+CM0006,Trial Nurture D,2024-09-21,2024-11-28,Paid Social,Existing Customers,North America,E. Wilson,Paused,107762,2468,161,7902.32,25344.77
+CM0115,Trial Nurture C,2024-09-29,2024-10-25,Paid Search,Lookalike,Europe,E. Wilson,Completed,18870,683,47,8653.73,16810.97
+CM0091,Spring Launch D,2024-09-29,2024-11-20,Organic Social,Trial Users,APAC,T. Nguyen,Active,55813,1617,71,6034.75,15876.25
+CM0008,Holiday Demand Gen B,2024-10-04,2024-12-09,Display,Lookalike,APAC,K. Martin,Paused,59734,375,32,450.0,872.47
+CM0098,Pipeline Accelerator B,2024-10-04,2024-12-14,Paid Social,Lookalike,APAC,T. Nguyen,Paused,46683,1272,101,6821.12,23178.13
+CM0142,New Feature Awareness D,2024-10-05,2024-10-19,Paid Search,Trial Users,Europe,T. Nguyen,Completed,25292,574,62,4049.69,14507.99
+CM0022,Retargeting Sprint C,2024-10-09,2024-12-14,Display,Retargeting,APAC,T. Nguyen,Completed,44195,1353,84,7566.02,27359.44
+CM0026,Retargeting Sprint B,2024-10-10,2024-11-03,Paid Social,Existing Customers,LATAM,K. Martin,Active,51162,1626,124,6451.95,
+CM0077,Q1 Acquisition Push D,2024-10-12,2025-01-09,Display,Retargeting,Europe,K. Martin,Active,155039,1593,59,13460.16,25126.55
+CM0092,Spring Launch A,2024-10-20,2024-12-13,Paid Search,Retargeting,Europe,T. Nguyen,Active,55793,2037,184,1531.1,1179.63
+CM0042,Holiday Demand Gen C,2024-10-21,2024-12-22,Paid Social,Existing Customers,LATAM,P. Scott,Active,49463,900,86,5370.99,12156.45
+CM0051,Spring Launch B,2024-10-22,2024-11-15,Paid Social,Retargeting,LATAM,P. Scott,Active,38459,1330,166,7972.54,17227.39
+CM0063,Retargeting Sprint B,2024-10-24,2024-12-25,Paid Search,Prospecting,APAC,K. Martin,Completed,115119,5778,562,10918.79,
+CM0032,Enterprise ABM B,2024-11-13,2025-01-20,Affiliate,Existing Customers,Europe,K. Martin,Completed,57709,1793,155,11584.5,34391.35
+CM0104,New Feature Awareness D,2024-11-16,2024-12-05,Organic Social,Prospecting,APAC,K. Martin,Active,556210,12953,842,6418.58,16505.97
+CM0118,Trial Nurture C,2024-11-22,2025-01-10,Email,Existing Customers,North America,P. Scott,Paused,45185,2443,227,9495.7,18639.31
+CM0125,Regional Promo B,2024-11-22,2025-01-08,Affiliate,Prospecting,APAC,E. Wilson,Completed,59316,2020,151,3788.38,2952.06
+CM0014,Enterprise ABM C,2024-11-22,2024-12-20,Email,Prospecting,North America,T. Nguyen,Active,57068,771,50,7695.02,34151.27
+CM0133,Holiday Demand Gen A,2024-12-05,2025-02-21,Paid Search,Lookalike,APAC,E. Wilson,Active,31501,885,12,3937.7,20283.78
+CM0007,Brand Lift Wave A,2024-12-07,2025-01-09,Affiliate,Prospecting,Europe,T. Nguyen,Completed,150147,7375,499,5185.52,5668.43
+CM0059,Pipeline Accelerator B,2024-12-28,2025-02-05,Affiliate,Existing Customers,Europe,P. Scott,Active,39387,926,58,6913.45,24897.87
+CM0071,Spring Launch C,2025-01-03,2025-01-28,Paid Search,Retargeting,LATAM,P. Scott,Completed,107799,2018,153,6064.07,10391.54
+CM0073,Spring Launch B,2025-01-18,2025-03-30,Paid Search,Trial Users,LATAM,T. Nguyen,Active,92551,1958,191,1829.1,7411.73
+CM0146,Mid-Market Expansion D,2025-01-25,2025-04-24,Email,Trial Users,LATAM,E. Wilson,Completed,94608,3189,153,5749.08,5671.7
+CM0117,Regional Promo C,2025-01-25,2025-02-14,Organic Social,Trial Users,Europe,K. Martin,Completed,144217,5308,384,5596.8,14980.45
+CM0093,Pipeline Accelerator B,2025-02-01,2025-02-28,Email,Existing Customers,APAC,K. Martin,Active,39216,1168,80,1252.17,1533.83
+CM0089,Spring Launch A,2025-02-05,2025-03-15,Affiliate,Existing Customers,North America,P. Scott,Paused,143769,4059,147,6310.46,9805.69
+CM0144,Pipeline Accelerator A,2025-02-13,2025-03-26,Paid Social,Retargeting,North America,P. Scott,Completed,48976,761,70,8670.4,27428.39
+CM0068,Brand Lift Wave D,2025-02-14,2025-04-24,Paid Search,Retargeting,Europe,K. Martin,Completed,29847,1135,19,15614.29,82351.39
+CM0082,Regional Promo C,2025-02-16,2025-04-20,Paid Search,Existing Customers,LATAM,K. Martin,Paused,84511,2292,217,4347.41,7335.54
+CM0011,Mid-Market Expansion D,2025-02-25,2025-04-09,Paid Search,Prospecting,North America,T. Nguyen,Active,208010,7527,800,11205.78,4482.31
+CM0084,Brand Lift Wave C,2025-02-28,2025-04-23,Paid Social,Prospecting,North America,E. Wilson,Completed,89534,1246,60,9910.67,36968.98
+CM0005,Retargeting Sprint B,2025-03-01,2025-03-31,Paid Search,Existing Customers,Europe,E. Wilson,Completed,81727,1862,54,4296.1,8859.96
+CM0044,Retargeting Sprint D,2025-03-01,2025-04-18,Paid Social,Trial Users,North America,T. Nguyen,Active,143881,5415,860,9845.93,30483.87
+CM0062,Retargeting Sprint C,2025-03-06,2025-05-29,Paid Social,Retargeting,Europe,E. Wilson,Active,94207,3937,318,11317.08,32691.97
+CM0074,Q1 Acquisition Push C,2025-03-06,2025-06-03,Paid Social,Retargeting,Europe,K. Martin,Completed,60341,1219,110,4943.2,11662.8
+CM0128,Regional Promo D,2025-03-09,2025-04-07,Display,Existing Customers,North America,E. Wilson,Completed,34073,1218,87,1812.27,1271.27
+CM0064,New Feature Awareness D,2025-03-10,2025-05-04,Display,Trial Users,North America,K. Martin,Completed,31696,1010,112,11420.95,35909.98
+CM0135,Enterprise ABM C,2025-03-13,2025-05-04,Organic Social,Lookalike,North America,T. Nguyen,Completed,77113,2369,115,1201.45,4315.31
+CM0009,Spring Launch B,2025-03-14,2025-04-03,Email,Existing Customers,APAC,P. Scott,Completed,81471,326,20,6341.89,15482.19
+CM0029,Spring Launch D,2025-03-14,2025-05-20,Paid Social,Trial Users,North America,P. Scott,Active,34918,521,56,4626.05,16907.56
+CM0037,Regional Promo B,2025-03-15,2025-03-29,Paid Social,Trial Users,APAC,P. Scott,Completed,57737,2653,268,6947.86,16677.18
+CM0097,Brand Lift Wave D,2025-03-15,2025-03-29,Paid Social,Prospecting,North America,P. Scott,Active,33308,1884,167,10157.18,31069.71
+CM0001,Mid-Market Expansion C,2025-03-23,2025-05-30,Paid Social,Existing Customers,North America,K. Martin,Active,81350,2147,181,4412.43,17273.69
+CM0121,Holiday Demand Gen D,2025-03-27,2025-06-24,Affiliate,Prospecting,LATAM,K. Martin,Active,59392,379,20,450.0,1363.13
+CM0079,Trial Nurture C,2025-04-03,2025-05-02,Paid Social,Retargeting,LATAM,T. Nguyen,Completed,72834,3142,163,3714.72,13729.86
+CM0145,Enterprise ABM B,2025-04-05,2025-06-13,Paid Social,Prospecting,North America,T. Nguyen,Completed,25470,1158,121,5395.2,10526.72
+CM0033,Trial Nurture D,2025-04-08,2025-06-09,Email,Trial Users,APAC,E. Wilson,Completed,84442,2749,153,4798.37,8375.19
+CM0053,Holiday Demand Gen D,2025-04-14,2025-07-08,Paid Search,Retargeting,North America,E. Wilson,Completed,166447,6622,818,450.0,1213.5
+CM0094,Q1 Acquisition Push D,2025-04-15,2025-05-31,Email,Prospecting,APAC,T. Nguyen,Completed,28523,683,73,6114.97,3103.14
+CM0034,New Feature Awareness D,2025-04-16,2025-06-20,Paid Social,Prospecting,Europe,T. Nguyen,Active,24298,1013,59,6431.74,15406.45
+CM0060,Mid-Market Expansion A,2025-04-18,2025-06-28,Paid Social,Lookalike,North America,P. Scott,Active,69252,1045,82,5815.52,18216.6
+CM0103,Spring Launch D,2025-04-21,2025-07-10,Paid Search,Retargeting,North America,T. Nguyen,Active,66270,2639,286,3007.98,
+CM0101,Trial Nurture C,2025-04-26,2025-07-24,Organic Social,Lookalike,Europe,E. Wilson,Paused,80851,1494,198,6728.38,21866.04
+CM0131,Q1 Acquisition Push B,2025-04-29,2025-07-17,Paid Social,Trial Users,North America,T. Nguyen,Active,62867,1935,154,8201.88,18545.48
+CM0004,Brand Lift Wave D,2025-05-02,2025-07-12,Paid Search,Existing Customers,North America,E. Wilson,Completed,150338,3618,347,2282.18,8551.47
+CM0108,Upsell Sequence C,2025-05-06,2025-06-11,Paid Search,Lookalike,APAC,T. Nguyen,Active,67256,3226,262,8732.09,35052.24
+CM0057,Mid-Market Expansion A,2025-05-08,2025-07-23,Display,Existing Customers,North America,T. Nguyen,Completed,72675,1275,71,6227.74,22928.81
+CM0083,Retargeting Sprint A,2025-05-13,2025-05-29,Display,Lookalike,APAC,K. Martin,Completed,30358,1199,53,7271.19,9757.76
+CM0047,Holiday Demand Gen B,2025-05-13,2025-06-29,Email,Existing Customers,North America,E. Wilson,Active,55465,2355,138,5203.54,10581.34
+CM0136,Holiday Demand Gen A,2025-05-15,2025-06-10,Affiliate,Lookalike,North America,E. Wilson,Active,66071,1669,192,3117.03,3358.87
+CM0054,Spring Launch D,2025-05-20,2025-07-16,Email,Prospecting,APAC,K. Martin,Completed,50103,1102,94,6799.36,24844.32
+CM0016,Mid-Market Expansion B,2025-05-27,2025-06-10,Email,Trial Users,APAC,P. Scott,Paused,65736,3430,380,4990.66,7474.66
+CM0061,Q1 Acquisition Push A,2025-06-04,2025-08-20,Display,Lookalike,APAC,E. Wilson,Completed,63766,3165,382,11451.2,58566.46
+CM0002,Holiday Demand Gen B,2025-06-11,2025-09-03,Email,Retargeting,North America,K. Martin,Completed,43869,1375,135,1752.3,2614.46
+CM0107,Q1 Acquisition Push C,2025-06-11,2025-08-16,Paid Social,Trial Users,APAC,K. Martin,Completed,45024,1977,191,7100.3,9429.77
+CM0013,Holiday Demand Gen C,2025-06-13,2025-09-11,Paid Social,Trial Users,North America,K. Martin,Completed,104234,2231,50,12221.07,46007.24
+CM0067,Q1 Acquisition Push D,2025-06-15,2025-08-10,Paid Social,Existing Customers,APAC,P. Scott,Active,54870,2361,209,5160.79,15940.61
+CM0078,Brand Lift Wave A,2025-06-17,2025-07-25,Paid Social,Existing Customers,North America,P. Scott,Completed,41423,550,61,7084.93,22098.15
+CM0143,Brand Lift Wave B,2025-06-18,2025-07-15,Display,Prospecting,Europe,T. Nguyen,Completed,69218,2953,259,15643.65,49658.55
+CM0116,Q1 Acquisition Push D,2025-06-18,2025-08-26,Paid Social,Existing Customers,APAC,T. Nguyen,Completed,58283,1336,78,450.0,1021.46
+CM0072,Pipeline Accelerator A,2025-06-19,2025-07-08,Paid Social,Existing Customers,Europe,E. Wilson,Completed,95636,4342,127,7557.54,17345.14
+CM0111,Upsell Sequence A,2025-06-21,2025-08-28,Email,Prospecting,Europe,E. Wilson,Active,82262,3590,374,7743.7,30864.76
+CM0086,Pipeline Accelerator C,2025-06-26,2025-07-18,Paid Search,Prospecting,APAC,T. Nguyen,Completed,58053,955,78,6742.64,9855.17
+CM0024,Holiday Demand Gen C,2025-06-27,2025-09-25,Paid Search,Lookalike,APAC,P. Scott,Active,40865,1352,129,4924.46,17452.32
+CM0150,Trial Nurture B,2025-07-01,2025-09-10,Paid Social,Retargeting,APAC,K. Martin,Completed,95624,2279,217,2495.43,7555.7
+CM0085,Mid-Market Expansion B,2025-07-07,2025-10-02,Display,Lookalike,North America,P. Scott,Active,71018,1471,59,3010.12,8707.95
+CM0099,Regional Promo D,2025-07-21,2025-09-02,Display,Existing Customers,North America,E. Wilson,Active,61561,2824,135,4734.29,8357.35
+CM0100,New Feature Awareness D,2025-07-22,2025-09-23,Paid Search,Prospecting,Europe,E. Wilson,Paused,26983,108,15,7721.23,16380.29
+CM0076,Brand Lift Wave B,2025-07-27,2025-09-08,Email,Lookalike,Europe,P. Scott,Completed,33432,857,46,7042.83,18381.91
+CM0031,Holiday Demand Gen C,2025-08-04,2025-09-21,Paid Search,Lookalike,Europe,T. Nguyen,Completed,160809,6041,550,450.0,1223.68
+CM0052,Regional Promo D,2025-08-04,2025-10-06,Paid Search,Retargeting,APAC,K. Martin,Active,58204,2986,41,4950.83,3794.76
+CM0113,Holiday Demand Gen D,2025-08-08,2025-10-06,Paid Social,Existing Customers,Europe,P. Scott,Active,35713,1480,93,12020.47,49629.49
+CM0123,Holiday Demand Gen C,2025-08-12,2025-08-31,Display,Trial Users,LATAM,K. Martin,Completed,59200,1863,68,5665.26,18182.8

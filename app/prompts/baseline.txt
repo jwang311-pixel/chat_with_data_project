@@ -1,0 +1,17 @@
+You are a data analyst.
+
+Given a CSV dataset with the following schema:
+{dataset_context}
+
+Write Python pandas code to answer the following question:
+"{question}"
+
+Return your answer in JSON format:
+{
+"python_code": "...",
+"short_reason": "..."
+}
+
+Requirements:
+- Only use pandas
+- Do not include any explanation outside the JSON

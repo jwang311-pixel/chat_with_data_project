@@ -1,0 +1,24 @@
+You are a data analyst.
+
+Given a CSV dataset with the following schema:
+{dataset_context}
+
+Answer the following question:
+"{question}"
+
+Follow these steps:
+1. Identify relevant columns
+2. Determine the type of operation (e.g., aggregation, filtering, grouping)
+3. Write the pandas code
+
+Return your answer in JSON format:
+{
+"python_code": "...",
+"short_reason": "..."
+}
+
+Requirements:
+- The code must be correct and executable
+- Use only pandas
+- Do not include any explanation outside the JSON
+

@@ -1,0 +1,221 @@
+expense_id,expense_date,department,cost_center,vendor,expense_category,payment_type,amount,budget_monthly,approved_by,reimbursable,receipt_attached,project_code,status
+EX00073,2025-01-01,Engineering,CC-ENG-88,Notion,Cloud Services,Corporate Card,4900.8,20000,Head of Engineering,FALSE,TRUE,PRJ-203,Approved
+EX00032,2025-01-01,Engineering,CC-ENG-85,NOTION,Software,Corporate Card,10462.58,20000,VP Sales,FALSE,FALSE,PRJ-203,Pending
+EX00144,2025-01-02,Engineering,CC-ENG-12,Atlassian,Hardware,Corporate Card,611.18,20000,COO,FALSE,FALSE,PRJ-101,Approved
+EX00174,2025-01-04,Marketing,CC-MAR-67,Uber,Travel,Reimbursement,39.83,17000,VP Marketing,FALSE,TRUE,PRJ-620,Approved
+EX00218,01/06/2025,Sales,CC-SAL-80,AWS,Software,Corporate Card,2151.89,15000,VP Sales,FALSE,TRUE,PRJ-740,Approved
+EX00075,2025-01-07,Sales,CC-SAL-68,Adobe,Recruiting,ACH,1980.81,15000,VP Marketing,FALSE,TRUE,PRJ-512,Approved
+EX00006,2025-01-10,Engineering,CC-ENG-17,Concur,Contractors,Corporate Card,1258.03,20000,Head of Engineering,FALSE,TRUE,PRJ-512,Approved
+EX00034,2025-01-12,Engineering,CC-ENG-37,Concur,Events,Corporate Card,4100.03,20000,Head of Engineering,FALSE,TRUE,PRJ-203,Approved
+EX00025,2025-01-13,Engineering,CC-ENG-32,Slack,Software,Reimbursement,1203.23,20000,Finance Manager,TRUE,TRUE,PRJ-740,Approved
+EX00028,2025-01-16,Engineering,CC-ENG-17,Salesforce,Contractors,Corporate Card,2298.43,20000,COO,FALSE,FALSE,PRJ-310,Approved
+EX00146,2025-01-16,Finance,CC-FIN-68,Salesforce,Recruiting,ACH,519.73,7000,VP Marketing,FALSE,FALSE,PRJ-415,Approved
+EX00086,2025-01-18,Marketing,CC-MAR-91,ATLASSIAN,Software,ACH,1454.63,17000,Finance Manager,FALSE,FALSE,PRJ-512,Pending
+EX00050,2025-01-20,Support,CC-SUP-88,Zoom,Software,ACH,287.11,11000,VP Sales,FALSE,FALSE,PRJ-415,Pending
+EX00039,2025-01-20,Engineering,CC-ENG-23,AWS,Hardware,Corporate Card,697.03,20000,CFO,FALSE,FALSE,PRJ-415,Pending
+EX00126,2025-01-20,IT,CC-IT-27,Salesforce,Office Supplies,ACH,2781.62,9000,CFO,TRUE,FALSE,PRJ-620,Approved
+EX00106,2025-01-20,Finance,CC-FIN-26,Adobe,Travel,Reimbursement,1762.14,7000,VP Sales,TRUE,TRUE,PRJ-512,Approved
+EX00004,2025-01-21,Sales,CC-SAL-38,AWS,Software,Corporate Card,4112.91,15000,COO,TRUE,TRUE,PRJ-740,Pending
+EX00101,2025-01-22,Marketing,CC-MAR-63,Slack Inc,Cloud Services,Wire Transfer,1643.68,17000,CFO,FALSE,FALSE,PRJ-101,Approved
+EX00024,2025-01-23,Sales,CC-SAL-19,Uber,Travel,ACH,476.33,15000,VP Marketing,FALSE,FALSE,PRJ-101,Approved
+EX00157,2025-01-24,Sales,CC-SAL-45,Workday,Travel,Corporate Card,2320.18,15000,COO,FALSE,FALSE,PRJ-740,Pending
+EX00114,2025-01-26,Engineering,CC-ENG-95,Salesforce,Cloud Services,Corporate Card,-4646.63,20000,Finance Manager,FALSE,FALSE,PRJ-415,Pending
+EX00220,2025-01-26,Engineering,CC-ENG-94,Google Cloud,Software,Corporate Card,4428.6,20000,CFO,FALSE,TRUE,PRJ-415,Pending
+EX00071,2025-01-26,Finance,CC-FIN-26,slack,Software,ACH,1702.97,7000,Finance Manager,FALSE,TRUE,PRJ-101,Approved
+EX00084,2025-01-29,Engineering,CC-ENG-28,atlassian,Travel,Corporate Card,1564.59,20000,VP Marketing,TRUE,TRUE,PRJ-101,Approved
+EX00192,2025-01-30,Finance,CC-FIN-72,Slack,Software,Corporate Card,358.05,7000,Head of Engineering,FALSE,FALSE,PRJ-415,Rejected
+EX00187,2025-01-31,IT,CC-IT-20,Adobe,Office Supplies,Corporate Card,5227.2,9000,CFO,FALSE,TRUE,PRJ-415,Approved
+EX00217,2025-02-01,Engineering,CC-ENG-76,Uber,Hardware,Corporate Card,712.36,20000,Head of Engineering,FALSE,TRUE,PRJ-620,Pending
+EX00122,2025-02-03,Operations,CC-OPE-21,zoom,Professional Services,Corporate Card,3054.46,10000,Finance Manager,FALSE,TRUE,PRJ-310,Approved
+EX00105,2025-02-05,Engineering,CC-ENG-49,Uber,Training,Reimbursement,437.85,20000,VP Marketing,FALSE,TRUE,PRJ-101,Approved
+EX00041,2025-02-05,Operations,CC-OPE-28,Workday,Contractors,ACH,3527.91,10000,COO,FALSE,TRUE,PRJ-740,Approved
+EX00087,2025-02-10,People,CC-PEO-35,Google Cloud,Software,ACH,5973.29,6500,CFO,FALSE,TRUE,PRJ-415,Approved
+EX00029,10-02-2025,Marketing,CC-MAR-74,Zoom.us,Contractors,ACH,3475.12,17000,VP Marketing,TRUE,FALSE,PRJ-740,Pending
+EX00091,2025-02-10,Marketing,CC-MAR-50,Adobe,Software,Corporate Card,8201.87,17000,VP Sales,FALSE,TRUE,PRJ-740,Approved
+EX00197,2025-02-10,Operations,CC-OPE-31,Adobe,Cloud Services,Wire Transfer,15805.94,10000,Finance Manager,FALSE,TRUE,PRJ-512,Pending
+EX00153,02/14/2025,Support,CC-SUP-96,Google Cloud,Software,Corporate Card,2162.96,11000,VP Sales,FALSE,TRUE,PRJ-512,Approved
+EX00127,2025-02-19,IT,CC-IT-55,Uber,Cloud Services,Corporate Card,-3331.11,9000,COO,TRUE,FALSE,PRJ-415,Approved
+EX00170,2025-02-19,People,CC-PEO-84,AWS,Events,Reimbursement,3126.21,6500,COO,FALSE,TRUE,PRJ-310,Approved
+EX00131,2025-02-22,Engineering,CC-ENG-49,Concur,Training,Reimbursement,252.78,20000,COO,FALSE,TRUE,PRJ-740,Pending
+EX00111,2025-02-24,Sales,CC-SAL-36,Concur,Travel,Corporate Card,339.9,15000,COO,FALSE,TRUE,PRJ-620,Approved
+EX00193,02/24/2025,Operations,CC-OPE-33,Salesforce,Recruiting,Corporate Card,1244.54,10000,COO,FALSE,FALSE,PRJ-101,Approved
+EX00125,2025-02-24,Sales,CC-SAL-19,Slack Inc,Software,Corporate Card,7135.71,15000,COO,FALSE,TRUE,PRJ-203,Approved
+EX00124,2025-02-25,Support,CC-SUP-17,Uber,Software,Corporate Card,8717.49,11000,CFO,FALSE,TRUE,PRJ-101,Approved
+EX00119,2025-02-25,Engineering,CC-ENG-37,AWS,Software,Corporate Card,2855.23,20000,Head of Engineering,FALSE,TRUE,PRJ-620,Approved
+EX00049,2025-02-28,Finance,CC-FIN-57,Concur,Contractors,Reimbursement,108.48,7000,VP Sales,FALSE,TRUE,PRJ-512,Rejected
+EX00083,2025-03-02,Engineering,CC-ENG-32,Atlassian,Contractors,ACH,919.49,20000,VP Sales,FALSE,TRUE,PRJ-101,Approved
+EX00177,2025-03-02,IT,CC-IT-39,Slack,Training,Corporate Card,1099.32,9000,COO,FALSE,TRUE,PRJ-101,Pending
+EX00055,2025-03-03,Marketing,CC-MAR-14,slack,Travel,ACH,910.74,17000,VP Sales,FALSE,TRUE,PRJ-620,Rejected
+EX00020,2025-03-07,Marketing,CC-MAR-80,SLACK,Software,Corporate Card,2053.76,17000,Finance Manager,FALSE,TRUE,PRJ-415,Approved
+EX00112,2025-03-07,Engineering,CC-ENG-57,AWS,Recruiting,Corporate Card,947.7,20000,VP Sales,FALSE,TRUE,PRJ-620,Approved
+EX00108,2025-03-08,Operations,CC-OPE-34,Workday,Events,Corporate Card,1413.4,10000,VP Sales,FALSE,TRUE,PRJ-101,Approved
+EX00142,2025-03-10,IT,CC-IT-52,Adobe,Travel,Wire Transfer,90.15,9000,VP Sales,FALSE,FALSE,PRJ-101,Pending
+EX00199,2025-03-15,Engineering,CC-ENG-73,Slack,Cloud Services,Wire Transfer,3879.27,20000,VP Marketing,FALSE,TRUE,PRJ-620,Pending
+EX00077,2025-03-17,Engineering,CC-ENG-71,Salesforce,Office Supplies,Wire Transfer,277.09,20000,Finance Manager,TRUE,TRUE,PRJ-203,Approved
+EX00203,2025-03-18,IT,CC-IT-83,Zoom,Events,Corporate Card,2440.1,9000,Finance Manager,TRUE,TRUE,PRJ-310,Approved
+EX00179,2025-03-19,Finance,CC-FIN-69,notion,Office Supplies,Corporate Card,12107.48,7000,Finance Manager,FALSE,TRUE,PRJ-512,Approved
+EX00166,2025-03-19,Engineering,CC-ENG-31,AWS,Software,ACH,1193.43,20000,COO,FALSE,TRUE,PRJ-620,Pending
+EX00042,2025-03-20,Marketing,CC-MAR-96,Slack,Cloud Services,Wire Transfer,908.32,17000,Head of Engineering,FALSE,TRUE,PRJ-203,Approved
+EX00209,2025-03-20,Engineering,CC-ENG-24,ZOOM,Contractors,Reimbursement,2236.99,20000,Head of Engineering,FALSE,TRUE,PRJ-740,Pending
+EX00103,03/21/2025,People,CC-PEO-16,Google Cloud,Training,Reimbursement,763.97,6500,CFO,FALSE,TRUE,PRJ-203,Approved
+EX00169,2025-03-21,Marketing,CC-MAR-34,ServiceNow,Contractors,ACH,1249.37,17000,Finance Manager,FALSE,TRUE,PRJ-512,Approved
+EX00180,2025-03-24,Sales,CC-SAL-97,Salesforce,Travel,Corporate Card,2172.69,15000,CFO,FALSE,TRUE,PRJ-512,Pending
+EX00211,2025-03-25,Engineering,CC-ENG-85,Zoom,Cloud Services,ACH,7042.34,20000,VP Marketing,FALSE,TRUE,PRJ-101,Approved
+EX00129,2025/03/25,Support,CC-SUP-34,Salesforce,Recruiting,Corporate Card,154.23,11000,CFO,TRUE,TRUE,PRJ-620,Approved
+EX00171,2025-03-26,IT,CC-IT-70,Dell,Travel,Reimbursement,1005.0,9000,VP Sales,FALSE,TRUE,PRJ-415,Pending
+EX00205,2025-03-26,Sales,CC-SAL-93,Salesforce,Events,Reimbursement,288.6,15000,Finance Manager,FALSE,TRUE,PRJ-512,Approved
+EX00066,2025-03-27,Engineering,CC-ENG-27,Google Cloud,Software,ACH,1057.78,20000,CFO,FALSE,TRUE,PRJ-415,Approved
+EX00079,2025-03-28,Sales,CC-SAL-21,Salesforce,Professional Services,Reimbursement,1012.36,15000,VP Marketing,FALSE,TRUE,PRJ-620,Approved
+EX00001,2025-03-29,Sales,CC-SAL-88,Zoom,Contractors,ACH,5127.73,15000,Head of Engineering,FALSE,TRUE,PRJ-203,Pending
+EX00061,2025-04-01,Sales,CC-SAL-59,Adobe,Cloud Services,Corporate Card,1261.92,15000,VP Marketing,FALSE,FALSE,PRJ-101,Rejected
+EX00059,2025-04-03,People,CC-PEO-51,Google Cloud,Travel,Corporate Card,3249.36,6500,CFO,TRUE,TRUE,PRJ-620,Approved
+EX00081,2025-04-04,Operations,CC-OPE-73,Workday,Software,Reimbursement,1274.83,10000,CFO,FALSE,TRUE,PRJ-310,Approved
+EX00219,2025-04-04,Marketing,CC-MAR-34,AWS,Contractors,Reimbursement,12634.78,17000,CFO,FALSE,TRUE,PRJ-310,Approved
+EX00148,2025-04-04,Engineering,CC-ENG-34,Notion,Travel,Corporate Card,774.16,20000,COO,FALSE,TRUE,PRJ-310,Approved
+EX00189,2025-04-04,Engineering,CC-ENG-78,ATLASSIAN,Events,Reimbursement,383.12,20000,VP Sales,FALSE,TRUE,PRJ-101,Approved
+EX00085,2025-04-05,Marketing,CC-MAR-59,Concur,Professional Services,Corporate Card,1796.78,17000,COO,FALSE,FALSE,PRJ-101,Rejected
+EX00048,2025-04-06,Marketing,CC-MAR-62,ServiceNow,Cloud Services,Reimbursement,1547.0,17000,CFO,FALSE,TRUE,PRJ-620,Pending
+EX00053,2025-04-07,Sales,CC-SAL-65,Salesforce,Software,Corporate Card,3691.26,15000,VP Sales,FALSE,TRUE,PRJ-620,Approved
+EX00182,2025-04-10,Engineering,CC-ENG-46,Slack,Hardware,Wire Transfer,1098.26,20000,VP Sales,FALSE,TRUE,PRJ-101,Approved
+EX00207,2025-04-14,Support,CC-SUP-25,Concur,Hardware,Reimbursement,1208.96,11000,COO,FALSE,TRUE,PRJ-620,Approved
+EX00194,2025-04-15,Engineering,CC-ENG-77,notion,Events,Corporate Card,465.15,20000,VP Marketing,FALSE,TRUE,PRJ-203,Approved
+EX00045,2025-04-18,Sales,CC-SAL-30,Salesforce,Contractors,Corporate Card,2810.06,15000,VP Sales,FALSE,TRUE,PRJ-415,Pending
+EX00033,2025-04-21,Engineering,CC-ENG-54,Google Cloud,Recruiting,Wire Transfer,2784.17,20000,Head of Engineering,FALSE,TRUE,PRJ-203,Approved
+EX00178,2025-04-21,Marketing,CC-MAR-84,AWS,Hardware,Corporate Card,2482.87,17000,Head of Engineering,FALSE,FALSE,PRJ-512,Approved
+EX00134,2025-04-21,Sales,CC-SAL-11,Adobe,Training,Corporate Card,1269.75,15000,Head of Engineering,FALSE,TRUE,PRJ-512,Approved
+EX00141,2025-04-22,Finance,CC-FIN-61,Atlassian,Training,Reimbursement,983.61,7000,Head of Engineering,TRUE,TRUE,PRJ-415,Approved
+EX00003,2025-04-24,Support,CC-SUP-36,ServiceNow,Software,Wire Transfer,4333.4,11000,CFO,FALSE,TRUE,PRJ-415,Approved
+EX00158,2025-04-25,Marketing,CC-MAR-75,Uber,Cloud Services,Wire Transfer,3304.48,17000,COO,FALSE,TRUE,PRJ-620,Approved
+EX00168,2025-04-27,Support,CC-SUP-28,Concur,Software,Corporate Card,6429.3,11000,CFO,FALSE,TRUE,PRJ-415,Approved
+EX00068,28-04-2025,Finance,CC-FIN-49,AWS,Contractors,Corporate Card,982.1,7000,COO,FALSE,FALSE,PRJ-203,Pending
+EX00072,2025/04/28,Operations,CC-OPE-75,Salesforce,Events,Corporate Card,3156.44,10000,CFO,FALSE,TRUE,PRJ-101,Approved
+EX00188,2025-04-29,Support,CC-SUP-61,Concur,Professional Services,Corporate Card,254.35,11000,Finance Manager,FALSE,FALSE,PRJ-415,Rejected
+EX00036,2025/04/29,Marketing,CC-MAR-88,Adobe,Cloud Services,Corporate Card,697.68,17000,CFO,FALSE,FALSE,PRJ-740,Pending
+EX00109,2025-04-30,Sales,CC-SAL-75,Concur,Contractors,Reimbursement,4659.23,15000,VP Marketing,FALSE,TRUE,PRJ-203,Approved
+EX00022,2025-05-02,Sales,CC-SAL-10,Concur,Software,ACH,1679.88,15000,,FALSE,TRUE,PRJ-203,Approved
+EX00161,2025-05-03,Marketing,CC-MAR-48,Salesforce,Contractors,Reimbursement,1949.01,17000,VP Sales,FALSE,TRUE,PRJ-620,Approved
+EX00063,2025-05-03,Sales,CC-SAL-86,Notion,Travel,Reimbursement,1578.84,15000,VP Sales,FALSE,TRUE,PRJ-310,Approved
+EX00092,2025-05-03,Marketing,CC-MAR-58,Workday,Recruiting,Reimbursement,878.54,17000,COO,FALSE,TRUE,PRJ-203,Approved
+EX00216,2025-05-04,Sales,CC-SAL-16,ServiceNow,Hardware,Corporate Card,1279.47,15000,CFO,FALSE,TRUE,PRJ-310,Approved
+EX00052,05/06/2025,Sales,CC-SAL-97,Salesforce,Events,Corporate Card,4847.68,15000,CFO,FALSE,TRUE,PRJ-203,Approved
+EX00154,2025-05-06,Sales,CC-SAL-94,Notion.so,Software,Corporate Card,497.75,15000,CFO,FALSE,TRUE,PRJ-620,Approved
+EX00117,2025-05-10,Engineering,CC-ENG-76,Slack,Contractors,Corporate Card,502.26,20000,CFO,FALSE,FALSE,PRJ-740,Rejected
+EX00104,2025-05-10,IT,CC-IT-10,Uber,Contractors,Corporate Card,3032.85,9000,VP Sales,FALSE,TRUE,PRJ-101,Approved
+EX00058,05/11/2025,People,CC-PEO-19,Google Cloud,Software,Wire Transfer,4120.72,6500,CFO,FALSE,TRUE,PRJ-620,Approved
+EX00089,2025-05-12,Marketing,CC-MAR-91,ServiceNow,Office Supplies,ACH,443.46,17000,CFO,TRUE,TRUE,PRJ-310,Approved
+EX00023,2025-05-12,Engineering,CC-ENG-97,Google Cloud,Travel,Corporate Card,11402.54,20000,Finance Manager,FALSE,TRUE,PRJ-740,Approved
+EX00181,05/13/2025,Support,CC-SUP-95,Salesforce,Software,Corporate Card,1325.37,11000,Finance Manager,FALSE,TRUE,PRJ-620,Approved
+EX00062,2025-05-13,Marketing,CC-MAR-97,Salesforce,Recruiting,ACH,1151.99,17000,Head of Engineering,FALSE,TRUE,PRJ-740,Approved
+EX00215,2025-05-13,People,CC-PEO-17,Zoom,Cloud Services,Corporate Card,2420.72,6500,Finance Manager,FALSE,TRUE,PRJ-101,Approved
+EX00018,2025-05-14,IT,CC-IT-79,Zoom,Recruiting,ACH,1608.92,9000,VP Sales,FALSE,TRUE,PRJ-101,Approved
+EX00165,2025-05-19,Engineering,CC-ENG-56,Workday,Cloud Services,Wire Transfer,135.71,20000,VP Sales,FALSE,TRUE,PRJ-310,Rejected
+EX00132,2025-05-22,Marketing,CC-MAR-27,Concur,Software,Corporate Card,860.8,17000,VP Sales,FALSE,TRUE,PRJ-415,Approved
+EX00012,2025-05-23,Sales,CC-SAL-70,AWS,Software,ACH,4147.61,15000,VP Marketing,FALSE,TRUE,PRJ-101,Approved
+EX00054,2025-05-23,Marketing,CC-MAR-33,Dell,Office Supplies,Corporate Card,3105.1,17000,CFO,FALSE,TRUE,PRJ-620,Pending
+EX00093,2025-05-23,Operations,CC-OPE-12,Concur,Contractors,Corporate Card,1522.87,10000,CFO,FALSE,FALSE,PRJ-101,Approved
+EX00097,2025-05-23,Marketing,CC-MAR-37,Uber,Software,Wire Transfer,2980.45,17000,COO,FALSE,FALSE,PRJ-740,Rejected
+EX00107,2025-05-24,IT,CC-IT-68,Salesforce,Software,Corporate Card,1851.58,9000,VP Sales,FALSE,TRUE,PRJ-101,Approved
+EX00102,2025-05-26,Engineering,CC-ENG-51,Google Cloud,Travel,ACH,692.16,20000,CFO,FALSE,TRUE,PRJ-203,Approved
+EX00185,2025-05-26,Engineering,CC-ENG-11,Zoom,Software,Corporate Card,4669.18,20000,VP Sales,FALSE,FALSE,PRJ-740,Pending
+EX00088,2025-05-27,Operations,CC-OPE-69,Google Cloud,Events,Corporate Card,2956.28,10000,VP Marketing,FALSE,TRUE,PRJ-620,Pending
+EX00005,2025-05-28,Support,CC-SUP-69,Concur,Travel,Corporate Card,7018.43,11000,Finance Manager,FALSE,TRUE,PRJ-512,Approved
+EX00190,2025-05-29,People,CC-PEO-64,Salesforce,Hardware,Reimbursement,383.21,6500,Finance Manager,FALSE,TRUE,PRJ-740,Approved
+EX00044,2025-05-30,Engineering,CC-ENG-76,ServiceNow,Contractors,Wire Transfer,3640.53,20000,Finance Manager,FALSE,TRUE,PRJ-415,Approved
+EX00167,2025-05-31,Finance,CC-FIN-94,Adobe,Software,Corporate Card,993.4,7000,CFO,FALSE,TRUE,PRJ-101,Approved
+EX00080,2025-06-02,Marketing,CC-MAR-15,Google Cloud,Travel,ACH,1690.15,17000,VP Marketing,FALSE,TRUE,PRJ-203,Approved
+EX00130,2025-06-02,Operations,CC-OPE-31,Atlassian Ltd,Software,Corporate Card,3283.61,10000,Finance Manager,FALSE,TRUE,PRJ-620,Approved
+EX00128,2025-06-02,Marketing,CC-MAR-71,Adobe,Contractors,Corporate Card,174.65,17000,VP Sales,FALSE,TRUE,PRJ-203,Approved
+EX00159,2025-06-07,Engineering,CC-ENG-16,Google Cloud,Office Supplies,ACH,935.03,20000,VP Sales,FALSE,TRUE,PRJ-620,Approved
+EX00202,2025-06-07,Operations,CC-OPE-80,AWS,Travel,ACH,1328.53,10000,VP Marketing,FALSE,TRUE,PRJ-101,Approved
+EX00110,2025-06-07,Marketing,CC-MAR-68,Salesforce,Contractors,Corporate Card,7953.89,17000,Finance Manager,FALSE,TRUE,PRJ-101,Approved
+EX00027,2025-06-08,Engineering,CC-ENG-12,ServiceNow,Cloud Services,Reimbursement,3932.6,20000,Head of Engineering,FALSE,TRUE,PRJ-310,Approved
+EX00065,2025-06-08,Finance,CC-FIN-13,AWS,Cloud Services,Corporate Card,3445.41,7000,Head of Engineering,FALSE,TRUE,PRJ-101,Approved
+EX00067,2025-06-12,Finance,CC-FIN-95,Slack,Cloud Services,Corporate Card,1972.59,7000,CFO,FALSE,TRUE,PRJ-310,Approved
+EX00051,2025-06-13,Finance,CC-FIN-28,Zoom,Cloud Services,Corporate Card,3696.91,7000,,FALSE,FALSE,PRJ-740,Approved
+EX00076,2025-06-13,People,CC-PEO-31,Salesforce,Training,Wire Transfer,1564.74,6500,VP Marketing,FALSE,TRUE,PRJ-203,Approved
+EX00160,2025-06-14,Support,CC-SUP-86,Salesforce,Travel,Corporate Card,2620.98,11000,CFO,FALSE,TRUE,PRJ-740,Pending
+EX00043,2025-06-15,Marketing,CC-MAR-72,Concur,Travel,Corporate Card,923.34,17000,Finance Manager,FALSE,TRUE,PRJ-620,Approved
+EX00152,2025-06-15,Engineering,CC-ENG-11,AWS,Software,Corporate Card,1076.06,20000,Finance Manager,FALSE,TRUE,PRJ-310,Approved
+EX00156,2025-06-19,Operations,CC-OPE-41,Zoom,Recruiting,ACH,2422.15,10000,VP Marketing,FALSE,TRUE,PRJ-310,Approved
+EX00150,2025-06-20,Engineering,CC-ENG-48,Dell,Recruiting,ACH,676.38,20000,Head of Engineering,FALSE,TRUE,PRJ-512,Approved
+EX00136,2025-06-20,Marketing,CC-MAR-46,Salesforce,Office Supplies,Corporate Card,497.39,17000,CFO,FALSE,TRUE,PRJ-415,Approved
+EX00013,2025-06-21,Engineering,CC-ENG-53,Salesforce,Hardware,Corporate Card,2731.92,20000,Head of Engineering,FALSE,TRUE,PRJ-415,Pending
+EX00186,2025-06-21,Sales,CC-SAL-82,Notion.so,Travel,Wire Transfer,6475.7,15000,VP Sales,FALSE,TRUE,PRJ-415,Approved
+EX00206,2025-06-22,Engineering,CC-ENG-89,atlassian,Recruiting,Reimbursement,-540.79,20000,Head of Engineering,FALSE,TRUE,PRJ-415,Approved
+EX00198,2025-06-22,Operations,CC-OPE-12,Adobe,Travel,Wire Transfer,759.35,10000,Finance Manager,FALSE,TRUE,PRJ-203,Approved
+EX00212,2025-06-22,Marketing,CC-MAR-31,Slack Inc,Hardware,ACH,529.67,17000,Head of Engineering,FALSE,TRUE,PRJ-620,Approved
+EX00208,2025-06-22,Engineering,CC-ENG-77,AWS,Cloud Services,Corporate Card,594.69,20000,COO,TRUE,TRUE,PRJ-620,Approved
+EX00008,2025-06-24,Marketing,CC-MAR-83,Salesforce,Cloud Services,Reimbursement,3321.98,17000,Finance Manager,FALSE,TRUE,PRJ-512,Approved
+EX00011,2025-06-24,Engineering,CC-ENG-38,Notion,Recruiting,Corporate Card,637.8,20000,COO,FALSE,TRUE,PRJ-203,Approved
+EX00191,2025-06-24,Operations,CC-OPE-32,Concur,Contractors,Corporate Card,484.58,10000,,FALSE,TRUE,PRJ-203,Pending
+EX00099,2025-06-27,Engineering,CC-ENG-46,Workday,Travel,ACH,1390.36,20000,Head of Engineering,FALSE,TRUE,PRJ-101,Approved
+EX00038,2025-06-27,Support,CC-SUP-29,Adobe,Cloud Services,Reimbursement,3134.66,11000,VP Marketing,FALSE,FALSE,PRJ-101,Pending
+EX00047,2025-06-27,IT,CC-IT-63,Google Cloud,Cloud Services,Corporate Card,5625.48,9000,VP Sales,TRUE,TRUE,PRJ-415,Approved
+EX00155,2025-06-28,Engineering,CC-ENG-29,Dell,Hardware,Wire Transfer,470.88,20000,CFO,FALSE,TRUE,PRJ-740,Approved
+EX00162,2025-06-30,Engineering,CC-ENG-19,Dell,Office Supplies,ACH,1792.85,20000,Head of Engineering,FALSE,TRUE,PRJ-415,Approved
+EX00176,2025-07-01,Engineering,CC-ENG-66,Google Cloud,Software,Corporate Card,4769.61,20000,VP Sales,FALSE,TRUE,PRJ-512,Approved
+EX00145,2025-07-01,Marketing,CC-MAR-76,Zoom.us,Office Supplies,Reimbursement,1065.21,17000,Head of Engineering,FALSE,TRUE,PRJ-512,Approved
+EX00094,2025-07-01,IT,CC-IT-24,Adobe,Hardware,ACH,1219.81,9000,VP Sales,FALSE,TRUE,PRJ-415,Approved
+EX00147,2025-07-02,Marketing,CC-MAR-28,Notion,Training,Reimbursement,-1674.47,17000,Finance Manager,TRUE,TRUE,PRJ-101,Approved
+EX00173,2025-07-02,IT,CC-IT-17,Salesforce,Contractors,Corporate Card,4785.97,9000,VP Marketing,FALSE,FALSE,PRJ-512,Pending
+EX00172,2025-07-02,Engineering,CC-ENG-46,zoom,Recruiting,Corporate Card,397.94,20000,Finance Manager,FALSE,TRUE,PRJ-203,Approved
+EX00213,2025-07-02,Support,CC-SUP-28,Google Cloud,Software,Corporate Card,1327.75,11000,Head of Engineering,FALSE,TRUE,PRJ-740,Approved
+EX00064,2025-07-03,Engineering,CC-ENG-81,Dell,Training,ACH,832.98,20000,Head of Engineering,FALSE,TRUE,PRJ-740,Approved
+EX00037,2025-07-03,People,CC-PEO-72,Workday,Cloud Services,Corporate Card,4320.04,6500,COO,FALSE,TRUE,PRJ-512,Approved
+EX00115,2025-07-04,Engineering,CC-ENG-53,Adobe,Contractors,Corporate Card,750.63,20000,COO,FALSE,TRUE,PRJ-415,Approved
+EX00214,07/06/2025,Marketing,CC-MAR-91,AWS,Software,ACH,1368.55,17000,Finance Manager,FALSE,FALSE,PRJ-101,Pending
+EX00082,2025-07-06,People,CC-PEO-77,Salesforce,Software,Corporate Card,7076.95,6500,VP Marketing,FALSE,TRUE,PRJ-512,Approved
+EX00133,2025-07-07,Marketing,CC-MAR-26,ServiceNow,Training,Corporate Card,-503.02,17000,VP Marketing,FALSE,TRUE,PRJ-101,Approved
+EX00046,2025-07-08,Support,CC-SUP-76,Atlassian,Contractors,ACH,3778.15,11000,COO,FALSE,TRUE,PRJ-620,Approved
+EX00151,2025-07-08,Support,CC-SUP-63,Zoom,Travel,Corporate Card,704.1,11000,Finance Manager,TRUE,FALSE,PRJ-203,Pending
+EX00138,2025-07-09,Finance,CC-FIN-89,Salesforce,Cloud Services,Corporate Card,518.52,7000,Head of Engineering,FALSE,TRUE,PRJ-512,Approved
+EX00017,2025-07-09,Marketing,CC-MAR-24,Google Cloud,Cloud Services,Corporate Card,4577.69,17000,Finance Manager,FALSE,TRUE,PRJ-415,Approved
+EX00121,2025-07-09,Support,CC-SUP-36,AWS,Recruiting,Reimbursement,1100.43,11000,VP Sales,FALSE,TRUE,PRJ-740,Approved
+EX00163,2025-07-10,Sales,CC-SAL-75,Adobe,Cloud Services,ACH,2158.77,15000,CFO,FALSE,TRUE,PRJ-740,Approved
+EX00143,2025-07-10,Sales,CC-SAL-87,Uber,Recruiting,ACH,1022.75,15000,COO,FALSE,TRUE,PRJ-512,Approved
+EX00095,2025-07-11,Support,CC-SUP-57,Zoom.us,Contractors,ACH,719.58,11000,Finance Manager,FALSE,TRUE,PRJ-415,Approved
+EX00090,2025-07-12,Engineering,CC-ENG-19,Google Cloud,Hardware,Corporate Card,2946.34,20000,COO,FALSE,TRUE,PRJ-740,Pending
+EX00040,2025-07-13,Sales,CC-SAL-67,Concur,Software,Reimbursement,1436.11,15000,COO,FALSE,TRUE,PRJ-620,Approved
+EX00195,2025-07-15,IT,CC-IT-97,Atlassian,Travel,Corporate Card,962.25,9000,Head of Engineering,FALSE,TRUE,PRJ-415,Approved
+EX00116,2025-07-16,Support,CC-SUP-34,Zoom,Training,Corporate Card,2713.73,11000,CFO,TRUE,TRUE,PRJ-740,Approved
+EX00196,2025/07/16,Marketing,CC-MAR-37,Zoom,Training,Reimbursement,434.25,17000,Head of Engineering,FALSE,TRUE,PRJ-203,Approved
+EX00070,2025/07/17,Sales,CC-SAL-86,zoom,Software,Corporate Card,3897.05,15000,,FALSE,TRUE,PRJ-512,Pending
+EX00002,2025-07-18,Support,CC-SUP-63,Dell,Contractors,Corporate Card,6161.97,11000,VP Marketing,FALSE,TRUE,PRJ-101,Approved
+EX00069,2025-07-18,Finance,CC-FIN-68,Concur,Contractors,Corporate Card,1079.64,7000,VP Marketing,FALSE,TRUE,PRJ-620,Approved
+EX00096,2025-07-19,IT,CC-IT-68,Concur,Travel,Corporate Card,1039.79,9000,Finance Manager,TRUE,TRUE,PRJ-415,Approved
+EX00021,2025-07-23,Support,CC-SUP-56,Salesforce,Training,Corporate Card,1838.38,11000,Finance Manager,FALSE,TRUE,PRJ-512,Approved
+EX00140,2025-07-23,Support,CC-SUP-85,Zoom.us,Contractors,ACH,885.04,11000,Finance Manager,FALSE,TRUE,PRJ-101,Approved
+EX00098,2025/07/26,Engineering,CC-ENG-35,Atlassian,Cloud Services,Wire Transfer,2854.69,20000,Head of Engineering,FALSE,TRUE,PRJ-620,Pending
+EX00201,2025-07-27,Sales,CC-SAL-42,Concur,Contractors,Corporate Card,3785.92,15000,VP Sales,FALSE,TRUE,PRJ-203,Approved
+EX00026,2025-07-28,Sales,CC-SAL-77,Concur,Contractors,ACH,898.98,15000,Finance Manager,FALSE,TRUE,PRJ-101,Approved
+EX00074,2025-07-30,Support,CC-SUP-10,Adobe,Contractors,ACH,3711.77,11000,Finance Manager,FALSE,TRUE,PRJ-203,Approved
+EX00078,07/31/2025,People,CC-PEO-79,Slack,Travel,Wire Transfer,1042.62,6500,Finance Manager,FALSE,TRUE,PRJ-101,Approved
+EX00210,2025-07-31,Support,CC-SUP-37,Adobe,Software,Reimbursement,4712.88,11000,COO,FALSE,TRUE,PRJ-415,Approved
+EX00120,2025-07-31,Sales,CC-SAL-20,Google Cloud,Contractors,ACH,4812.57,15000,COO,FALSE,TRUE,PRJ-310,Approved
+EX00007,2025-08-05,Finance,CC-FIN-65,Adobe,Professional Services,Wire Transfer,4046.54,7000,COO,FALSE,TRUE,PRJ-203,Approved
+EX00030,2025-08-06,Support,CC-SUP-71,Salesforce,Cloud Services,Corporate Card,2371.97,11000,Finance Manager,FALSE,TRUE,PRJ-620,Pending
+EX00200,2025-08-07,Marketing,CC-MAR-19,Notion,Travel,Corporate Card,569.44,17000,Head of Engineering,FALSE,TRUE,PRJ-512,Approved
+EX00031,2025-08-08,Support,CC-SUP-88,Google Cloud,Office Supplies,Reimbursement,1132.11,11000,CFO,FALSE,TRUE,PRJ-203,Approved
+EX00183,2025-08-11,Sales,CC-SAL-83,Adobe,Office Supplies,Corporate Card,6766.37,15000,COO,TRUE,TRUE,PRJ-101,Approved
+EX00175,2025-08-13,Engineering,CC-ENG-47,Workday,Software,Reimbursement,3026.1,20000,VP Marketing,FALSE,FALSE,PRJ-310,Pending
+EX00123,2025-08-14,Marketing,CC-MAR-35,Zoom,Contractors,ACH,3599.23,17000,COO,FALSE,TRUE,PRJ-310,Approved
+EX00113,2025-08-15,IT,CC-IT-43,Google Cloud,Training,Corporate Card,6458.57,9000,VP Sales,FALSE,TRUE,PRJ-415,Approved
+EX00204,2025-08-16,Support,CC-SUP-39,Concur,Hardware,Corporate Card,1869.18,11000,VP Sales,FALSE,TRUE,PRJ-415,Approved
+EX00009,2025-08-16,Operations,CC-OPE-30,Uber,Travel,Corporate Card,721.17,10000,Finance Manager,FALSE,TRUE,PRJ-101,Approved
+EX00035,2025-08-17,Support,CC-SUP-34,Slack,Recruiting,Corporate Card,1131.41,11000,VP Sales,FALSE,TRUE,PRJ-620,Approved
+EX00019,2025-08-17,Sales,CC-SAL-38,Notion,Training,Wire Transfer,992.61,15000,Finance Manager,FALSE,TRUE,PRJ-203,Approved
+EX00139,2025-08-19,Marketing,CC-MAR-92,Google Cloud,Software,ACH,25201.92,17000,VP Marketing,FALSE,FALSE,PRJ-620,Pending
+EX00164,2025-08-19,Sales,CC-SAL-72,Atlassian,Hardware,Corporate Card,699.16,15000,VP Marketing,FALSE,TRUE,PRJ-620,Approved
+EX00100,2025-08-19,IT,CC-IT-39,Uber,Recruiting,Corporate Card,519.07,9000,CFO,FALSE,TRUE,PRJ-101,Approved
+EX00014,2025-08-20,Finance,CC-FIN-84,Dell,Office Supplies,ACH,1298.4,7000,VP Sales,FALSE,TRUE,PRJ-620,Approved
+EX00015,2025-08-20,Sales,CC-SAL-16,Dell,Cloud Services,ACH,874.69,15000,CFO,FALSE,TRUE,PRJ-512,Approved
+EX00137,2025-08-23,Sales,CC-SAL-26,Salesforce,Professional Services,Corporate Card,7747.27,15000,Head of Engineering,FALSE,TRUE,PRJ-310,Approved
+EX00135,2025-08-24,Finance,CC-FIN-52,Salesforce,Cloud Services,Wire Transfer,2712.62,7000,Head of Engineering,FALSE,TRUE,PRJ-415,Approved
+EX00184,2025-08-25,Marketing,CC-MAR-10,Notion,Hardware,Corporate Card,4677.17,17000,VP Sales,FALSE,TRUE,PRJ-620,Pending
+EX00057,2025-08-26,Engineering,CC-ENG-39,AWS,Software,Corporate Card,3481.81,20000,COO,FALSE,TRUE,PRJ-512,Approved
+EX00149,2025-08-27,Operations,CC-OPE-41,Notion.so,Travel,ACH,2802.61,10000,COO,TRUE,TRUE,PRJ-101,Approved
+EX00060,2025/08/27,Sales,CC-SAL-63,Atlassian,Contractors,Corporate Card,7482.32,15000,COO,FALSE,TRUE,PRJ-512,Approved
+EX00010,2025-08-28,Marketing,CC-MAR-19,ATLASSIAN,Contractors,Corporate Card,3133.59,17000,VP Sales,FALSE,TRUE,PRJ-203,Approved
+EX00056,2025-08-30,Marketing,CC-MAR-24,ServiceNow,Events,Reimbursement,-3575.1,17000,VP Marketing,TRUE,TRUE,PRJ-415,Pending
+EX00016,2025-08-30,Engineering,CC-ENG-76,AWS,Software,Corporate Card,4540.73,20000,Finance Manager,TRUE,TRUE,PRJ-101,Approved
+EX00118,2025-08-31,Sales,CC-SAL-62,Google Cloud,Hardware,Wire Transfer,2571.06,15000,Head of Engineering,FALSE,TRUE,PRJ-740,Approved

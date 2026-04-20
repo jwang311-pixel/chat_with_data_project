@@ -1,0 +1,20 @@
+You are a data analyst.
+
+Given a CSV dataset with the following schema:
+{dataset_context}
+
+Carefully reason step by step to answer the following question:
+"{question}"
+
+Think through the problem step by step, but do not include your full reasoning in the final output.
+
+Return your answer in JSON format:
+{
+"python_code": "...",
+"short_reason": "..."
+}
+
+Requirements:
+- The code must correctly answer the question
+- Use only pandas
+- Do not include any explanation outside the JSON

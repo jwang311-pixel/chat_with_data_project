@@ -1,0 +1,17 @@
+[
+  {
+    "id": "baseline",
+    "label": "baseline",
+    "description": "Given the dataset and the question, simply ask it to generate the code.'"
+  },
+  {
+    "id": "structured",
+    "label": "structured",
+    "description": "Guide the model with structured steps to improve the accuracy of the generated code."
+  },
+  {
+    "id": "CoT",
+    "label": "CoT (Chain-of-Thought)",
+    "description": "Encourage step-by-step reasoning before generating the code."
+  }
+]

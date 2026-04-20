@@ -1,0 +1,21 @@
+question_id,question
+Q1,What is the total gross revenue across all orders in this dataset?
+Q2,How many unique customers (customer_id) have placed an order?
+Q3,Which product category has the highest total quantity sold?
+Q4,Show me the top 5 products by total profit.
+Q5,What is the total shipping cost we've paid so far?
+Q6,What is the average discount percentage?
+Q7,Give me a breakdown of orders by payment method. How are you categorizing the ones with no method listed?
+Q8,Calculate the total net revenue. Does the system handle missing discount data correctly in this calculation?
+Q9,"Which region is the most profitable for us, and what is its profit margin?"
+Q10,Identify orders where we actually lost money (profit < 0). What are the main reasons?
+Q11,"Compare the Average Order Value (AOV) between ""Online"" and ""Marketplace"" channels."
+Q12,What is the total revenue generated specifically from orders that used a promo code?
+Q13,"Which customer tier (SMB, Mid-Market, or Enterprise) contributes the most to our bottom line?"
+Q14,"Does the order_total always equal the sum of net_revenue, tax_amount, and shipping_cost?"
+Q15,Show me the monthly sales trend for 2024 and 2025. Is our revenue growing?
+Q16,"What is the total tax amount collected for orders in the ""LATAM"" region?"
+Q17,"Which sales rep has the highest refund rate based on the ""Status"" column?"
+Q18,"Find any ""Shipping Heavy"" orders where the shipping cost is more than 20% of the unit price."
+Q19,Calculate the ROI of our promotions: What is the total discount amount given vs. the total net revenue gained?
+Q20,Who is our most valuable customer (VIP) based on a combination of total spend and order frequency?

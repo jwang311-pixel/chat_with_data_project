@@ -1,0 +1,18 @@
+[
+  {
+    "id": "openai/gpt-3.5-turbo",
+    "label": "GPT-3.5 Turbo"
+  },
+  {
+    "id": "meta-llama/llama-3.3-70b-instruct:free",
+    "label": "Llama 3.3 70B (Free)"
+  },
+  {
+    "id": "qwen/qwen3-coder:free",
+    "label": "Qwen3 Coder (Free)"
+  },
+  {
+    "id": "nvidia/nemotron-3-super-120b-a12b:free",
+    "label": "Nemotron 3 Super (Free)"
+  }
+]

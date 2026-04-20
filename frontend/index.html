@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chat With Your Data</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    .panel {
+      background: #1e293b;
+      padding: 16px;
+      border-radius: 10px;
+      margin-bottom: 16px;
+    }
+
+    .section-title {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    select, input, button, textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 6px;
+      border-radius: 6px;
+      border: none;
+    }
+
+    button {
+      background: #3b82f6;
+      color: white;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background: #2563eb;
+    }
+
+    .small {
+      font-size: 12px;
+      color: #94a3b8;
+    }
+
+    .ok {
+      color: #22c55e;
+    }
+
+    .err {
+      color: #ef4444;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      border: 1px solid #334155;
+      padding: 6px;
+      font-size: 12px;
+    }
+
+    th {
+      background: #334155;
+    }
+
+    pre {
+      background: #020617;
+      padding: 10px;
+      border-radius: 6px;
+      overflow: auto;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>📊 Chat With Your Data</h1>
+
+<!-- 上传模块 -->
+<div class="panel">
+  <div class="section-title">Upload CSV / Excel</div>
+
+  <input type="file" id="upload" accept=".csv,.xlsx,.xls" />
+  <button id="uploadBtn">Upload</button>
+
+  <div id="uploadStatus" class="small"></div>
+</div>
+
+<!-- 数据预览 -->
+<div class="panel">
+  <div class="section-title">Dataset Preview</div>
+  <div id="datasetPreview" class="small">
+    Upload a dataset to see preview.
+  </div>
+</div>
+
+<!-- 模型选择 -->
+<div class="panel">
+  <div class="section-title">Model</div>
+  <select id="model"></select>
+
+  <div class="section-title">Prompt Mode</div>
+  <select id="mode"></select>
+</div>
+
+<!-- 提问 -->
+<div class="panel">
+  <div class="section-title">Ask a Question</div>
+
+  <textarea id="question" rows="3"></textarea>
+  <button id="askBtn">Ask</button>
+
+  <div id="chatStatus" class="small"></div>
+
+  <h3>Answer</h3>
+  <div id="finalAnswer"></div>
+
+  <h3>Execution</h3>
+  <pre id="executionInfo"></pre>
+
+  <h3>Generated Code</h3>
+  <pre id="pythonCode"></pre>
+</div>
+
+<!-- JS -->
+<script src="/static/app.js"></script>
+
+</body>
+</html>

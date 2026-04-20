@@ -1,0 +1,17 @@
+{dataset_context}
+Question: {question}
+
+Review this previous attempt and correct any mistakes.
+Previous code:
+{previous_code}
+
+Previous answer:
+{previous_answer}
+
+Previous stdout:
+{previous_stdout}
+
+Previous error:
+{previous_error}
+
+Return a corrected strict JSON object only.

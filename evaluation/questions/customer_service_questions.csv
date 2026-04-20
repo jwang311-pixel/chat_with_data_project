@@ -1,0 +1,21 @@
+﻿question_id,question
+Q1,What is the average time it takes for us to give the first response to a customer?
+Q2,What percentage of our tickets have breached the SLA?
+Q3,Which support category has the highest customer satisfaction (CSAT) score?
+Q4,Who is our best Agent? (Highest volume handled with a CSAT score over 4.5).
+Q5,"How much longer does it take to resolve a ""High"" priority ticket compared to a ""Low"" one?"
+Q6,"Show me all ""High"" priority tickets that are still ""Open"" after more than 24 hours."
+Q7,"Where do most of our tickets come from? (Email, Chat, Phone, etc.)"
+Q8,What is our overall resolution rate (Resolved vs. Total tickets)?
+Q9,"What is the most common reason for a ticket to be ""Reopened""?"
+Q10,Which support team is struggling the most with SLA breaches?
+Q11,"Do ""Enterprise"" customers get faster first responses than other tiers?"
+Q12,Find any tickets that took more than 3 days to resolve.
+Q13,Show me the ticket volume trend by day/week. When are we the busiest?
+Q14,Does our response time get worse when we have more tickets in a day?
+Q15,List all tickets where the customer gave us a 1-star rating. Who was the agent?
+Q16,"Which team is the most efficient at solving ""Technical"" issues?"
+Q17,"What is the ""Reopen Rate"" for each agent? (How often do their tickets get opened again?)"
+Q18,What is the most common subcategory our customers are asking about?
+Q19,"On average, how many hours does it take to go from ""Ticket Created"" to ""Ticket Resolved""?"
+Q20,"Are ""Free"" tier users waiting significantly longer for a response than ""Pro"" users?"

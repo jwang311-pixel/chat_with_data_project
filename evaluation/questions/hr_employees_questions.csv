@@ -1,0 +1,21 @@
+﻿question_id,question
+Q1,What is our current total headcount of active employees?
+Q2,What is the average annual salary for the entire company?
+Q3,"For employees missing a ""termination_date"", can you confirm if the system correctly treats them as ""Active""?"
+Q4,Give me a breakdown of headcount and total salary cost for each department.
+Q5,Who are the top 3 managers who have the most people reporting to them?
+Q6,"Is there a difference in performance ratings between Remote, Hybrid, and On-site workers?"
+Q7,What is the average number of years employees have stayed with the company?
+Q8,"Are there any employees earning significantly more (e.g., 50% more) than the average for their department?"
+Q9,What is the typical bonus percentage for our top performers (Rating = 5)?
+Q10,Which city (Location) has the highest average employee compensation?
+Q11,"Can you identify any ""Star Interns"" who have a performance rating of 4 or higher?"
+Q12,What is the median salary for each job role in the company?
+Q13,How many people have we hired in the last 12 months?
+Q14,"On average, how long did employees stay before they were terminated?"
+Q15,Who is at the top of the organization chart? (Identify employees with no manager).
+Q16,"If we paid out all bonuses today, how much total budget would we need for active employees?"
+Q17,Compare the salaries of Full-time staff vs. Contractors for the same roles.
+Q18,List all employees with low performance ratings (1 or 2) so we can review their progress.
+Q19,"Which department is the most ""Remote-friendly"" based on headcount?"
+Q20,Generate a report showing each manager's name and how many direct reports they have.

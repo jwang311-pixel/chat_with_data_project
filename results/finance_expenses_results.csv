@@ -1,0 +1,514 @@
+dataset_file,dataset_id,question_id,question,model_id,prompt_mode,status,final_answer,python_code,execution_result,execution_stdout,execution_error,trace_count,elapsed_sec,error,started_at
+finance_expenses_questions.csv,finance_expenses,Q1,"What was our total company spend in 2025, taking into account all refunds and credit notes?",openai/gpt-3.5-turbo,baseline,ok,The total company spend in 2025 cannot be calculated due to an AttributeError related to using the .dt accessor with non-datetime values.,result = df[df['expense_date'].dt.year == 2025]['amount'].sum(),,,AttributeError: Can only use .dt accessor with datetimelike values,2,4.015,,1776671735.169646
+finance_expenses_questions.csv,finance_expenses,Q1,"What was our total company spend in 2025, taking into account all refunds and credit notes?",openai/gpt-3.5-turbo,structured,ok,The total company spend in 2025 cannot be calculated due to an AttributeError related to the 'expense_date' column not being recognized as a datetimelike value.,result = df[df['expense_date'].dt.year == 2025]['amount'].sum(),,,AttributeError: Can only use .dt accessor with datetimelike values,2,3.67,,1776671739.184559
+finance_expenses_questions.csv,finance_expenses,Q1,"What was our total company spend in 2025, taking into account all refunds and credit notes?",openai/gpt-3.5-turbo,CoT,ok,The total company spend in 2025 cannot be calculated due to an AttributeError related to the 'expense_date' column not being in a datetime format.,result = df[df['expense_date'].dt.year == 2025]['amount'].sum(),,,AttributeError: Can only use .dt accessor with datetimelike values,2,3.84,,1776671742.854333
+finance_expenses_questions.csv,finance_expenses,Q1,"What was our total company spend in 2025, taking into account all refunds and credit notes?",meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.384,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671746.6942348
+finance_expenses_questions.csv,finance_expenses,Q1,"What was our total company spend in 2025, taking into account all refunds and credit notes?",meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.257,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671747.0781748
+finance_expenses_questions.csv,finance_expenses,Q1,"What was our total company spend in 2025, taking into account all refunds and credit notes?",meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.282,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671747.33526
+finance_expenses_questions.csv,finance_expenses,Q1,"What was our total company spend in 2025, taking into account all refunds and credit notes?",qwen/qwen3-coder:free,baseline,error,,,,,,,0.628,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671747.6170876
+finance_expenses_questions.csv,finance_expenses,Q1,"What was our total company spend in 2025, taking into account all refunds and credit notes?",qwen/qwen3-coder:free,structured,error,,,,,,,0.286,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671748.2448664
+finance_expenses_questions.csv,finance_expenses,Q1,"What was our total company spend in 2025, taking into account all refunds and credit notes?",qwen/qwen3-coder:free,CoT,error,,,,,,,0.288,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671748.5329664
+finance_expenses_questions.csv,finance_expenses,Q1,"What was our total company spend in 2025, taking into account all refunds and credit notes?",nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.289,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671748.820805
+finance_expenses_questions.csv,finance_expenses,Q1,"What was our total company spend in 2025, taking into account all refunds and credit notes?",nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.309,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671749.1098976
+finance_expenses_questions.csv,finance_expenses,Q1,"What was our total company spend in 2025, taking into account all refunds and credit notes?",nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.271,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671749.4190156
+finance_expenses_questions.csv,finance_expenses,Q2,How much did we spend on Notion across all departments?,openai/gpt-3.5-turbo,baseline,ok,"We spent a total of $35,491.56 on Notion across all departments.",result = df[df['vendor'].str.lower() == 'notion']['amount'].sum(),35491.56,,,2,3.373,,1776671749.6904545
+finance_expenses_questions.csv,finance_expenses,Q2,How much did we spend on Notion across all departments?,openai/gpt-3.5-turbo,structured,ok,"We spent a total of $12,456.35 on Notion across all departments.",result = df[df['vendor'] == 'Notion']['amount'].sum(),12456.35,,,2,3.735,,1776671753.0630214
+finance_expenses_questions.csv,finance_expenses,Q2,How much did we spend on Notion across all departments?,openai/gpt-3.5-turbo,CoT,ok,"We spent a total of $35,491.56 on Notion across all departments.",result = df[df['vendor'].str.lower() == 'notion']['amount'].sum(),35491.56,,,2,3.565,,1776671756.8051882
+finance_expenses_questions.csv,finance_expenses,Q2,How much did we spend on Notion across all departments?,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.443,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671760.3702564
+finance_expenses_questions.csv,finance_expenses,Q2,How much did we spend on Notion across all departments?,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.981,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671760.8136873
+finance_expenses_questions.csv,finance_expenses,Q2,How much did we spend on Notion across all departments?,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.355,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671761.7947245
+finance_expenses_questions.csv,finance_expenses,Q2,How much did we spend on Notion across all departments?,qwen/qwen3-coder:free,baseline,error,,,,,,,0.369,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671762.1501496
+finance_expenses_questions.csv,finance_expenses,Q2,How much did we spend on Notion across all departments?,qwen/qwen3-coder:free,structured,error,,,,,,,0.509,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671762.518763
+finance_expenses_questions.csv,finance_expenses,Q2,How much did we spend on Notion across all departments?,qwen/qwen3-coder:free,CoT,error,,,,,,,0.424,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671763.0406942
+finance_expenses_questions.csv,finance_expenses,Q2,How much did we spend on Notion across all departments?,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.271,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671763.4649787
+finance_expenses_questions.csv,finance_expenses,Q2,How much did we spend on Notion across all departments?,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.235,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671763.736311
+finance_expenses_questions.csv,finance_expenses,Q2,How much did we spend on Notion across all departments?,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.271,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671763.9717278
+finance_expenses_questions.csv,finance_expenses,Q3,Which month had the highest total spend?,openai/gpt-3.5-turbo,baseline,ok,AttributeError: Can only use .dt accessor with datetimelike values,result = df.groupby(df['expense_date'].dt.month)['amount'].sum().idxmax(),,,AttributeError: Can only use .dt accessor with datetimelike values,2,3.651,,1776671764.2434325
+finance_expenses_questions.csv,finance_expenses,Q3,Which month had the highest total spend?,openai/gpt-3.5-turbo,structured,ok,AttributeError: Can only use .dt accessor with datetimelike values,result = df.groupby(df['expense_date'].dt.month)['amount'].sum().idxmax(),,,AttributeError: Can only use .dt accessor with datetimelike values,2,3.966,,1776671767.8967342
+finance_expenses_questions.csv,finance_expenses,Q3,Which month had the highest total spend?,openai/gpt-3.5-turbo,CoT,ok,The code provided resulted in an error due to trying to use .dt accessor on non-datetime values.,result = df.groupby(df['expense_date'].dt.month)['amount'].sum().idxmax(),,,AttributeError: Can only use .dt accessor with datetimelike values,2,3.749,,1776671771.863029
+finance_expenses_questions.csv,finance_expenses,Q3,Which month had the highest total spend?,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.356,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671775.6117291
+finance_expenses_questions.csv,finance_expenses,Q3,Which month had the highest total spend?,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.361,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671775.9677327
+finance_expenses_questions.csv,finance_expenses,Q3,Which month had the highest total spend?,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.353,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671776.329052
+finance_expenses_questions.csv,finance_expenses,Q3,Which month had the highest total spend?,qwen/qwen3-coder:free,baseline,error,,,,,,,0.337,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671776.697227
+finance_expenses_questions.csv,finance_expenses,Q3,Which month had the highest total spend?,qwen/qwen3-coder:free,structured,error,,,,,,,0.375,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671777.034058
+finance_expenses_questions.csv,finance_expenses,Q3,Which month had the highest total spend?,qwen/qwen3-coder:free,CoT,error,,,,,,,0.37,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671777.4093578
+finance_expenses_questions.csv,finance_expenses,Q3,Which month had the highest total spend?,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.273,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671777.7802606
+finance_expenses_questions.csv,finance_expenses,Q3,Which month had the highest total spend?,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.316,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671778.060235
+finance_expenses_questions.csv,finance_expenses,Q3,Which month had the highest total spend?,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.261,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671778.391758
+finance_expenses_questions.csv,finance_expenses,Q4,"For Q1 2025, what were the top 5 vendors by spend?",openai/gpt-3.5-turbo,baseline,ok,The top 5 vendors by spend for Q1 2025 cannot be determined due to an AttributeError related to datetime values.,result = df[df['expense_date'].dt.year == 2025].groupby('vendor')['amount'].sum().nlargest(5),,,AttributeError: Can only use .dt accessor with datetimelike values,2,4.484,,1776671778.6526856
+finance_expenses_questions.csv,finance_expenses,Q4,"For Q1 2025, what were the top 5 vendors by spend?",openai/gpt-3.5-turbo,structured,ok,The analysis could not be performed due to an AttributeError related to the 'expense_date' column not being recognized as a datetime-like value.,result = df[df['expense_date'].dt.year == 2025].groupby('vendor')['amount'].sum().nlargest(5),,,AttributeError: Can only use .dt accessor with datetimelike values,2,4.213,,1776671783.1364365
+finance_expenses_questions.csv,finance_expenses,Q4,"For Q1 2025, what were the top 5 vendors by spend?",openai/gpt-3.5-turbo,CoT,ok,"The top 5 vendors by spend for Q1 2025 were NOTION, Adobe, Concur, Notion, and AWS, with amounts ranging from $4,809.94 to $10,462.58.",result = df[df['expense_date'].str.startswith('2025-01')].groupby('vendor')['amount'].sum().nlargest(5),"vendor
+NOTION    10462.58
+Adobe      8970.15
+Concur     5358.06
+Notion     4900.80
+AWS        4809.94
+Name: amount, dtype: float64",,,2,4.728,,1776671787.349591
+finance_expenses_questions.csv,finance_expenses,Q4,"For Q1 2025, what were the top 5 vendors by spend?",meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.364,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671792.0796533
+finance_expenses_questions.csv,finance_expenses,Q4,"For Q1 2025, what were the top 5 vendors by spend?",meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.382,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671792.4447546
+finance_expenses_questions.csv,finance_expenses,Q4,"For Q1 2025, what were the top 5 vendors by spend?",meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.261,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671792.8263657
+finance_expenses_questions.csv,finance_expenses,Q4,"For Q1 2025, what were the top 5 vendors by spend?",qwen/qwen3-coder:free,baseline,error,,,,,,,0.438,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671793.0876124
+finance_expenses_questions.csv,finance_expenses,Q4,"For Q1 2025, what were the top 5 vendors by spend?",qwen/qwen3-coder:free,structured,error,,,,,,,0.338,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671793.52749
+finance_expenses_questions.csv,finance_expenses,Q4,"For Q1 2025, what were the top 5 vendors by spend?",qwen/qwen3-coder:free,CoT,error,,,,,,,0.238,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671793.8659155
+finance_expenses_questions.csv,finance_expenses,Q4,"For Q1 2025, what were the top 5 vendors by spend?",nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.233,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671794.1041987
+finance_expenses_questions.csv,finance_expenses,Q4,"For Q1 2025, what were the top 5 vendors by spend?",nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.236,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671794.3372123
+finance_expenses_questions.csv,finance_expenses,Q4,"For Q1 2025, what were the top 5 vendors by spend?",nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.296,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671794.5733469
+finance_expenses_questions.csv,finance_expenses,Q5,"Which department is closest to exceeding its monthly budget, and which one has the most surplus?",openai/gpt-3.5-turbo,baseline,ok,"The department closest to exceeding its monthly budget is IT with $16,416.57, while the department with the most surplus is Engineering with $92,536.03.",result = df.groupby('department')['amount'].sum() - df['budget_monthly'].max(),"department
+Engineering    92536.03
+Finance        18288.59
+IT             16416.57
+Marketing      87735.79
+Operations     25758.67
+People         14041.83
+Sales          86463.89
+Support        51805.69
+Name: amount, dtype: float64",,,2,4.497,,1776671794.8688574
+finance_expenses_questions.csv,finance_expenses,Q5,"Which department is closest to exceeding its monthly budget, and which one has the most surplus?",openai/gpt-3.5-turbo,structured,ok,"The department closest to exceeding its monthly budget is Finance with $18,288.59, while the department with the most surplus is Engineering with $92,536.03.",result = df.groupby('department')['amount'].sum() - df['budget_monthly'].max(),"department
+Engineering    92536.03
+Finance        18288.59
+IT             16416.57
+Marketing      87735.79
+Operations     25758.67
+People         14041.83
+Sales          86463.89
+Support        51805.69
+Name: amount, dtype: float64",,,2,4.114,,1776671799.3661075
+finance_expenses_questions.csv,finance_expenses,Q5,"Which department is closest to exceeding its monthly budget, and which one has the most surplus?",openai/gpt-3.5-turbo,CoT,ok,"The department closest to exceeding its monthly budget is Finance, while the department with the most surplus is Engineering.",result = df.groupby('department')['amount'].sum() - df['budget_monthly'].max(),"department
+Engineering    92536.03
+Finance        18288.59
+IT             16416.57
+Marketing      87735.79
+Operations     25758.67
+People         14041.83
+Sales          86463.89
+Support        51805.69
+Name: amount, dtype: float64",,,2,4.208,,1776671803.4828813
+finance_expenses_questions.csv,finance_expenses,Q5,"Which department is closest to exceeding its monthly budget, and which one has the most surplus?",meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.237,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671807.6909528
+finance_expenses_questions.csv,finance_expenses,Q5,"Which department is closest to exceeding its monthly budget, and which one has the most surplus?",meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.212,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671807.9276228
+finance_expenses_questions.csv,finance_expenses,Q5,"Which department is closest to exceeding its monthly budget, and which one has the most surplus?",meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.269,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671808.13952
+finance_expenses_questions.csv,finance_expenses,Q5,"Which department is closest to exceeding its monthly budget, and which one has the most surplus?",qwen/qwen3-coder:free,baseline,error,,,,,,,0.269,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671808.408883
+finance_expenses_questions.csv,finance_expenses,Q5,"Which department is closest to exceeding its monthly budget, and which one has the most surplus?",qwen/qwen3-coder:free,structured,error,,,,,,,0.243,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671808.6779335
+finance_expenses_questions.csv,finance_expenses,Q5,"Which department is closest to exceeding its monthly budget, and which one has the most surplus?",qwen/qwen3-coder:free,CoT,error,,,,,,,0.874,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671808.922566
+finance_expenses_questions.csv,finance_expenses,Q5,"Which department is closest to exceeding its monthly budget, and which one has the most surplus?",nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.269,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671809.8009953
+finance_expenses_questions.csv,finance_expenses,Q5,"Which department is closest to exceeding its monthly budget, and which one has the most surplus?",nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.249,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671810.0704212
+finance_expenses_questions.csv,finance_expenses,Q5,"Which department is closest to exceeding its monthly budget, and which one has the most surplus?",nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.292,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671810.3197825
+finance_expenses_questions.csv,finance_expenses,Q6,"Identify any ""Pending"" transactions over $5,000 that we need to approve urgently.",openai/gpt-3.5-turbo,baseline,ok,"There are 4 'Pending' transactions with amounts over $5,000 that need urgent approval.",result = df[(df['status'] == 'Pending') & (df['amount'] > 5000)],"    expense_id expense_date  ... project_code   status
+1      EX00032   2025-01-01  ...      PRJ-203  Pending
+33     EX00197   2025-02-10  ...      PRJ-512  Pending
+67     EX00001   2025-03-29  ...      PRJ-203  Pending
+205    EX00139   2025-08-19  ...      PRJ-620  Pending
+
+[4 rows x 14 columns]",,,2,3.699,,1776671810.611815
+finance_expenses_questions.csv,finance_expenses,Q6,"Identify any ""Pending"" transactions over $5,000 that we need to approve urgently.",openai/gpt-3.5-turbo,structured,ok,"There are 4 'Pending' transactions with amounts over $5,000 that need urgent approval.",result = df[(df['status'] == 'Pending') & (df['amount'] > 5000)],"    expense_id expense_date  ... project_code   status
+1      EX00032   2025-01-01  ...      PRJ-203  Pending
+33     EX00197   2025-02-10  ...      PRJ-512  Pending
+67     EX00001   2025-03-29  ...      PRJ-203  Pending
+205    EX00139   2025-08-19  ...      PRJ-620  Pending
+
+[4 rows x 14 columns]",,,2,3.955,,1776671814.3121629
+finance_expenses_questions.csv,finance_expenses,Q6,"Identify any ""Pending"" transactions over $5,000 that we need to approve urgently.",openai/gpt-3.5-turbo,CoT,ok,"There are 4 'Pending' transactions with amounts over $5,000 that require urgent approval.",result = df[(df['status'] == 'Pending') & (df['amount'] > 5000)],"    expense_id expense_date  ... project_code   status
+1      EX00032   2025-01-01  ...      PRJ-203  Pending
+33     EX00197   2025-02-10  ...      PRJ-512  Pending
+67     EX00001   2025-03-29  ...      PRJ-203  Pending
+205    EX00139   2025-08-19  ...      PRJ-620  Pending
+
+[4 rows x 14 columns]",,,2,4.192,,1776671818.2671165
+finance_expenses_questions.csv,finance_expenses,Q6,"Identify any ""Pending"" transactions over $5,000 that we need to approve urgently.",meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.429,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671822.4595702
+finance_expenses_questions.csv,finance_expenses,Q6,"Identify any ""Pending"" transactions over $5,000 that we need to approve urgently.",meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.359,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671822.8885128
+finance_expenses_questions.csv,finance_expenses,Q6,"Identify any ""Pending"" transactions over $5,000 that we need to approve urgently.",meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.319,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671823.2475562
+finance_expenses_questions.csv,finance_expenses,Q6,"Identify any ""Pending"" transactions over $5,000 that we need to approve urgently.",qwen/qwen3-coder:free,baseline,error,,,,,,,0.402,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671823.5666568
+finance_expenses_questions.csv,finance_expenses,Q6,"Identify any ""Pending"" transactions over $5,000 that we need to approve urgently.",qwen/qwen3-coder:free,structured,error,,,,,,,0.363,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671823.968865
+finance_expenses_questions.csv,finance_expenses,Q6,"Identify any ""Pending"" transactions over $5,000 that we need to approve urgently.",qwen/qwen3-coder:free,CoT,error,,,,,,,0.381,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671824.3320973
+finance_expenses_questions.csv,finance_expenses,Q6,"Identify any ""Pending"" transactions over $5,000 that we need to approve urgently.",nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.281,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671824.7135491
+finance_expenses_questions.csv,finance_expenses,Q6,"Identify any ""Pending"" transactions over $5,000 that we need to approve urgently.",nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.274,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671824.9954848
+finance_expenses_questions.csv,finance_expenses,Q6,"Identify any ""Pending"" transactions over $5,000 that we need to approve urgently.",nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.27,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671825.2845366
+finance_expenses_questions.csv,finance_expenses,Q7,What is the breakdown of our spending by category? Which one is our biggest expense?,openai/gpt-3.5-turbo,baseline,ok,The breakdown of our spending by category shows that Software is our biggest expense.,result = df.groupby('expense_category')['amount'].sum().sort_values(ascending=False),"expense_category
+Software                 169568.15
+Contractors              106133.72
+Cloud Services            81683.43
+Travel                    58427.43
+Office Supplies           37429.31
+Hardware                  26188.53
+Events                    19601.91
+Recruiting                18637.77
+Professional Services     17911.76
+Training                  17465.05
+Name: amount, dtype: float64",,,2,4.263,,1776671825.5546908
+finance_expenses_questions.csv,finance_expenses,Q7,What is the breakdown of our spending by category? Which one is our biggest expense?,openai/gpt-3.5-turbo,structured,ok,The breakdown of our spending by category shows that Software is our biggest expense.,result = df.groupby('expense_category')['amount'].sum().sort_values(ascending=False),"expense_category
+Software                 169568.15
+Contractors              106133.72
+Cloud Services            81683.43
+Travel                    58427.43
+Office Supplies           37429.31
+Hardware                  26188.53
+Events                    19601.91
+Recruiting                18637.77
+Professional Services     17911.76
+Training                  17465.05
+Name: amount, dtype: float64",,,2,5.297,,1776671829.8173165
+finance_expenses_questions.csv,finance_expenses,Q7,What is the breakdown of our spending by category? Which one is our biggest expense?,openai/gpt-3.5-turbo,CoT,ok,The breakdown of spending by category shows that Software is our biggest expense.,result = df.groupby('expense_category')['amount'].sum().sort_values(ascending=False),"expense_category
+Software                 169568.15
+Contractors              106133.72
+Cloud Services            81683.43
+Travel                    58427.43
+Office Supplies           37429.31
+Hardware                  26188.53
+Events                    19601.91
+Recruiting                18637.77
+Professional Services     17911.76
+Training                  17465.05
+Name: amount, dtype: float64",,,2,5.005,,1776671835.1142168
+finance_expenses_questions.csv,finance_expenses,Q7,What is the breakdown of our spending by category? Which one is our biggest expense?,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.383,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671840.1195464
+finance_expenses_questions.csv,finance_expenses,Q7,What is the breakdown of our spending by category? Which one is our biggest expense?,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.365,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671840.5020776
+finance_expenses_questions.csv,finance_expenses,Q7,What is the breakdown of our spending by category? Which one is our biggest expense?,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.362,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671840.8675687
+finance_expenses_questions.csv,finance_expenses,Q7,What is the breakdown of our spending by category? Which one is our biggest expense?,qwen/qwen3-coder:free,baseline,error,,,,,,,0.343,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671841.2297866
+finance_expenses_questions.csv,finance_expenses,Q7,What is the breakdown of our spending by category? Which one is our biggest expense?,qwen/qwen3-coder:free,structured,error,,,,,,,0.342,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671841.5821671
+finance_expenses_questions.csv,finance_expenses,Q7,What is the breakdown of our spending by category? Which one is our biggest expense?,qwen/qwen3-coder:free,CoT,error,,,,,,,0.31,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671841.9237056
+finance_expenses_questions.csv,finance_expenses,Q7,What is the breakdown of our spending by category? Which one is our biggest expense?,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.253,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671842.233343
+finance_expenses_questions.csv,finance_expenses,Q7,What is the breakdown of our spending by category? Which one is our biggest expense?,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.249,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671842.4876342
+finance_expenses_questions.csv,finance_expenses,Q7,What is the breakdown of our spending by category? Which one is our biggest expense?,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.241,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671842.7369697
+finance_expenses_questions.csv,finance_expenses,Q8,"Who is the most frequent approver for these expenses, and what is the total value they've authorized?",openai/gpt-3.5-turbo,baseline,ok,"The most frequent approver for these expenses is the Finance Manager, who has authorized a total value of $104,890.83.","result = df.groupby('approved_by')['amount'].sum().idxmax(), df.groupby('approved_by')['amount'].sum().max()","[""Finance Manager"", 104890.83]",,,2,4.666,,1776671842.9783702
+finance_expenses_questions.csv,finance_expenses,Q8,"Who is the most frequent approver for these expenses, and what is the total value they've authorized?",openai/gpt-3.5-turbo,structured,ok,"The most frequent approver for these expenses is the Finance Manager, who has authorized a total value of $104,890.83.","result = df.groupby('approved_by')['amount'].sum().idxmax(), df.groupby('approved_by')['amount'].sum().max()","[""Finance Manager"", 104890.83]",,,2,4.149,,1776671847.6443944
+finance_expenses_questions.csv,finance_expenses,Q8,"Who is the most frequent approver for these expenses, and what is the total value they've authorized?",openai/gpt-3.5-turbo,CoT,ok,"The most frequent approver for these expenses is the Finance Manager, who has authorized a total value of $104,890.83.","result = df.groupby('approved_by')['amount'].sum().idxmax(), df.groupby('approved_by')['amount'].sum().max()","[""Finance Manager"", 104890.83]",,,2,4.553,,1776671851.7936077
+finance_expenses_questions.csv,finance_expenses,Q8,"Who is the most frequent approver for these expenses, and what is the total value they've authorized?",meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.441,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671856.3499694
+finance_expenses_questions.csv,finance_expenses,Q8,"Who is the most frequent approver for these expenses, and what is the total value they've authorized?",meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.398,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671856.7905374
+finance_expenses_questions.csv,finance_expenses,Q8,"Who is the most frequent approver for these expenses, and what is the total value they've authorized?",meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.232,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671857.1880658
+finance_expenses_questions.csv,finance_expenses,Q8,"Who is the most frequent approver for these expenses, and what is the total value they've authorized?",qwen/qwen3-coder:free,baseline,error,,,,,,,0.411,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671857.4198716
+finance_expenses_questions.csv,finance_expenses,Q8,"Who is the most frequent approver for these expenses, and what is the total value they've authorized?",qwen/qwen3-coder:free,structured,error,,,,,,,0.648,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671857.8313684
+finance_expenses_questions.csv,finance_expenses,Q8,"Who is the most frequent approver for these expenses, and what is the total value they've authorized?",qwen/qwen3-coder:free,CoT,error,,,,,,,0.884,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671858.4795914
+finance_expenses_questions.csv,finance_expenses,Q8,"Who is the most frequent approver for these expenses, and what is the total value they've authorized?",nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.265,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671859.3635538
+finance_expenses_questions.csv,finance_expenses,Q8,"Who is the most frequent approver for these expenses, and what is the total value they've authorized?",nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.211,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671859.6281993
+finance_expenses_questions.csv,finance_expenses,Q8,"Who is the most frequent approver for these expenses, and what is the total value they've authorized?",nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.27,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671859.8515286
+finance_expenses_questions.csv,finance_expenses,Q9,Compare the total cost of reimbursable vs. non-reimbursable expenses.,openai/gpt-3.5-turbo,baseline,ok,"The total cost of reimbursable expenses is $38,654.28, while the total cost of non-reimbursable expenses is $514,392.78.",result = df.groupby('reimbursable')['amount'].sum(),"reimbursable
+False    514392.78
+True      38654.28
+Name: amount, dtype: float64",,,2,3.782,,1776671860.1213942
+finance_expenses_questions.csv,finance_expenses,Q9,Compare the total cost of reimbursable vs. non-reimbursable expenses.,openai/gpt-3.5-turbo,structured,ok,"The total cost of non-reimbursable expenses is $514,392.78, while the total cost of reimbursable expenses is $38,654.28.",result = df.groupby('reimbursable')['amount'].sum(),"reimbursable
+False    514392.78
+True      38654.28
+Name: amount, dtype: float64",,,2,3.558,,1776671863.9034154
+finance_expenses_questions.csv,finance_expenses,Q9,Compare the total cost of reimbursable vs. non-reimbursable expenses.,openai/gpt-3.5-turbo,CoT,ok,"The total cost of reimbursable expenses is $38,654.28, while the total cost of non-reimbursable expenses is $514,392.78.",result = df.groupby('reimbursable')['amount'].sum(),"reimbursable
+False    514392.78
+True      38654.28
+Name: amount, dtype: float64",,,2,3.56,,1776671867.4618163
+finance_expenses_questions.csv,finance_expenses,Q9,Compare the total cost of reimbursable vs. non-reimbursable expenses.,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.308,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671871.0220098
+finance_expenses_questions.csv,finance_expenses,Q9,Compare the total cost of reimbursable vs. non-reimbursable expenses.,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.236,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671871.3296251
+finance_expenses_questions.csv,finance_expenses,Q9,Compare the total cost of reimbursable vs. non-reimbursable expenses.,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.271,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671871.5662172
+finance_expenses_questions.csv,finance_expenses,Q9,Compare the total cost of reimbursable vs. non-reimbursable expenses.,qwen/qwen3-coder:free,baseline,error,,,,,,,0.245,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671871.8371007
+finance_expenses_questions.csv,finance_expenses,Q9,Compare the total cost of reimbursable vs. non-reimbursable expenses.,qwen/qwen3-coder:free,structured,error,,,,,,,0.196,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671872.0821474
+finance_expenses_questions.csv,finance_expenses,Q9,Compare the total cost of reimbursable vs. non-reimbursable expenses.,qwen/qwen3-coder:free,CoT,error,,,,,,,0.227,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671872.2781835
+finance_expenses_questions.csv,finance_expenses,Q9,Compare the total cost of reimbursable vs. non-reimbursable expenses.,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.251,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671872.5050142
+finance_expenses_questions.csv,finance_expenses,Q9,Compare the total cost of reimbursable vs. non-reimbursable expenses.,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.232,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671872.7562625
+finance_expenses_questions.csv,finance_expenses,Q9,Compare the total cost of reimbursable vs. non-reimbursable expenses.,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.286,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671873.0036578
+finance_expenses_questions.csv,finance_expenses,Q10,Are there any approved expenses that are missing a receipt attachment?,openai/gpt-3.5-turbo,baseline,ok,There are 11 approved expenses that are missing a receipt attachment.,result = df[(df['status'] == 'Approved') & (df['receipt_attached'] == False)],"    expense_id expense_date  ... project_code    status
+2      EX00144   2025-01-02  ...      PRJ-101  Approved
+9      EX00028   2025-01-16  ...      PRJ-310  Approved
+10     EX00146   2025-01-16  ...      PRJ-415  Approved
+14     EX00126   2025-01-20  ...      PRJ-620  Approved
+17     EX00101   2025-01-22  ...      PRJ-101  Approved
+18     EX00024   2025-01-23  ...      PRJ-101  Approved
+35     EX00127   2025-02-19  ...      PRJ-415  Approved
+39     EX00193   02/24/2025  ...      PRJ-101  Approved
+82     EX00178   2025-04-21  ...      PRJ-512  Approved
+113    EX00093   2025-05-23  ...      PRJ-101  Approved
+132    EX00051   2025-06-13  ...      PRJ-740  Approved
+
+[11 rows x 14 columns]",,,2,3.787,,1776671873.289931
+finance_expenses_questions.csv,finance_expenses,Q10,Are there any approved expenses that are missing a receipt attachment?,openai/gpt-3.5-turbo,structured,ok,There are 11 approved expenses that are missing a receipt attachment.,result = df[(df['status'] == 'Approved') & (df['receipt_attached'] == False)],"    expense_id expense_date  ... project_code    status
+2      EX00144   2025-01-02  ...      PRJ-101  Approved
+9      EX00028   2025-01-16  ...      PRJ-310  Approved
+10     EX00146   2025-01-16  ...      PRJ-415  Approved
+14     EX00126   2025-01-20  ...      PRJ-620  Approved
+17     EX00101   2025-01-22  ...      PRJ-101  Approved
+18     EX00024   2025-01-23  ...      PRJ-101  Approved
+35     EX00127   2025-02-19  ...      PRJ-415  Approved
+39     EX00193   02/24/2025  ...      PRJ-101  Approved
+82     EX00178   2025-04-21  ...      PRJ-512  Approved
+113    EX00093   2025-05-23  ...      PRJ-101  Approved
+132    EX00051   2025-06-13  ...      PRJ-740  Approved
+
+[11 rows x 14 columns]",,,2,4.602,,1776671877.0773654
+finance_expenses_questions.csv,finance_expenses,Q10,Are there any approved expenses that are missing a receipt attachment?,openai/gpt-3.5-turbo,CoT,ok,There are 11 approved expenses that are missing a receipt attachment.,result = df[(df['status'] == 'Approved') & (df['receipt_attached'] == False)],"    expense_id expense_date  ... project_code    status
+2      EX00144   2025-01-02  ...      PRJ-101  Approved
+9      EX00028   2025-01-16  ...      PRJ-310  Approved
+10     EX00146   2025-01-16  ...      PRJ-415  Approved
+14     EX00126   2025-01-20  ...      PRJ-620  Approved
+17     EX00101   2025-01-22  ...      PRJ-101  Approved
+18     EX00024   2025-01-23  ...      PRJ-101  Approved
+35     EX00127   2025-02-19  ...      PRJ-415  Approved
+39     EX00193   02/24/2025  ...      PRJ-101  Approved
+82     EX00178   2025-04-21  ...      PRJ-512  Approved
+113    EX00093   2025-05-23  ...      PRJ-101  Approved
+132    EX00051   2025-06-13  ...      PRJ-740  Approved
+
+[11 rows x 14 columns]",,,2,3.03,,1776671881.6809022
+finance_expenses_questions.csv,finance_expenses,Q10,Are there any approved expenses that are missing a receipt attachment?,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.345,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671884.7112873
+finance_expenses_questions.csv,finance_expenses,Q10,Are there any approved expenses that are missing a receipt attachment?,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.351,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671885.0563052
+finance_expenses_questions.csv,finance_expenses,Q10,Are there any approved expenses that are missing a receipt attachment?,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.326,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671885.407093
+finance_expenses_questions.csv,finance_expenses,Q10,Are there any approved expenses that are missing a receipt attachment?,qwen/qwen3-coder:free,baseline,error,,,,,,,0.349,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671885.7335608
+finance_expenses_questions.csv,finance_expenses,Q10,Are there any approved expenses that are missing a receipt attachment?,qwen/qwen3-coder:free,structured,error,,,,,,,0.34,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671886.08232
+finance_expenses_questions.csv,finance_expenses,Q10,Are there any approved expenses that are missing a receipt attachment?,qwen/qwen3-coder:free,CoT,error,,,,,,,0.375,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671886.4223175
+finance_expenses_questions.csv,finance_expenses,Q10,Are there any approved expenses that are missing a receipt attachment?,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.897,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671886.797507
+finance_expenses_questions.csv,finance_expenses,Q10,Are there any approved expenses that are missing a receipt attachment?,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.732,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671887.696559
+finance_expenses_questions.csv,finance_expenses,Q10,Are there any approved expenses that are missing a receipt attachment?,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.234,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671888.4283857
+finance_expenses_questions.csv,finance_expenses,Q11,What is the average spend per transaction for each cost center?,openai/gpt-3.5-turbo,baseline,ok,The average spend per transaction for each cost center ranges from $709.61 to $2872.62.,result = df.groupby('cost_center')['amount'].mean(),"cost_center
+CC-ENG-11    2872.620
+CC-ENG-12    2271.890
+CC-ENG-16     935.030
+CC-ENG-17    1778.230
+CC-ENG-19    2369.595
+               ...   
+CC-SUP-85     885.040
+CC-SUP-86    2620.980
+CC-SUP-88     709.610
+CC-SUP-95    1325.370
+CC-SUP-96    2162.960
+Name: amount, Length: 180, dtype: float64",,,2,3.366,,1776671888.662337
+finance_expenses_questions.csv,finance_expenses,Q11,What is the average spend per transaction for each cost center?,openai/gpt-3.5-turbo,structured,ok,The average spend per transaction for each cost center ranges from $709.61 to $2872.62.,result = df.groupby('cost_center')['amount'].mean(),"cost_center
+CC-ENG-11    2872.620
+CC-ENG-12    2271.890
+CC-ENG-16     935.030
+CC-ENG-17    1778.230
+CC-ENG-19    2369.595
+               ...   
+CC-SUP-85     885.040
+CC-SUP-86    2620.980
+CC-SUP-88     709.610
+CC-SUP-95    1325.370
+CC-SUP-96    2162.960
+Name: amount, Length: 180, dtype: float64",,,2,3.59,,1776671892.0287755
+finance_expenses_questions.csv,finance_expenses,Q11,What is the average spend per transaction for each cost center?,openai/gpt-3.5-turbo,CoT,ok,The average spend per transaction for each cost center ranges from $709.61 to $2872.62.,result = df.groupby('cost_center')['amount'].mean(),"cost_center
+CC-ENG-11    2872.620
+CC-ENG-12    2271.890
+CC-ENG-16     935.030
+CC-ENG-17    1778.230
+CC-ENG-19    2369.595
+               ...   
+CC-SUP-85     885.040
+CC-SUP-86    2620.980
+CC-SUP-88     709.610
+CC-SUP-95    1325.370
+CC-SUP-96    2162.960
+Name: amount, Length: 180, dtype: float64",,,2,3.365,,1776671895.6185508
+finance_expenses_questions.csv,finance_expenses,Q11,What is the average spend per transaction for each cost center?,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.368,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671898.9837291
+finance_expenses_questions.csv,finance_expenses,Q11,What is the average spend per transaction for each cost center?,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.349,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671899.3515337
+finance_expenses_questions.csv,finance_expenses,Q11,What is the average spend per transaction for each cost center?,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.331,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671899.7003124
+finance_expenses_questions.csv,finance_expenses,Q11,What is the average spend per transaction for each cost center?,qwen/qwen3-coder:free,baseline,error,,,,,,,0.365,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671900.0317636
+finance_expenses_questions.csv,finance_expenses,Q11,What is the average spend per transaction for each cost center?,qwen/qwen3-coder:free,structured,error,,,,,,,0.368,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671900.3966727
+finance_expenses_questions.csv,finance_expenses,Q11,What is the average spend per transaction for each cost center?,qwen/qwen3-coder:free,CoT,error,,,,,,,0.364,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671900.7649443
+finance_expenses_questions.csv,finance_expenses,Q11,What is the average spend per transaction for each cost center?,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.26,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671901.1293304
+finance_expenses_questions.csv,finance_expenses,Q11,What is the average spend per transaction for each cost center?,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.279,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671901.389719
+finance_expenses_questions.csv,finance_expenses,Q11,What is the average spend per transaction for each cost center?,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.251,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671901.6691132
+finance_expenses_questions.csv,finance_expenses,Q12,Which payment method is used most frequently for our corporate expenses?,openai/gpt-3.5-turbo,baseline,ok,The most frequently used payment method for corporate expenses is 'Corporate Card'.,result = df['payment_type'].value_counts().idxmax(),Corporate Card,,,2,3.13,,1776671901.919788
+finance_expenses_questions.csv,finance_expenses,Q12,Which payment method is used most frequently for our corporate expenses?,openai/gpt-3.5-turbo,structured,ok,The most frequently used payment method for corporate expenses is 'Corporate Card'.,result = df['payment_type'].mode()[0],Corporate Card,,,2,3.32,,1776671905.0499823
+finance_expenses_questions.csv,finance_expenses,Q12,Which payment method is used most frequently for our corporate expenses?,openai/gpt-3.5-turbo,CoT,ok,The most frequently used payment method for corporate expenses is 'Corporate Card'.,result = df['payment_type'].mode()[0],Corporate Card,,,2,3.446,,1776671908.3711028
+finance_expenses_questions.csv,finance_expenses,Q12,Which payment method is used most frequently for our corporate expenses?,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.412,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671911.8177214
+finance_expenses_questions.csv,finance_expenses,Q12,Which payment method is used most frequently for our corporate expenses?,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.349,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671912.2297564
+finance_expenses_questions.csv,finance_expenses,Q12,Which payment method is used most frequently for our corporate expenses?,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.238,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671912.57841
+finance_expenses_questions.csv,finance_expenses,Q12,Which payment method is used most frequently for our corporate expenses?,qwen/qwen3-coder:free,baseline,error,,,,,,,0.334,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671912.8159378
+finance_expenses_questions.csv,finance_expenses,Q12,Which payment method is used most frequently for our corporate expenses?,qwen/qwen3-coder:free,structured,error,,,,,,,0.315,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671913.1496654
+finance_expenses_questions.csv,finance_expenses,Q12,Which payment method is used most frequently for our corporate expenses?,qwen/qwen3-coder:free,CoT,error,,,,,,,0.262,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671913.476719
+finance_expenses_questions.csv,finance_expenses,Q12,Which payment method is used most frequently for our corporate expenses?,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.201,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671913.7388659
+finance_expenses_questions.csv,finance_expenses,Q12,Which payment method is used most frequently for our corporate expenses?,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.248,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671913.9402893
+finance_expenses_questions.csv,finance_expenses,Q12,Which payment method is used most frequently for our corporate expenses?,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.231,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671914.1878052
+finance_expenses_questions.csv,finance_expenses,Q13,Which project (Project Code) has been active for the longest period based on the expense dates?,openai/gpt-3.5-turbo,baseline,ok,"There was an error in processing the dates format, please correct the date format before proceeding.",result = df.groupby('project_code')['expense_date'].agg(lambda x: max(pd.to_datetime(x)) - min(pd.to_datetime(x))).idxmax(),,,"ValueError: time data ""02/24/2025"" doesn't match format ""%Y-%m-%d"", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.",2,4.303,,1776671914.425754
+finance_expenses_questions.csv,finance_expenses,Q13,Which project (Project Code) has been active for the longest period based on the expense dates?,openai/gpt-3.5-turbo,structured,ok,"There was an error in processing the date format, please correct the date format and try again.",result = df.groupby('project_code')['expense_date'].agg(lambda x: max(pd.to_datetime(x)) - min(pd.to_datetime(x))).idxmax(),,,"ValueError: time data ""02/24/2025"" doesn't match format ""%Y-%m-%d"", at position 6. You might want to try:
+    - passing `format` if your strings have a consistent format;
+    - passing `format='ISO8601'` if your strings are all ISO8601 but not necessarily in exactly the same format;
+    - passing `format='mixed'`, and the format will be inferred for each element individually. You might want to use `dayfirst` alongside this.",2,5.795,,1776671918.7426546
+finance_expenses_questions.csv,finance_expenses,Q13,Which project (Project Code) has been active for the longest period based on the expense dates?,openai/gpt-3.5-turbo,CoT,ok,There was an error in calculating the longest active project based on expense dates.,result = df.groupby('project_code')['expense_date'].agg(lambda x: max(x) - min(x)).idxmax(),,,TypeError: unsupported operand type(s) for -: 'str' and 'str',2,3.555,,1776671924.537997
+finance_expenses_questions.csv,finance_expenses,Q13,Which project (Project Code) has been active for the longest period based on the expense dates?,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.263,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671928.0925581
+finance_expenses_questions.csv,finance_expenses,Q13,Which project (Project Code) has been active for the longest period based on the expense dates?,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.24,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671928.3575618
+finance_expenses_questions.csv,finance_expenses,Q13,Which project (Project Code) has been active for the longest period based on the expense dates?,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.23,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671928.5974574
+finance_expenses_questions.csv,finance_expenses,Q13,Which project (Project Code) has been active for the longest period based on the expense dates?,qwen/qwen3-coder:free,baseline,error,,,,,,,0.244,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671928.827602
+finance_expenses_questions.csv,finance_expenses,Q13,Which project (Project Code) has been active for the longest period based on the expense dates?,qwen/qwen3-coder:free,structured,error,,,,,,,0.217,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671929.0717084
+finance_expenses_questions.csv,finance_expenses,Q13,Which project (Project Code) has been active for the longest period based on the expense dates?,qwen/qwen3-coder:free,CoT,error,,,,,,,0.242,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671929.2933805
+finance_expenses_questions.csv,finance_expenses,Q13,Which project (Project Code) has been active for the longest period based on the expense dates?,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.233,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671929.535784
+finance_expenses_questions.csv,finance_expenses,Q13,Which project (Project Code) has been active for the longest period based on the expense dates?,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.233,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671929.7692864
+finance_expenses_questions.csv,finance_expenses,Q13,Which project (Project Code) has been active for the longest period based on the expense dates?,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.216,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671930.0094378
+finance_expenses_questions.csv,finance_expenses,Q14,"Can you find any duplicate-looking expenses? (Same vendor, date, and amount).",openai/gpt-3.5-turbo,baseline,ok,"There are no duplicate-looking expenses with the same vendor, date, and amount in the dataset.","result = df[df.duplicated(subset=['vendor', 'expense_date', 'amount'], keep=False)]","Empty DataFrame
+Columns: [expense_id, expense_date, department, cost_center, vendor, expense_category, payment_type, amount, budget_monthly, approved_by, reimbursable, receipt_attached, project_code, status]
+Index: []",,,2,4.041,,1776671930.2279835
+finance_expenses_questions.csv,finance_expenses,Q14,"Can you find any duplicate-looking expenses? (Same vendor, date, and amount).",openai/gpt-3.5-turbo,structured,ok,"There are no duplicate-looking expenses with the same vendor, date, and amount in the dataset.","result = df[df.duplicated(subset=['vendor', 'expense_date', 'amount'], keep=False)]","Empty DataFrame
+Columns: [expense_id, expense_date, department, cost_center, vendor, expense_category, payment_type, amount, budget_monthly, approved_by, reimbursable, receipt_attached, project_code, status]
+Index: []",,,2,3.941,,1776671934.268531
+finance_expenses_questions.csv,finance_expenses,Q14,"Can you find any duplicate-looking expenses? (Same vendor, date, and amount).",openai/gpt-3.5-turbo,CoT,ok,There are no duplicate-looking expenses in the dataset.,"result = df[df.duplicated(subset=['vendor', 'expense_date', 'amount'], keep=False)]","Empty DataFrame
+Columns: [expense_id, expense_date, department, cost_center, vendor, expense_category, payment_type, amount, budget_monthly, approved_by, reimbursable, receipt_attached, project_code, status]
+Index: []",,,2,4.003,,1776671938.2100935
+finance_expenses_questions.csv,finance_expenses,Q14,"Can you find any duplicate-looking expenses? (Same vendor, date, and amount).",meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.346,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671942.2225149
+finance_expenses_questions.csv,finance_expenses,Q14,"Can you find any duplicate-looking expenses? (Same vendor, date, and amount).",meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.312,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671942.568401
+finance_expenses_questions.csv,finance_expenses,Q14,"Can you find any duplicate-looking expenses? (Same vendor, date, and amount).",meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.371,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671942.881761
+finance_expenses_questions.csv,finance_expenses,Q14,"Can you find any duplicate-looking expenses? (Same vendor, date, and amount).",qwen/qwen3-coder:free,baseline,error,,,,,,,0.361,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671943.2528095
+finance_expenses_questions.csv,finance_expenses,Q14,"Can you find any duplicate-looking expenses? (Same vendor, date, and amount).",qwen/qwen3-coder:free,structured,error,,,,,,,0.312,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671943.6150894
+finance_expenses_questions.csv,finance_expenses,Q14,"Can you find any duplicate-looking expenses? (Same vendor, date, and amount).",qwen/qwen3-coder:free,CoT,error,,,,,,,0.321,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671943.92724
+finance_expenses_questions.csv,finance_expenses,Q14,"Can you find any duplicate-looking expenses? (Same vendor, date, and amount).",nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.206,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671944.248621
+finance_expenses_questions.csv,finance_expenses,Q14,"Can you find any duplicate-looking expenses? (Same vendor, date, and amount).",nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.264,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671944.4549682
+finance_expenses_questions.csv,finance_expenses,Q14,"Can you find any duplicate-looking expenses? (Same vendor, date, and amount).",nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.272,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671944.7189002
+finance_expenses_questions.csv,finance_expenses,Q15,Our spending spiked in a specific month—can you tell me which 3 vendors caused that?,openai/gpt-3.5-turbo,baseline,ok,"The top 3 vendors that caused the spending spike in the specific month are Google Cloud, Salesforce, and Adobe.",result = df.groupby('vendor')['amount'].sum().nlargest(3),"vendor
+Google Cloud    101640.11
+Salesforce       73011.84
+Adobe            64726.29
+Name: amount, dtype: float64",,,2,3.878,,1776671944.9955204
+finance_expenses_questions.csv,finance_expenses,Q15,Our spending spiked in a specific month—can you tell me which 3 vendors caused that?,openai/gpt-3.5-turbo,structured,ok,"The top 3 vendors that caused the spending spike in the specific month are Google Cloud with $101,640.11, Salesforce with $73,011.84, and Adobe with $64,726.29.",result = df.groupby('vendor')['amount'].sum().nlargest(3),"vendor
+Google Cloud    101640.11
+Salesforce       73011.84
+Adobe            64726.29
+Name: amount, dtype: float64",,,2,4.153,,1776671948.873946
+finance_expenses_questions.csv,finance_expenses,Q15,Our spending spiked in a specific month—can you tell me which 3 vendors caused that?,openai/gpt-3.5-turbo,CoT,ok,"The top 3 vendors that caused the spending spike in the specific month are Google Cloud, Salesforce, and Adobe.",result = df.groupby('vendor')['amount'].sum().nlargest(3),"vendor
+Google Cloud    101640.11
+Salesforce       73011.84
+Adobe            64726.29
+Name: amount, dtype: float64",,,2,3.608,,1776671953.03995
+finance_expenses_questions.csv,finance_expenses,Q15,Our spending spiked in a specific month—can you tell me which 3 vendors caused that?,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.378,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671956.6541557
+finance_expenses_questions.csv,finance_expenses,Q15,Our spending spiked in a specific month—can you tell me which 3 vendors caused that?,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.315,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671957.0334132
+finance_expenses_questions.csv,finance_expenses,Q15,Our spending spiked in a specific month—can you tell me which 3 vendors caused that?,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.412,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671957.348569
+finance_expenses_questions.csv,finance_expenses,Q15,Our spending spiked in a specific month—can you tell me which 3 vendors caused that?,qwen/qwen3-coder:free,baseline,error,,,,,,,0.331,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671957.760871
+finance_expenses_questions.csv,finance_expenses,Q15,Our spending spiked in a specific month—can you tell me which 3 vendors caused that?,qwen/qwen3-coder:free,structured,error,,,,,,,0.352,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671958.0922933
+finance_expenses_questions.csv,finance_expenses,Q15,Our spending spiked in a specific month—can you tell me which 3 vendors caused that?,qwen/qwen3-coder:free,CoT,error,,,,,,,0.321,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671958.4444501
+finance_expenses_questions.csv,finance_expenses,Q15,Our spending spiked in a specific month—can you tell me which 3 vendors caused that?,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.245,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671958.7655232
+finance_expenses_questions.csv,finance_expenses,Q15,Our spending spiked in a specific month—can you tell me which 3 vendors caused that?,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.221,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671959.0178173
+finance_expenses_questions.csv,finance_expenses,Q15,Our spending spiked in a specific month—can you tell me which 3 vendors caused that?,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.295,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671959.2386563
+finance_expenses_questions.csv,finance_expenses,Q16,What is the total annual cost for "Cloud Services" within the Engineering team?,openai/gpt-3.5-turbo,baseline,ok,"The total annual cost for 'Cloud Services' within the Engineering team is $224,321.64.",result = df[(df['department'] == 'Engineering') & (df['expense_category'] == 'Cloud Services')]['amount'].sum() * 12,224321.64,,,2,3.929,,1776671959.5333538
+finance_expenses_questions.csv,finance_expenses,Q16,What is the total annual cost for "Cloud Services" within the Engineering team?,openai/gpt-3.5-turbo,structured,ok,"The total annual cost for 'Cloud Services' within the Engineering team is $224,321.64.",result = df[(df['department'] == 'Engineering') & (df['expense_category'] == 'Cloud Services')]['amount'].sum() * 12,224321.64,,,2,3.953,,1776671963.461972
+finance_expenses_questions.csv,finance_expenses,Q16,What is the total annual cost for "Cloud Services" within the Engineering team?,openai/gpt-3.5-turbo,CoT,ok,"The total annual cost for 'Cloud Services' within the Engineering team is $224,321.64.",result = df[(df['department'] == 'Engineering') & (df['expense_category'] == 'Cloud Services')]['amount'].sum() * 12,224321.64,,,2,4.382,,1776671967.4148676
+finance_expenses_questions.csv,finance_expenses,Q16,What is the total annual cost for "Cloud Services" within the Engineering team?,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.306,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671971.7969398
+finance_expenses_questions.csv,finance_expenses,Q16,What is the total annual cost for "Cloud Services" within the Engineering team?,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.323,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671972.102829
+finance_expenses_questions.csv,finance_expenses,Q16,What is the total annual cost for "Cloud Services" within the Engineering team?,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.658,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671972.4259696
+finance_expenses_questions.csv,finance_expenses,Q16,What is the total annual cost for "Cloud Services" within the Engineering team?,qwen/qwen3-coder:free,baseline,error,,,,,,,0.318,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671973.084172
+finance_expenses_questions.csv,finance_expenses,Q16,What is the total annual cost for "Cloud Services" within the Engineering team?,qwen/qwen3-coder:free,structured,error,,,,,,,0.331,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671973.4021413
+finance_expenses_questions.csv,finance_expenses,Q16,What is the total annual cost for "Cloud Services" within the Engineering team?,qwen/qwen3-coder:free,CoT,error,,,,,,,0.244,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671973.7327712
+finance_expenses_questions.csv,finance_expenses,Q16,What is the total annual cost for "Cloud Services" within the Engineering team?,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.256,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671973.976989
+finance_expenses_questions.csv,finance_expenses,Q16,What is the total annual cost for "Cloud Services" within the Engineering team?,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.205,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671974.234863
+finance_expenses_questions.csv,finance_expenses,Q16,What is the total annual cost for "Cloud Services" within the Engineering team?,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.22,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671974.4395208
+finance_expenses_questions.csv,finance_expenses,Q17,What is the average transaction amount for "Approved" vs. "Pending" statuses?,openai/gpt-3.5-turbo,baseline,ok,"The average transaction amount for 'Approved' status is $2453.09, while for 'Pending' status it is $3099.18.",result = df.groupby('status')['amount'].mean(),"status
+Approved    2453.093669
+Pending     3099.178333
+Rejected     923.193333
+Name: amount, dtype: float64",,,2,4.301,,1776671974.6597047
+finance_expenses_questions.csv,finance_expenses,Q17,What is the average transaction amount for "Approved" vs. "Pending" statuses?,openai/gpt-3.5-turbo,structured,ok,"The average transaction amount for 'Approved' status is $2453.09, while for 'Pending' status it is $3099.18.",result = df.groupby('status')['amount'].mean(),"status
+Approved    2453.093669
+Pending     3099.178333
+Rejected     923.193333
+Name: amount, dtype: float64",,,2,4.14,,1776671978.9610548
+finance_expenses_questions.csv,finance_expenses,Q17,What is the average transaction amount for "Approved" vs. "Pending" statuses?,openai/gpt-3.5-turbo,CoT,ok,"The average transaction amount for 'Approved' status is $2453.09, while for 'Pending' status it is $3099.18.",result = df.groupby('status')['amount'].mean(),"status
+Approved    2453.093669
+Pending     3099.178333
+Rejected     923.193333
+Name: amount, dtype: float64",,,2,4.211,,1776671983.1010334
+finance_expenses_questions.csv,finance_expenses,Q17,What is the average transaction amount for "Approved" vs. "Pending" statuses?,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.228,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671987.3118117
+finance_expenses_questions.csv,finance_expenses,Q17,What is the average transaction amount for "Approved" vs. "Pending" statuses?,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.215,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671987.5397363
+finance_expenses_questions.csv,finance_expenses,Q17,What is the average transaction amount for "Approved" vs. "Pending" statuses?,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.331,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671987.7544518
+finance_expenses_questions.csv,finance_expenses,Q17,What is the average transaction amount for "Approved" vs. "Pending" statuses?,qwen/qwen3-coder:free,baseline,error,,,,,,,0.278,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671988.090198
+finance_expenses_questions.csv,finance_expenses,Q17,What is the average transaction amount for "Approved" vs. "Pending" statuses?,qwen/qwen3-coder:free,structured,error,,,,,,,0.228,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671988.3691216
+finance_expenses_questions.csv,finance_expenses,Q17,What is the average transaction amount for "Approved" vs. "Pending" statuses?,qwen/qwen3-coder:free,CoT,error,,,,,,,0.271,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671988.5973642
+finance_expenses_questions.csv,finance_expenses,Q17,What is the average transaction amount for "Approved" vs. "Pending" statuses?,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.237,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671988.868238
+finance_expenses_questions.csv,finance_expenses,Q17,What is the average transaction amount for "Approved" vs. "Pending" statuses?,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.2,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671989.1061933
+finance_expenses_questions.csv,finance_expenses,Q17,What is the average transaction amount for "Approved" vs. "Pending" statuses?,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.264,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776671989.3062923
+finance_expenses_questions.csv,finance_expenses,Q18,Flag any single transaction that takes up more than half of its cost center's monthly budget.,openai/gpt-3.5-turbo,baseline,ok,There are 21 transactions where the amount exceeds half of the cost center's monthly budget.,result = df[df['amount'] > df['budget_monthly'] / 2],"    expense_id expense_date  ... project_code    status
+1      EX00032   2025-01-01  ...      PRJ-203   Pending
+25     EX00187   2025-01-31  ...      PRJ-415  Approved
+30     EX00087   2025-02-10  ...      PRJ-415  Approved
+33     EX00197   2025-02-10  ...      PRJ-512   Pending
+41     EX00124   2025-02-25  ...      PRJ-101  Approved
+54     EX00179   2025-03-19  ...      PRJ-512  Approved
+71     EX00219   2025-04-04  ...      PRJ-310  Approved
+87     EX00168   2025-04-27  ...      PRJ-415  Approved
+102    EX00058   05/11/2025  ...      PRJ-620  Approved
+104    EX00023   2025-05-12  ...      PRJ-740  Approved
+119    EX00005   2025-05-28  ...      PRJ-512  Approved
+132    EX00051   2025-06-13  ...      PRJ-740  Approved
+151    EX00047   2025-06-27  ...      PRJ-415  Approved
+158    EX00173   2025-07-02  ...      PRJ-512   Pending
+162    EX00037   2025-07-03  ...      PRJ-512  Approved
+165    EX00082   2025-07-06  ...      PRJ-512  Approved
+181    EX00002   2025-07-18  ...      PRJ-101  Approved
+193    EX00007   2025-08-05  ...      PRJ-203  Approved
+200    EX00113   2025-08-15  ...      PRJ-415  Approved
+205    EX00139   2025-08-19  ...      PRJ-620   Pending
+210    EX00137   2025-08-23  ...      PRJ-310  Approved
+
+[21 rows x 14 columns]",,,2,3.591,,1776671989.5703924
+finance_expenses_questions.csv,finance_expenses,Q18,Flag any single transaction that takes up more than half of its cost center's monthly budget.,openai/gpt-3.5-turbo,structured,ok,There are 21 transactions where the amount exceeds half of the cost center's monthly budget.,result = df[df['amount'] > df['budget_monthly'] / 2],"    expense_id expense_date  ... project_code    status
+1      EX00032   2025-01-01  ...      PRJ-203   Pending
+25     EX00187   2025-01-31  ...      PRJ-415  Approved
+30     EX00087   2025-02-10  ...      PRJ-415  Approved
+33     EX00197   2025-02-10  ...      PRJ-512   Pending
+41     EX00124   2025-02-25  ...      PRJ-101  Approved
+54     EX00179   2025-03-19  ...      PRJ-512  Approved
+71     EX00219   2025-04-04  ...      PRJ-310  Approved
+87     EX00168   2025-04-27  ...      PRJ-415  Approved
+102    EX00058   05/11/2025  ...      PRJ-620  Approved
+104    EX00023   2025-05-12  ...      PRJ-740  Approved
+119    EX00005   2025-05-28  ...      PRJ-512  Approved
+132    EX00051   2025-06-13  ...      PRJ-740  Approved
+151    EX00047   2025-06-27  ...      PRJ-415  Approved
+158    EX00173   2025-07-02  ...      PRJ-512   Pending
+162    EX00037   2025-07-03  ...      PRJ-512  Approved
+165    EX00082   2025-07-06  ...      PRJ-512  Approved
+181    EX00002   2025-07-18  ...      PRJ-101  Approved
+193    EX00007   2025-08-05  ...      PRJ-203  Approved
+200    EX00113   2025-08-15  ...      PRJ-415  Approved
+205    EX00139   2025-08-19  ...      PRJ-620   Pending
+210    EX00137   2025-08-23  ...      PRJ-310  Approved
+
+[21 rows x 14 columns]",,,2,3.824,,1776671993.1611216
+finance_expenses_questions.csv,finance_expenses,Q18,Flag any single transaction that takes up more than half of its cost center's monthly budget.,openai/gpt-3.5-turbo,CoT,ok,There are 21 transactions where the amount exceeds half of the cost center's monthly budget.,result = df[df['amount'] > df['budget_monthly'] / 2],"    expense_id expense_date  ... project_code    status
+1      EX00032   2025-01-01  ...      PRJ-203   Pending
+25     EX00187   2025-01-31  ...      PRJ-415  Approved
+30     EX00087   2025-02-10  ...      PRJ-415  Approved
+33     EX00197   2025-02-10  ...      PRJ-512   Pending
+41     EX00124   2025-02-25  ...      PRJ-101  Approved
+54     EX00179   2025-03-19  ...      PRJ-512  Approved
+71     EX00219   2025-04-04  ...      PRJ-310  Approved
+87     EX00168   2025-04-27  ...      PRJ-415  Approved
+102    EX00058   05/11/2025  ...      PRJ-620  Approved
+104    EX00023   2025-05-12  ...      PRJ-740  Approved
+119    EX00005   2025-05-28  ...      PRJ-512  Approved
+132    EX00051   2025-06-13  ...      PRJ-740  Approved
+151    EX00047   2025-06-27  ...      PRJ-415  Approved
+158    EX00173   2025-07-02  ...      PRJ-512   Pending
+162    EX00037   2025-07-03  ...      PRJ-512  Approved
+165    EX00082   2025-07-06  ...      PRJ-512  Approved
+181    EX00002   2025-07-18  ...      PRJ-101  Approved
+193    EX00007   2025-08-05  ...      PRJ-203  Approved
+200    EX00113   2025-08-15  ...      PRJ-415  Approved
+205    EX00139   2025-08-19  ...      PRJ-620   Pending
+210    EX00137   2025-08-23  ...      PRJ-310  Approved
+
+[21 rows x 14 columns]",,,2,4.232,,1776671996.9850886
+finance_expenses_questions.csv,finance_expenses,Q18,Flag any single transaction that takes up more than half of its cost center's monthly budget.,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.339,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672001.217092
+finance_expenses_questions.csv,finance_expenses,Q18,Flag any single transaction that takes up more than half of its cost center's monthly budget.,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.373,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672001.5726123
+finance_expenses_questions.csv,finance_expenses,Q18,Flag any single transaction that takes up more than half of its cost center's monthly budget.,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.356,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672001.9456909
+finance_expenses_questions.csv,finance_expenses,Q18,Flag any single transaction that takes up more than half of its cost center's monthly budget.,qwen/qwen3-coder:free,baseline,error,,,,,,,0.337,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672002.3016448
+finance_expenses_questions.csv,finance_expenses,Q18,Flag any single transaction that takes up more than half of its cost center's monthly budget.,qwen/qwen3-coder:free,structured,error,,,,,,,0.345,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672002.6386511
+finance_expenses_questions.csv,finance_expenses,Q18,Flag any single transaction that takes up more than half of its cost center's monthly budget.,qwen/qwen3-coder:free,CoT,error,,,,,,,0.337,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672002.983365
+finance_expenses_questions.csv,finance_expenses,Q18,Flag any single transaction that takes up more than half of its cost center's monthly budget.,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.273,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672003.3199008
+finance_expenses_questions.csv,finance_expenses,Q18,Flag any single transaction that takes up more than half of its cost center's monthly budget.,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.234,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672003.5937686
+finance_expenses_questions.csv,finance_expenses,Q18,Flag any single transaction that takes up more than half of its cost center's monthly budget.,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.243,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672003.8274446
+finance_expenses_questions.csv,finance_expenses,Q19,Which vendor has issued the most refunds (negative amounts) to us?,openai/gpt-3.5-turbo,baseline,ok,ServiceNow,result = df[df['amount'] < 0]['vendor'].value_counts().idxmax(),ServiceNow,,,2,3.759,,1776672004.0708733
+finance_expenses_questions.csv,finance_expenses,Q19,Which vendor has issued the most refunds (negative amounts) to us?,openai/gpt-3.5-turbo,structured,ok,ServiceNow,result = df[df['amount'] < 0]['vendor'].value_counts().idxmax(),ServiceNow,,,2,6.237,,1776672007.8299568
+finance_expenses_questions.csv,finance_expenses,Q19,Which vendor has issued the most refunds (negative amounts) to us?,openai/gpt-3.5-turbo,CoT,ok,ServiceNow,result = df[df['amount'] < 0]['vendor'].value_counts().idxmax(),ServiceNow,,,2,3.374,,1776672014.0668914
+finance_expenses_questions.csv,finance_expenses,Q19,Which vendor has issued the most refunds (negative amounts) to us?,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.362,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672017.4410446
+finance_expenses_questions.csv,finance_expenses,Q19,Which vendor has issued the most refunds (negative amounts) to us?,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.33,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672017.8026907
+finance_expenses_questions.csv,finance_expenses,Q19,Which vendor has issued the most refunds (negative amounts) to us?,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.381,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672018.133123
+finance_expenses_questions.csv,finance_expenses,Q19,Which vendor has issued the most refunds (negative amounts) to us?,qwen/qwen3-coder:free,baseline,error,,,,,,,0.382,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672018.5144424
+finance_expenses_questions.csv,finance_expenses,Q19,Which vendor has issued the most refunds (negative amounts) to us?,qwen/qwen3-coder:free,structured,error,,,,,,,0.478,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672018.8964436
+finance_expenses_questions.csv,finance_expenses,Q19,Which vendor has issued the most refunds (negative amounts) to us?,qwen/qwen3-coder:free,CoT,error,,,,,,,0.401,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672019.3745382
+finance_expenses_questions.csv,finance_expenses,Q19,Which vendor has issued the most refunds (negative amounts) to us?,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.275,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672019.775519
+finance_expenses_questions.csv,finance_expenses,Q19,Which vendor has issued the most refunds (negative amounts) to us?,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.239,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672020.0509996
+finance_expenses_questions.csv,finance_expenses,Q19,Which vendor has issued the most refunds (negative amounts) to us?,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.262,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672020.2895439
+finance_expenses_questions.csv,finance_expenses,Q20,Give me a summary of the top 3 vendors for each department.,openai/gpt-3.5-turbo,baseline,ok,"The top 3 vendors for each department are as follows: In Engineering - AWS and Google Cloud tied at 8, followed by Dell at 4. In Finance - Adobe and Salesforce tied at 3, with AWS at 2. In IT - Adobe, Salesforce, and Uber tied at 3. In Marketing - Salesforce and ServiceNow tied at 5, with AWS at 3. In Operations - Workday at 3, Adobe and Concur tied at 2. In People - Google Cloud at 4, Salesforce at 3, and AWS at 1. In Sales - Salesforce at 7, Concur at 6, and Adobe at 5. In Support - Concur and Salesforce tied at 5, with Adobe at 3.","result = df.groupby('department')['vendor'].value_counts().groupby(level=0).nlargest(3).reset_index(level=0, drop=True).to_json()","{""('Engineering', 'AWS')"":8,""('Engineering', 'Google Cloud')"":8,""('Engineering', 'Dell')"":4,""('Finance', 'Adobe')"":3,""('Finance', 'Salesforce')"":3,""('Finance', 'AWS')"":2,""('IT', 'Adobe')"":3,""('IT', 'Salesforce')"":3,""('IT', 'Uber')"":3,""('Marketing', 'Salesforce')"":5,""('Marketing', 'ServiceNow')"":5,""('Marketing', 'AWS')"":3,""('Operations', 'Workday')"":3,""('Operations', 'Adobe')"":2,""('Operations', 'Concur')"":2,""('People', 'Google Cloud')"":4,""('People', 'Salesforce')"":3,""('People', 'AWS')"":1,""('Sales', 'Salesforce')"":7,""('Sales', 'Concur')"":6,""('Sales', 'Adobe')"":5,""('Support', 'Concur')"":5,""('Support', 'Salesforce')"":5,""('Support', 'Adobe')"":3}",,,2,6.449,,1776672020.5513268
+finance_expenses_questions.csv,finance_expenses,Q20,Give me a summary of the top 3 vendors for each department.,openai/gpt-3.5-turbo,structured,ok,"The top 3 vendors for each department are as follows: In Engineering - AWS and Google Cloud tied at 8 occurrences, followed by Dell with 4 occurrences. In Finance - Adobe and Salesforce tied at 3 occurrences, with AWS following at 2 occurrences. In IT - Adobe, Salesforce, and Uber tied at 3 occurrences each. In Marketing - Salesforce and ServiceNow tied at 5 occurrences, with AWS following at 3 occurrences. In Operations - Workday had 3 occurrences, while Adobe and Concur tied at 2 occurrences. In People - Google Cloud had 4 occurrences, Salesforce had 3 occurrences, and AWS had 1 occurrence. In Sales - Salesforce led with 7 occurrences, followed by Concur with 6 occurrences, and Adobe with 5 occurrences. In Support - Concur, Salesforce, and Adobe tied at 5 occurrences each.","result = df.groupby('department')['vendor'].value_counts().groupby(level=0).nlargest(3).reset_index(level=0, drop=True).to_json()","{""('Engineering', 'AWS')"":8,""('Engineering', 'Google Cloud')"":8,""('Engineering', 'Dell')"":4,""('Finance', 'Adobe')"":3,""('Finance', 'Salesforce')"":3,""('Finance', 'AWS')"":2,""('IT', 'Adobe')"":3,""('IT', 'Salesforce')"":3,""('IT', 'Uber')"":3,""('Marketing', 'Salesforce')"":5,""('Marketing', 'ServiceNow')"":5,""('Marketing', 'AWS')"":3,""('Operations', 'Workday')"":3,""('Operations', 'Adobe')"":2,""('Operations', 'Concur')"":2,""('People', 'Google Cloud')"":4,""('People', 'Salesforce')"":3,""('People', 'AWS')"":1,""('Sales', 'Salesforce')"":7,""('Sales', 'Concur')"":6,""('Sales', 'Adobe')"":5,""('Support', 'Concur')"":5,""('Support', 'Salesforce')"":5,""('Support', 'Adobe')"":3}",,,2,6.034,,1776672027.000125
+finance_expenses_questions.csv,finance_expenses,Q20,Give me a summary of the top 3 vendors for each department.,openai/gpt-3.5-turbo,CoT,ok,The top 3 vendors for each department are listed with their respective counts.,"result = df.groupby('department')['vendor'].value_counts().groupby(level=0).nlargest(3).reset_index(level=0, drop=True).to_json()","{""('Engineering', 'AWS')"":8,""('Engineering', 'Google Cloud')"":8,""('Engineering', 'Dell')"":4,""('Finance', 'Adobe')"":3,""('Finance', 'Salesforce')"":3,""('Finance', 'AWS')"":2,""('IT', 'Adobe')"":3,""('IT', 'Salesforce')"":3,""('IT', 'Uber')"":3,""('Marketing', 'Salesforce')"":5,""('Marketing', 'ServiceNow')"":5,""('Marketing', 'AWS')"":3,""('Operations', 'Workday')"":3,""('Operations', 'Adobe')"":2,""('Operations', 'Concur')"":2,""('People', 'Google Cloud')"":4,""('People', 'Salesforce')"":3,""('People', 'AWS')"":1,""('Sales', 'Salesforce')"":7,""('Sales', 'Concur')"":6,""('Sales', 'Adobe')"":5,""('Support', 'Concur')"":5,""('Support', 'Salesforce')"":5,""('Support', 'Adobe')"":3}",,,2,4.301,,1776672033.035597
+finance_expenses_questions.csv,finance_expenses,Q20,Give me a summary of the top 3 vendors for each department.,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.346,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672037.3364522
+finance_expenses_questions.csv,finance_expenses,Q20,Give me a summary of the top 3 vendors for each department.,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.354,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672037.6825187
+finance_expenses_questions.csv,finance_expenses,Q20,Give me a summary of the top 3 vendors for each department.,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.242,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672038.0363271
+finance_expenses_questions.csv,finance_expenses,Q20,Give me a summary of the top 3 vendors for each department.,qwen/qwen3-coder:free,baseline,error,,,,,,,0.401,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672038.278758
+finance_expenses_questions.csv,finance_expenses,Q20,Give me a summary of the top 3 vendors for each department.,qwen/qwen3-coder:free,structured,error,,,,,,,0.818,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672038.6794026
+finance_expenses_questions.csv,finance_expenses,Q20,Give me a summary of the top 3 vendors for each department.,qwen/qwen3-coder:free,CoT,error,,,,,,,0.223,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672039.4976218
+finance_expenses_questions.csv,finance_expenses,Q20,Give me a summary of the top 3 vendors for each department.,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.374,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672039.7275445
+finance_expenses_questions.csv,finance_expenses,Q20,Give me a summary of the top 3 vendors for each department.,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.299,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672040.101577
+finance_expenses_questions.csv,finance_expenses,Q20,Give me a summary of the top 3 vendors for each department.,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.222,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672040.400722

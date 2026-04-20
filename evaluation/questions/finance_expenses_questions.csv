@@ -1,0 +1,21 @@
+question_id,question
+Q1,"What was our total company spend in 2025, taking into account all refunds and credit notes?"
+Q2,How much did we spend on Notion across all departments?
+Q3,Which month had the highest total spend?
+Q4,"For Q1 2025, what were the top 5 vendors by spend?"
+Q5,"Which department is closest to exceeding its monthly budget, and which one has the most surplus?"
+Q6,"Identify any ""Pending"" transactions over $5,000 that we need to approve urgently."
+Q7,What is the breakdown of our spending by category? Which one is our biggest expense?
+Q8,"Who is the most frequent approver for these expenses, and what is the total value they've authorized?"
+Q9,Compare the total cost of reimbursable vs. non-reimbursable expenses.
+Q10,Are there any approved expenses that are missing a receipt attachment?
+Q11,What is the average spend per transaction for each cost center?
+Q12,Which payment method is used most frequently for our corporate expenses?
+Q13,Which project (Project Code) has been active for the longest period based on the expense dates?
+Q14,"Can you find any duplicate-looking expenses? (Same vendor, date, and amount)."
+Q15,Our spending spiked in a specific month—can you tell me which 3 vendors caused that?
+Q16,"What is the total annual cost for ""Cloud Services"" within the Engineering team?"
+Q17,"What is the average transaction amount for ""Approved"" vs. ""Pending"" statuses?"
+Q18,Flag any single transaction that takes up more than half of its cost center's monthly budget.
+Q19,Which vendor has issued the most refunds (negative amounts) to us?
+Q20,Give me a summary of the top 3 vendors for each department.

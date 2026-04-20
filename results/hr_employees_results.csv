@@ -1,0 +1,620 @@
+dataset_file,dataset_id,question_id,question,model_id,prompt_mode,status,final_answer,python_code,execution_result,execution_stdout,execution_error,trace_count,elapsed_sec,error,started_at
+hr_employees_questions.csv,hr_employees,Q1,What is our current total headcount of active employees?,openai/gpt-3.5-turbo,baseline,ok,The current total headcount of active employees is 168.,result = df[df['status'] == 'Active']['employee_id'].nunique(),168,,,2,4.861,,1776672040.6546504
+hr_employees_questions.csv,hr_employees,Q1,What is our current total headcount of active employees?,openai/gpt-3.5-turbo,structured,ok,The current total headcount of active employees is 168.,result = df[df['status'] == 'Active']['employee_id'].nunique(),168,,,2,4.43,,1776672045.5151908
+hr_employees_questions.csv,hr_employees,Q1,What is our current total headcount of active employees?,openai/gpt-3.5-turbo,CoT,ok,The current total headcount of active employees is 168.,result = df[df['status'] == 'Active']['employee_id'].nunique(),168,,,2,3.92,,1776672049.9451516
+hr_employees_questions.csv,hr_employees,Q1,What is our current total headcount of active employees?,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.246,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672053.865605
+hr_employees_questions.csv,hr_employees,Q1,What is our current total headcount of active employees?,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.225,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672054.1111557
+hr_employees_questions.csv,hr_employees,Q1,What is our current total headcount of active employees?,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.25,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672054.3360968
+hr_employees_questions.csv,hr_employees,Q1,What is our current total headcount of active employees?,qwen/qwen3-coder:free,baseline,error,,,,,,,0.252,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672054.5861435
+hr_employees_questions.csv,hr_employees,Q1,What is our current total headcount of active employees?,qwen/qwen3-coder:free,structured,error,,,,,,,0.24,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672054.8378904
+hr_employees_questions.csv,hr_employees,Q1,What is our current total headcount of active employees?,qwen/qwen3-coder:free,CoT,error,,,,,,,0.258,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672055.0776324
+hr_employees_questions.csv,hr_employees,Q1,What is our current total headcount of active employees?,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.218,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672055.3356085
+hr_employees_questions.csv,hr_employees,Q1,What is our current total headcount of active employees?,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.241,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672055.5698385
+hr_employees_questions.csv,hr_employees,Q1,What is our current total headcount of active employees?,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.25,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672055.8110576
+hr_employees_questions.csv,hr_employees,Q2,What is the average annual salary for the entire company?,openai/gpt-3.5-turbo,baseline,ok,"The average annual salary for the entire company is $1,096,918.80.",result = df['salary'].mean() * 12,1096918.7999999998,,,2,3.965,,1776672056.0621169
+hr_employees_questions.csv,hr_employees,Q2,What is the average annual salary for the entire company?,openai/gpt-3.5-turbo,structured,ok,"The average annual salary for the entire company is $1,096,918.80.",result = df['salary'].mean() * 12,1096918.7999999998,,,2,4.147,,1776672060.0275702
+hr_employees_questions.csv,hr_employees,Q2,What is the average annual salary for the entire company?,openai/gpt-3.5-turbo,CoT,ok,"The average annual salary for the entire company is $1,096,918.80.",result = df['salary'].mean() * 12,1096918.7999999998,,,2,4.745,,1776672064.176567
+hr_employees_questions.csv,hr_employees,Q2,What is the average annual salary for the entire company?,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.367,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672068.921784
+hr_employees_questions.csv,hr_employees,Q2,What is the average annual salary for the entire company?,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.373,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672069.289155
+hr_employees_questions.csv,hr_employees,Q2,What is the average annual salary for the entire company?,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.355,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672069.6617324
+hr_employees_questions.csv,hr_employees,Q2,What is the average annual salary for the entire company?,qwen/qwen3-coder:free,baseline,error,,,,,,,0.338,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672070.0163593
+hr_employees_questions.csv,hr_employees,Q2,What is the average annual salary for the entire company?,qwen/qwen3-coder:free,structured,error,,,,,,,0.375,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672070.3543677
+hr_employees_questions.csv,hr_employees,Q2,What is the average annual salary for the entire company?,qwen/qwen3-coder:free,CoT,error,,,,,,,0.345,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672070.736802
+hr_employees_questions.csv,hr_employees,Q2,What is the average annual salary for the entire company?,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.209,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672071.0817354
+hr_employees_questions.csv,hr_employees,Q2,What is the average annual salary for the entire company?,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.214,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672071.2902715
+hr_employees_questions.csv,hr_employees,Q2,What is the average annual salary for the entire company?,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.234,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672071.504719
+hr_employees_questions.csv,hr_employees,Q3,"For employees missing a ""termination_date"", can you confirm if the system correctly treats them as ""Active""?",openai/gpt-3.5-turbo,baseline,ok,Employees missing a 'termination_date' are correctly treated as 'Active' or on 'Leave of Absence'.,result = df[df['termination_date'].isnull()]['status'].unique(),"array(['Active', 'Leave of Absence'], dtype=object)",,,2,4.602,,1776672071.7534697
+hr_employees_questions.csv,hr_employees,Q3,"For employees missing a ""termination_date"", can you confirm if the system correctly treats them as ""Active""?",openai/gpt-3.5-turbo,structured,ok,"For employees missing a 'termination_date', the system correctly treats them as 'Active' or on 'Leave of Absence'.",result = df[df['termination_date'].isnull()]['status'].unique(),"array(['Active', 'Leave of Absence'], dtype=object)",,,2,4.396,,1776672076.3557124
+hr_employees_questions.csv,hr_employees,Q3,"For employees missing a ""termination_date"", can you confirm if the system correctly treats them as ""Active""?",openai/gpt-3.5-turbo,CoT,ok,Employees missing a 'termination_date' are correctly treated as 'Active' or on 'Leave of Absence'.,result = df[df['termination_date'].isnull()]['status'].unique(),"array(['Active', 'Leave of Absence'], dtype=object)",,,2,4.763,,1776672080.756253
+hr_employees_questions.csv,hr_employees,Q3,"For employees missing a ""termination_date"", can you confirm if the system correctly treats them as ""Active""?",meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.361,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672085.5194247
+hr_employees_questions.csv,hr_employees,Q3,"For employees missing a ""termination_date"", can you confirm if the system correctly treats them as ""Active""?",meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.32,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672085.8801825
+hr_employees_questions.csv,hr_employees,Q3,"For employees missing a ""termination_date"", can you confirm if the system correctly treats them as ""Active""?",meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.386,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672086.199976
+hr_employees_questions.csv,hr_employees,Q3,"For employees missing a ""termination_date"", can you confirm if the system correctly treats them as ""Active""?",qwen/qwen3-coder:free,baseline,error,,,,,,,0.395,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672086.5856862
+hr_employees_questions.csv,hr_employees,Q3,"For employees missing a ""termination_date"", can you confirm if the system correctly treats them as ""Active""?",qwen/qwen3-coder:free,structured,error,,,,,,,0.355,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672086.9819453
+hr_employees_questions.csv,hr_employees,Q3,"For employees missing a ""termination_date"", can you confirm if the system correctly treats them as ""Active""?",qwen/qwen3-coder:free,CoT,error,,,,,,,0.343,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672087.3365371
+hr_employees_questions.csv,hr_employees,Q3,"For employees missing a ""termination_date"", can you confirm if the system correctly treats them as ""Active""?",nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.256,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672087.6797516
+hr_employees_questions.csv,hr_employees,Q3,"For employees missing a ""termination_date"", can you confirm if the system correctly treats them as ""Active""?",nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.229,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672087.9352698
+hr_employees_questions.csv,hr_employees,Q3,"For employees missing a ""termination_date"", can you confirm if the system correctly treats them as ""Active""?",nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.233,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672088.1705294
+hr_employees_questions.csv,hr_employees,Q4,Give me a breakdown of headcount and total salary cost for each department.,openai/gpt-3.5-turbo,baseline,ok,"The breakdown of headcount and total salary cost for each department is as follows: Engineering - 47 employees with a total salary cost of $5,856,299, Finance - 15 employees with a total salary cost of $1,338,941, Marketing - 31 employees with a total salary cost of $2,781,657, Operations - 17 employees with a total salary cost of $1,491,234, Sales - 42 employees with a total salary cost of $3,329,362, Support - 28 employees with a total salary cost of $1,656,289.","result = df.groupby('department').agg(headcount=('employee_id', 'count'), total_salary_cost=('salary', 'sum')).reset_index()","    department  headcount  total_salary_cost
+0  Engineering         47            5856299
+1      Finance         15            1338941
+2    Marketing         31            2781657
+3   Operations         17            1491234
+4        Sales         42            3329362
+5      Support         28            1656289",,,2,5.953,,1776672088.405685
+hr_employees_questions.csv,hr_employees,Q4,Give me a breakdown of headcount and total salary cost for each department.,openai/gpt-3.5-turbo,structured,ok,"The breakdown of headcount and total salary cost for each department is as follows: Engineering - 47 employees with a total salary cost of $5,856,299, Finance - 15 employees with a total salary cost of $1,338,941, Marketing - 31 employees with a total salary cost of $2,781,657, Operations - 17 employees with a total salary cost of $1,491,234, Sales - 42 employees with a total salary cost of $3,329,362, Support - 28 employees with a total salary cost of $1,656,289.","result = df.groupby('department').agg(headcount=('employee_id', 'count'), total_salary_cost=('salary', 'sum')).reset_index()","    department  headcount  total_salary_cost
+0  Engineering         47            5856299
+1      Finance         15            1338941
+2    Marketing         31            2781657
+3   Operations         17            1491234
+4        Sales         42            3329362
+5      Support         28            1656289",,,2,5.828,,1776672094.3590133
+hr_employees_questions.csv,hr_employees,Q4,Give me a breakdown of headcount and total salary cost for each department.,openai/gpt-3.5-turbo,CoT,ok,"The breakdown of headcount and total salary cost for each department is as follows: Engineering - 47 employees with a total salary cost of $5,856,299, Finance - 15 employees with a total salary cost of $1,338,941, Marketing - 31 employees with a total salary cost of $2,781,657, Operations - 17 employees with a total salary cost of $1,491,234, Sales - 42 employees with a total salary cost of $3,329,362, Support - 28 employees with a total salary cost of $1,656,289.","result = df.groupby('department').agg(headcount=('employee_id', 'count'), total_salary_cost=('salary', 'sum')).reset_index()","    department  headcount  total_salary_cost
+0  Engineering         47            5856299
+1      Finance         15            1338941
+2    Marketing         31            2781657
+3   Operations         17            1491234
+4        Sales         42            3329362
+5      Support         28            1656289",,,2,5.891,,1776672100.1871755
+hr_employees_questions.csv,hr_employees,Q4,Give me a breakdown of headcount and total salary cost for each department.,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.405,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672106.078259
+hr_employees_questions.csv,hr_employees,Q4,Give me a breakdown of headcount and total salary cost for each department.,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.378,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672106.484149
+hr_employees_questions.csv,hr_employees,Q4,Give me a breakdown of headcount and total salary cost for each department.,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.256,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672106.8636303
+hr_employees_questions.csv,hr_employees,Q4,Give me a breakdown of headcount and total salary cost for each department.,qwen/qwen3-coder:free,baseline,error,,,,,,,0.34,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672107.119201
+hr_employees_questions.csv,hr_employees,Q4,Give me a breakdown of headcount and total salary cost for each department.,qwen/qwen3-coder:free,structured,error,,,,,,,0.307,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672107.4612572
+hr_employees_questions.csv,hr_employees,Q4,Give me a breakdown of headcount and total salary cost for each department.,qwen/qwen3-coder:free,CoT,error,,,,,,,0.285,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672107.767988
+hr_employees_questions.csv,hr_employees,Q4,Give me a breakdown of headcount and total salary cost for each department.,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.331,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672108.0537071
+hr_employees_questions.csv,hr_employees,Q4,Give me a breakdown of headcount and total salary cost for each department.,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.262,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672108.3845732
+hr_employees_questions.csv,hr_employees,Q4,Give me a breakdown of headcount and total salary cost for each department.,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.37,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672108.6469157
+hr_employees_questions.csv,hr_employees,Q5,Who are the top 3 managers who have the most people reporting to them?,openai/gpt-3.5-turbo,baseline,ok,"The top 3 managers with the most people reporting to them are: E2022 with 12 reports, E2010 with 8 reports, and E2015 with 8 reports.",result = df['manager_id'].value_counts().nlargest(3),"manager_id
+E2022    12
+E2010     8
+E2015     8
+Name: count, dtype: int64",,,2,4.845,,1776672109.0177786
+hr_employees_questions.csv,hr_employees,Q5,Who are the top 3 managers who have the most people reporting to them?,openai/gpt-3.5-turbo,structured,ok,"The top 3 managers who have the most people reporting to them are: E2022 with 12 reports, E2010 with 8 reports, and E2015 with 8 reports.",result = df['manager_id'].value_counts().nlargest(3),"manager_id
+E2022    12
+E2010     8
+E2015     8
+Name: count, dtype: int64",,,2,5.192,,1776672113.8629668
+hr_employees_questions.csv,hr_employees,Q5,Who are the top 3 managers who have the most people reporting to them?,openai/gpt-3.5-turbo,CoT,ok,"The top 3 managers who have the most people reporting to them are: E2022 with 12 reports, E2010 with 8 reports, and E2015 with 8 reports.",result = df['manager_id'].value_counts().nlargest(3),"manager_id
+E2022    12
+E2010     8
+E2015     8
+Name: count, dtype: int64",,,2,4.62,,1776672119.0547905
+hr_employees_questions.csv,hr_employees,Q5,Who are the top 3 managers who have the most people reporting to them?,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.373,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672123.6749923
+hr_employees_questions.csv,hr_employees,Q5,Who are the top 3 managers who have the most people reporting to them?,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.385,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672124.0476036
+hr_employees_questions.csv,hr_employees,Q5,Who are the top 3 managers who have the most people reporting to them?,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.37,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672124.4321284
+hr_employees_questions.csv,hr_employees,Q5,Who are the top 3 managers who have the most people reporting to them?,qwen/qwen3-coder:free,baseline,error,,,,,,,0.316,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672124.8023775
+hr_employees_questions.csv,hr_employees,Q5,Who are the top 3 managers who have the most people reporting to them?,qwen/qwen3-coder:free,structured,error,,,,,,,0.332,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672125.1185722
+hr_employees_questions.csv,hr_employees,Q5,Who are the top 3 managers who have the most people reporting to them?,qwen/qwen3-coder:free,CoT,error,,,,,,,0.338,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672125.450116
+hr_employees_questions.csv,hr_employees,Q5,Who are the top 3 managers who have the most people reporting to them?,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.25,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672125.788493
+hr_employees_questions.csv,hr_employees,Q5,Who are the top 3 managers who have the most people reporting to them?,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.204,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672126.038025
+hr_employees_questions.csv,hr_employees,Q5,Who are the top 3 managers who have the most people reporting to them?,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.23,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672126.2421231
+hr_employees_questions.csv,hr_employees,Q6,"Is there a difference in performance ratings between Remote, Hybrid, and On-site workers?",openai/gpt-3.5-turbo,baseline,ok,"Yes, there is a difference in performance ratings between Remote, Hybrid, and On-site workers.",result = df.groupby('work_mode')['performance_rating'].mean(),"work_mode
+Hybrid     3.348485
+On-site    3.272727
+Remote     3.234568
+Name: performance_rating, dtype: float64",,,2,4.413,,1776672126.4721742
+hr_employees_questions.csv,hr_employees,Q6,"Is there a difference in performance ratings between Remote, Hybrid, and On-site workers?",openai/gpt-3.5-turbo,structured,ok,"Yes, there is a difference in performance ratings between Remote, Hybrid, and On-site workers.",result = df.groupby('work_mode')['performance_rating'].mean(),"work_mode
+Hybrid     3.348485
+On-site    3.272727
+Remote     3.234568
+Name: performance_rating, dtype: float64",,,2,4.525,,1776672130.8850558
+hr_employees_questions.csv,hr_employees,Q6,"Is there a difference in performance ratings between Remote, Hybrid, and On-site workers?",openai/gpt-3.5-turbo,CoT,ok,"Yes, there is a difference in performance ratings between Remote, Hybrid, and On-site workers.",result = df.groupby('work_mode')['performance_rating'].mean(),"work_mode
+Hybrid     3.348485
+On-site    3.272727
+Remote     3.234568
+Name: performance_rating, dtype: float64",,,2,6.173,,1776672135.4119456
+hr_employees_questions.csv,hr_employees,Q6,"Is there a difference in performance ratings between Remote, Hybrid, and On-site workers?",meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.404,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672141.5848835
+hr_employees_questions.csv,hr_employees,Q6,"Is there a difference in performance ratings between Remote, Hybrid, and On-site workers?",meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.341,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672141.9887066
+hr_employees_questions.csv,hr_employees,Q6,"Is there a difference in performance ratings between Remote, Hybrid, and On-site workers?",meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.878,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672142.3300097
+hr_employees_questions.csv,hr_employees,Q6,"Is there a difference in performance ratings between Remote, Hybrid, and On-site workers?",qwen/qwen3-coder:free,baseline,error,,,,,,,0.373,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672143.2080317
+hr_employees_questions.csv,hr_employees,Q6,"Is there a difference in performance ratings between Remote, Hybrid, and On-site workers?",qwen/qwen3-coder:free,structured,error,,,,,,,0.329,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672143.5811608
+hr_employees_questions.csv,hr_employees,Q6,"Is there a difference in performance ratings between Remote, Hybrid, and On-site workers?",qwen/qwen3-coder:free,CoT,error,,,,,,,0.356,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672143.9229994
+hr_employees_questions.csv,hr_employees,Q6,"Is there a difference in performance ratings between Remote, Hybrid, and On-site workers?",nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.273,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672144.2794716
+hr_employees_questions.csv,hr_employees,Q6,"Is there a difference in performance ratings between Remote, Hybrid, and On-site workers?",nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.293,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672144.55291
+hr_employees_questions.csv,hr_employees,Q6,"Is there a difference in performance ratings between Remote, Hybrid, and On-site workers?",nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.255,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672144.8475726
+hr_employees_questions.csv,hr_employees,Q7,What is the average number of years employees have stayed with the company?,openai/gpt-3.5-turbo,baseline,ok,The average number of years employees have stayed with the company is approximately X years.,result = df['termination_date'].dt.year.sub(df['hire_date'].dt.year).mean(),,,AttributeError: Can only use .dt accessor with datetimelike values,2,5.251,,1776672145.1025608
+hr_employees_questions.csv,hr_employees,Q7,What is the average number of years employees have stayed with the company?,openai/gpt-3.5-turbo,structured,ok,The average number of years employees have stayed with the company is approximately X years.,result = df['termination_date'].dt.year.fillna(pd.Timestamp.now().year).sub(df['hire_date'].dt.year).mean(),,,AttributeError: Can only use .dt accessor with datetimelike values,2,4.987,,1776672150.3540003
+hr_employees_questions.csv,hr_employees,Q7,What is the average number of years employees have stayed with the company?,openai/gpt-3.5-turbo,CoT,ok,The average number of years employees have stayed with the company is null due to an AttributeError in the code.,result = df['termination_date'].dt.year.fillna(pd.to_datetime('today').year).sub(df['hire_date'].dt.year).mean(),,,AttributeError: Can only use .dt accessor with datetimelike values,2,5.206,,1776672155.3411555
+hr_employees_questions.csv,hr_employees,Q7,What is the average number of years employees have stayed with the company?,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.337,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672160.5622566
+hr_employees_questions.csv,hr_employees,Q7,What is the average number of years employees have stayed with the company?,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.332,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672160.8992476
+hr_employees_questions.csv,hr_employees,Q7,What is the average number of years employees have stayed with the company?,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.255,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672161.2313821
+hr_employees_questions.csv,hr_employees,Q7,What is the average number of years employees have stayed with the company?,qwen/qwen3-coder:free,baseline,error,,,,,,,0.315,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672161.4861453
+hr_employees_questions.csv,hr_employees,Q7,What is the average number of years employees have stayed with the company?,qwen/qwen3-coder:free,structured,error,,,,,,,0.351,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672161.8008142
+hr_employees_questions.csv,hr_employees,Q7,What is the average number of years employees have stayed with the company?,qwen/qwen3-coder:free,CoT,error,,,,,,,0.254,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672162.1517844
+hr_employees_questions.csv,hr_employees,Q7,What is the average number of years employees have stayed with the company?,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.396,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672162.4060018
+hr_employees_questions.csv,hr_employees,Q7,What is the average number of years employees have stayed with the company?,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.241,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672162.802418
+hr_employees_questions.csv,hr_employees,Q7,What is the average number of years employees have stayed with the company?,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.276,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672163.0437558
+hr_employees_questions.csv,hr_employees,Q8,"Are there any employees earning significantly more (e.g., 50% more) than the average for their department?",openai/gpt-3.5-turbo,baseline,ok,There are 3 employees earning significantly more than 50% above the average salary in their respective departments.,result = df[df['salary'] > df.groupby('department')['salary'].transform('mean') * 1.5],"    employee_id   department  ... manager_id  status
+6         E2148  Engineering  ...      E2029  Active
+134       E2007        Sales  ...        NaN  Active
+165       E2117  Engineering  ...      E2008  Active
+
+[3 rows x 13 columns]",,,2,5.058,,1776672163.3196368
+hr_employees_questions.csv,hr_employees,Q8,"Are there any employees earning significantly more (e.g., 50% more) than the average for their department?",openai/gpt-3.5-turbo,structured,ok,There are 3 employees earning significantly more (50% above average) than the average for their department.,result = df[df['salary'] > df.groupby('department')['salary'].transform('mean') * 1.5],"    employee_id   department  ... manager_id  status
+6         E2148  Engineering  ...      E2029  Active
+134       E2007        Sales  ...        NaN  Active
+165       E2117  Engineering  ...      E2008  Active
+
+[3 rows x 13 columns]",,,2,4.542,,1776672168.3929052
+hr_employees_questions.csv,hr_employees,Q8,"Are there any employees earning significantly more (e.g., 50% more) than the average for their department?",openai/gpt-3.5-turbo,CoT,ok,There are 3 employees earning significantly more (50% above average) than the average salary in their respective departments.,result = df[df['salary'] > df.groupby('department')['salary'].transform('mean') * 1.5],"    employee_id   department  ... manager_id  status
+6         E2148  Engineering  ...      E2029  Active
+134       E2007        Sales  ...        NaN  Active
+165       E2117  Engineering  ...      E2008  Active
+
+[3 rows x 13 columns]",,,2,4.542,,1776672172.9352891
+hr_employees_questions.csv,hr_employees,Q8,"Are there any employees earning significantly more (e.g., 50% more) than the average for their department?",meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.25,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672177.4785476
+hr_employees_questions.csv,hr_employees,Q8,"Are there any employees earning significantly more (e.g., 50% more) than the average for their department?",meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.225,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672177.7282493
+hr_employees_questions.csv,hr_employees,Q8,"Are there any employees earning significantly more (e.g., 50% more) than the average for their department?",meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.288,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672177.953471
+hr_employees_questions.csv,hr_employees,Q8,"Are there any employees earning significantly more (e.g., 50% more) than the average for their department?",qwen/qwen3-coder:free,baseline,error,,,,,,,0.291,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672178.241369
+hr_employees_questions.csv,hr_employees,Q8,"Are there any employees earning significantly more (e.g., 50% more) than the average for their department?",qwen/qwen3-coder:free,structured,error,,,,,,,0.231,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672178.540155
+hr_employees_questions.csv,hr_employees,Q8,"Are there any employees earning significantly more (e.g., 50% more) than the average for their department?",qwen/qwen3-coder:free,CoT,error,,,,,,,0.357,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672178.7706978
+hr_employees_questions.csv,hr_employees,Q8,"Are there any employees earning significantly more (e.g., 50% more) than the average for their department?",nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.27,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672179.1305635
+hr_employees_questions.csv,hr_employees,Q8,"Are there any employees earning significantly more (e.g., 50% more) than the average for their department?",nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.831,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672179.400713
+hr_employees_questions.csv,hr_employees,Q8,"Are there any employees earning significantly more (e.g., 50% more) than the average for their department?",nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.285,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672180.2320127
+hr_employees_questions.csv,hr_employees,Q9,What is the typical bonus percentage for our top performers (Rating = 5)?,openai/gpt-3.5-turbo,baseline,ok,The typical bonus percentage for top performers with a rating of 5 is approximately 10.22%.,result = df[df['performance_rating'] == 5]['bonus_pct'].mean(),0.10217391304347827,,,2,5.693,,1776672180.5173242
+hr_employees_questions.csv,hr_employees,Q9,What is the typical bonus percentage for our top performers (Rating = 5)?,openai/gpt-3.5-turbo,structured,ok,The typical bonus percentage for top performers with a rating of 5 is approximately 10.22%.,result = df[df['performance_rating'] == 5]['bonus_pct'].mean(),0.10217391304347827,,,2,3.806,,1776672186.210673
+hr_employees_questions.csv,hr_employees,Q9,What is the typical bonus percentage for our top performers (Rating = 5)?,openai/gpt-3.5-turbo,CoT,ok,The typical bonus percentage for top performers with a rating of 5 is approximately 10.22%.,result = df[df['performance_rating'] == 5]['bonus_pct'].mean(),0.10217391304347827,,,2,4.495,,1776672190.019701
+hr_employees_questions.csv,hr_employees,Q9,What is the typical bonus percentage for our top performers (Rating = 5)?,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.341,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672194.517255
+hr_employees_questions.csv,hr_employees,Q9,What is the typical bonus percentage for our top performers (Rating = 5)?,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.435,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672194.864534
+hr_employees_questions.csv,hr_employees,Q9,What is the typical bonus percentage for our top performers (Rating = 5)?,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.344,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672195.3015938
+hr_employees_questions.csv,hr_employees,Q9,What is the typical bonus percentage for our top performers (Rating = 5)?,qwen/qwen3-coder:free,baseline,error,,,,,,,0.369,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672195.6460683
+hr_employees_questions.csv,hr_employees,Q9,What is the typical bonus percentage for our top performers (Rating = 5)?,qwen/qwen3-coder:free,structured,error,,,,,,,0.317,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672196.0264757
+hr_employees_questions.csv,hr_employees,Q9,What is the typical bonus percentage for our top performers (Rating = 5)?,qwen/qwen3-coder:free,CoT,error,,,,,,,0.401,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672196.3433177
+hr_employees_questions.csv,hr_employees,Q9,What is the typical bonus percentage for our top performers (Rating = 5)?,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.274,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672196.7438202
+hr_employees_questions.csv,hr_employees,Q9,What is the typical bonus percentage for our top performers (Rating = 5)?,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.252,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672197.018077
+hr_employees_questions.csv,hr_employees,Q9,What is the typical bonus percentage for our top performers (Rating = 5)?,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.251,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672197.2702925
+hr_employees_questions.csv,hr_employees,Q10,Which city (Location) has the highest average employee compensation?,openai/gpt-3.5-turbo,baseline,ok,San Francisco,result = df.groupby('location')['salary'].mean().idxmax(),San Francisco,,,2,3.522,,1776672197.5211663
+hr_employees_questions.csv,hr_employees,Q10,Which city (Location) has the highest average employee compensation?,openai/gpt-3.5-turbo,structured,ok,San Francisco,result = df.groupby('location')['salary'].mean().idxmax(),San Francisco,,,2,4.415,,1776672201.0431054
+hr_employees_questions.csv,hr_employees,Q10,Which city (Location) has the highest average employee compensation?,openai/gpt-3.5-turbo,CoT,ok,San Francisco,result = df.groupby('location')['salary'].mean().idxmax(),San Francisco,,,2,3.221,,1776672205.4580438
+hr_employees_questions.csv,hr_employees,Q10,Which city (Location) has the highest average employee compensation?,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.349,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672208.6816006
+hr_employees_questions.csv,hr_employees,Q10,Which city (Location) has the highest average employee compensation?,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.35,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672209.0309572
+hr_employees_questions.csv,hr_employees,Q10,Which city (Location) has the highest average employee compensation?,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.365,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672209.3814046
+hr_employees_questions.csv,hr_employees,Q10,Which city (Location) has the highest average employee compensation?,qwen/qwen3-coder:free,baseline,error,,,,,,,0.338,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672209.7462552
+hr_employees_questions.csv,hr_employees,Q10,Which city (Location) has the highest average employee compensation?,qwen/qwen3-coder:free,structured,error,,,,,,,0.378,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672210.0852742
+hr_employees_questions.csv,hr_employees,Q10,Which city (Location) has the highest average employee compensation?,qwen/qwen3-coder:free,CoT,error,,,,,,,0.348,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672210.4649916
+hr_employees_questions.csv,hr_employees,Q10,Which city (Location) has the highest average employee compensation?,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.227,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672210.8129756
+hr_employees_questions.csv,hr_employees,Q10,Which city (Location) has the highest average employee compensation?,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.23,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672211.0398982
+hr_employees_questions.csv,hr_employees,Q10,Which city (Location) has the highest average employee compensation?,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.227,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672211.2836175
+hr_employees_questions.csv,hr_employees,Q11,Can you identify any "Star Interns" who have a performance rating of 4 or higher?,openai/gpt-3.5-turbo,baseline,ok,There are 2 'Star Interns' with a performance rating of 4 or higher.,result = df[(df['employment_type'] == 'Intern') & (df['performance_rating'] >= 4)],"   employee_id   department  ... manager_id  status
+18       E2060  Engineering  ...      E2017  Active
+96       E2111  Engineering  ...      E2021  Active
+
+[2 rows x 13 columns]",,,2,3.773,,1776672211.5104845
+hr_employees_questions.csv,hr_employees,Q11,Can you identify any "Star Interns" who have a performance rating of 4 or higher?,openai/gpt-3.5-turbo,structured,ok,There are 2 'Star Interns' with a performance rating of 4 or higher.,result = df[(df['employment_type'] == 'Intern') & (df['performance_rating'] >= 4)],"   employee_id   department  ... manager_id  status
+18       E2060  Engineering  ...      E2017  Active
+96       E2111  Engineering  ...      E2021  Active
+
+[2 rows x 13 columns]",,,2,3.625,,1776672215.2838862
+hr_employees_questions.csv,hr_employees,Q11,Can you identify any "Star Interns" who have a performance rating of 4 or higher?,openai/gpt-3.5-turbo,CoT,ok,There are 2 'Star Interns' with a performance rating of 4 or higher.,result = df[(df['employment_type'] == 'Intern') & (df['performance_rating'] >= 4)],"   employee_id   department  ... manager_id  status
+18       E2060  Engineering  ...      E2017  Active
+96       E2111  Engineering  ...      E2021  Active
+
+[2 rows x 13 columns]",,,2,4.14,,1776672218.9238026
+hr_employees_questions.csv,hr_employees,Q11,Can you identify any "Star Interns" who have a performance rating of 4 or higher?,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.338,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672223.0635445
+hr_employees_questions.csv,hr_employees,Q11,Can you identify any "Star Interns" who have a performance rating of 4 or higher?,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.335,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672223.401206
+hr_employees_questions.csv,hr_employees,Q11,Can you identify any "Star Interns" who have a performance rating of 4 or higher?,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.266,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672223.7358944
+hr_employees_questions.csv,hr_employees,Q11,Can you identify any "Star Interns" who have a performance rating of 4 or higher?,qwen/qwen3-coder:free,baseline,error,,,,,,,0.328,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672224.0019586
+hr_employees_questions.csv,hr_employees,Q11,Can you identify any "Star Interns" who have a performance rating of 4 or higher?,qwen/qwen3-coder:free,structured,error,,,,,,,0.313,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672224.3301964
+hr_employees_questions.csv,hr_employees,Q11,Can you identify any "Star Interns" who have a performance rating of 4 or higher?,qwen/qwen3-coder:free,CoT,error,,,,,,,0.244,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672224.64357
+hr_employees_questions.csv,hr_employees,Q11,Can you identify any "Star Interns" who have a performance rating of 4 or higher?,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.248,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672224.8872335
+hr_employees_questions.csv,hr_employees,Q11,Can you identify any "Star Interns" who have a performance rating of 4 or higher?,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.234,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672225.134962
+hr_employees_questions.csv,hr_employees,Q11,Can you identify any "Star Interns" who have a performance rating of 4 or higher?,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.257,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672225.3692932
+hr_employees_questions.csv,hr_employees,Q12,What is the median salary for each job role in the company?,openai/gpt-3.5-turbo,baseline,ok,"The median salary for each job role in the company is as follows: Account Executive - $79,528, Accountant - $88,734.50, Content Strategist - $71,923, Data Engineer - $119,174, Demand Gen Specialist - $69,414, Engineering Manager - $172,121, FP&A Analyst - $80,824, Finance Manager - $117,782, Growth Manager - $98,868.50, Marketing Analyst - $68,623, Operations Analyst - $82,619, Ops Manager - $102,022.50, Payroll Specialist - $87,215.50, Program Coordinator - $83,650, QA Engineer - $117,605, Sales Development Rep - $74,713, Sales Manager - $113,459, Software Engineer - $115,270, Solutions Consultant - $76,023.50, Supply Chain Specialist - $73,741.50, Support Agent - $56,961.50, Support Lead - $61,615, Technical Support - $56,646.",result = df.groupby('role')['salary'].median(),"role
+Account Executive           79528.0
+Accountant                  88734.5
+Content Strategist          71923.0
+Data Engineer              119174.0
+Demand Gen Specialist       69414.0
+Engineering Manager        172121.0
+FP&A Analyst                80824.0
+Finance Manager            117782.0
+Growth Manager              98868.5
+Marketing Analyst           68623.0
+Operations Analyst          82619.0
+Ops Manager                102022.5
+Payroll Specialist          87215.5
+Program Coordinator         83650.0
+QA Engineer                117605.0
+Sales Development Rep       74713.0
+Sales Manager              113459.0
+Software Engineer          115270.0
+Solutions Consultant        76023.5
+Supply Chain Specialist     73741.5
+Support Agent               56961.5
+Support Lead                61615.0
+Technical Support           56646.0
+Name: salary, dtype: float64",,,2,7.191,,1776672225.6263964
+hr_employees_questions.csv,hr_employees,Q12,What is the median salary for each job role in the company?,openai/gpt-3.5-turbo,structured,ok,"The median salary for each job role in the company is as follows: Account Executive - $79,528, Accountant - $88,734.50, Content Strategist - $71,923, Data Engineer - $119,174, and so on for other roles.",result = df.groupby('role')['salary'].median(),"role
+Account Executive           79528.0
+Accountant                  88734.5
+Content Strategist          71923.0
+Data Engineer              119174.0
+Demand Gen Specialist       69414.0
+Engineering Manager        172121.0
+FP&A Analyst                80824.0
+Finance Manager            117782.0
+Growth Manager              98868.5
+Marketing Analyst           68623.0
+Operations Analyst          82619.0
+Ops Manager                102022.5
+Payroll Specialist          87215.5
+Program Coordinator         83650.0
+QA Engineer                117605.0
+Sales Development Rep       74713.0
+Sales Manager              113459.0
+Software Engineer          115270.0
+Solutions Consultant        76023.5
+Supply Chain Specialist     73741.5
+Support Agent               56961.5
+Support Lead                61615.0
+Technical Support           56646.0
+Name: salary, dtype: float64",,,2,4.747,,1776672232.817097
+hr_employees_questions.csv,hr_employees,Q12,What is the median salary for each job role in the company?,openai/gpt-3.5-turbo,CoT,ok,"The median salary for each job role in the company is as follows: Account Executive - $79,528, Accountant - $88,734.50, Content Strategist - $71,923, Data Engineer - $119,174, and so on for other roles.",result = df.groupby('role')['salary'].median(),"role
+Account Executive           79528.0
+Accountant                  88734.5
+Content Strategist          71923.0
+Data Engineer              119174.0
+Demand Gen Specialist       69414.0
+Engineering Manager        172121.0
+FP&A Analyst                80824.0
+Finance Manager            117782.0
+Growth Manager              98868.5
+Marketing Analyst           68623.0
+Operations Analyst          82619.0
+Ops Manager                102022.5
+Payroll Specialist          87215.5
+Program Coordinator         83650.0
+QA Engineer                117605.0
+Sales Development Rep       74713.0
+Sales Manager              113459.0
+Software Engineer          115270.0
+Solutions Consultant        76023.5
+Supply Chain Specialist     73741.5
+Support Agent               56961.5
+Support Lead                61615.0
+Technical Support           56646.0
+Name: salary, dtype: float64",,,2,4.735,,1776672237.577309
+hr_employees_questions.csv,hr_employees,Q12,What is the median salary for each job role in the company?,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.322,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672242.3126447
+hr_employees_questions.csv,hr_employees,Q12,What is the median salary for each job role in the company?,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.396,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672242.6483984
+hr_employees_questions.csv,hr_employees,Q12,What is the median salary for each job role in the company?,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.339,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672243.0440662
+hr_employees_questions.csv,hr_employees,Q12,What is the median salary for each job role in the company?,qwen/qwen3-coder:free,baseline,error,,,,,,,0.386,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672243.3872051
+hr_employees_questions.csv,hr_employees,Q12,What is the median salary for each job role in the company?,qwen/qwen3-coder:free,structured,error,,,,,,,0.375,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672243.7734985
+hr_employees_questions.csv,hr_employees,Q12,What is the median salary for each job role in the company?,qwen/qwen3-coder:free,CoT,error,,,,,,,0.349,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672244.1488361
+hr_employees_questions.csv,hr_employees,Q12,What is the median salary for each job role in the company?,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.246,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672244.4981241
+hr_employees_questions.csv,hr_employees,Q12,What is the median salary for each job role in the company?,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.246,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672244.7440906
+hr_employees_questions.csv,hr_employees,Q12,What is the median salary for each job role in the company?,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.251,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672244.9898076
+hr_employees_questions.csv,hr_employees,Q13,How many people have we hired in the last 12 months?,openai/gpt-3.5-turbo,baseline,ok,There have been null people hired in the last 12 months.,result = df[df['hire_date'] >= pd.Timestamp.now() - pd.DateOffset(months=12)]['employee_id'].nunique(),,,TypeError: '>=' not supported between instances of 'str' and 'Timestamp',2,9.419,,1776672245.2406833
+hr_employees_questions.csv,hr_employees,Q13,How many people have we hired in the last 12 months?,openai/gpt-3.5-turbo,structured,ok,There have been null people hired in the last 12 months.,result = df[df['hire_date'] >= pd.Timestamp.now() - pd.DateOffset(months=12)]['employee_id'].nunique(),,,TypeError: '>=' not supported between instances of 'str' and 'Timestamp',2,4.563,,1776672254.6600096
+hr_employees_questions.csv,hr_employees,Q13,How many people have we hired in the last 12 months?,openai/gpt-3.5-turbo,CoT,ok,0,result = df[df['hire_date'] >= pd.Timestamp.now() - pd.DateOffset(months=12)]['employee_id'].nunique(),,,TypeError: '>=' not supported between instances of 'str' and 'Timestamp',2,4.601,,1776672259.2249374
+hr_employees_questions.csv,hr_employees,Q13,How many people have we hired in the last 12 months?,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.381,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672263.841235
+hr_employees_questions.csv,hr_employees,Q13,How many people have we hired in the last 12 months?,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.358,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672264.2234201
+hr_employees_questions.csv,hr_employees,Q13,How many people have we hired in the last 12 months?,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.459,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672264.5813324
+hr_employees_questions.csv,hr_employees,Q13,How many people have we hired in the last 12 months?,qwen/qwen3-coder:free,baseline,error,,,,,,,0.325,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672265.0405238
+hr_employees_questions.csv,hr_employees,Q13,How many people have we hired in the last 12 months?,qwen/qwen3-coder:free,structured,error,,,,,,,0.48,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672265.3657925
+hr_employees_questions.csv,hr_employees,Q13,How many people have we hired in the last 12 months?,qwen/qwen3-coder:free,CoT,error,,,,,,,0.306,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672265.8456483
+hr_employees_questions.csv,hr_employees,Q13,How many people have we hired in the last 12 months?,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.269,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672266.1516244
+hr_employees_questions.csv,hr_employees,Q13,How many people have we hired in the last 12 months?,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.233,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672266.4201825
+hr_employees_questions.csv,hr_employees,Q13,How many people have we hired in the last 12 months?,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.263,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672266.6543698
+hr_employees_questions.csv,hr_employees,Q14,"On average, how long did employees stay before they were terminated?",openai/gpt-3.5-turbo,baseline,ok,The calculation could not be performed due to a TypeError caused by incompatible data types.,result = df['termination_date'].sub(df['hire_date']).mean(),,,TypeError: unsupported operand type(s) for -: 'float' and 'str',2,4.076,,1776672266.9176757
+hr_employees_questions.csv,hr_employees,Q14,"On average, how long did employees stay before they were terminated?",openai/gpt-3.5-turbo,structured,ok,There was an error in calculating the average duration of employment before termination due to data type mismatch between dates and strings.,result = df['termination_date'].sub(df['hire_date']).mean(),,,TypeError: unsupported operand type(s) for -: 'float' and 'str',2,4.407,,1776672270.9993515
+hr_employees_questions.csv,hr_employees,Q14,"On average, how long did employees stay before they were terminated?",openai/gpt-3.5-turbo,CoT,ok,Employees stayed an average of X days before termination.,result = df['termination_date'].sub(df['hire_date']).mean(),,,TypeError: unsupported operand type(s) for -: 'float' and 'str',2,3.749,,1776672275.407233
+hr_employees_questions.csv,hr_employees,Q14,"On average, how long did employees stay before they were terminated?",meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.401,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672279.1595657
+hr_employees_questions.csv,hr_employees,Q14,"On average, how long did employees stay before they were terminated?",meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.42,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672279.5774186
+hr_employees_questions.csv,hr_employees,Q14,"On average, how long did employees stay before they were terminated?",meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.238,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672279.9973783
+hr_employees_questions.csv,hr_employees,Q14,"On average, how long did employees stay before they were terminated?",qwen/qwen3-coder:free,baseline,error,,,,,,,0.331,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672280.235848
+hr_employees_questions.csv,hr_employees,Q14,"On average, how long did employees stay before they were terminated?",qwen/qwen3-coder:free,structured,error,,,,,,,0.318,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672280.5680277
+hr_employees_questions.csv,hr_employees,Q14,"On average, how long did employees stay before they were terminated?",qwen/qwen3-coder:free,CoT,error,,,,,,,0.21,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672280.885869
+hr_employees_questions.csv,hr_employees,Q14,"On average, how long did employees stay before they were terminated?",nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.241,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672281.0970833
+hr_employees_questions.csv,hr_employees,Q14,"On average, how long did employees stay before they were terminated?",nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.249,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672281.337876
+hr_employees_questions.csv,hr_employees,Q14,"On average, how long did employees stay before they were terminated?",nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.233,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672281.5869296
+hr_employees_questions.csv,hr_employees,Q15,Who is at the top of the organization chart? (Identify employees with no manager).,openai/gpt-3.5-turbo,baseline,ok,"Employees at the top of the organization chart are: E2176, E2010, E2003, E2018, E2023, and others.",result = df[df['manager_id'].isnull()]['employee_id'].tolist(),"[""E2176"", ""E2010"", ""E2003"", ""E2018"", ""E2023"", ""E2011"", ""E2008"", ""E2021"", ""E2027"", ""E2013"", ""E2022"", ""E2029"", ""E2017"", ""E2020"", ""E2156"", ""E2015"", ""E2025"", ""E2019"", ""E2024"", ""E2001"", ""E2004"", ""E2028"", ""E2016"", ""E2006"", ""E2002"", ""E2030"", ""E2007"", ""E2005"", ""E2014"", ""E2012"", ""E2009"", ""E2026""]",,,2,5.358,,1776672281.8199089
+hr_employees_questions.csv,hr_employees,Q15,Who is at the top of the organization chart? (Identify employees with no manager).,openai/gpt-3.5-turbo,structured,ok,There was an error in processing the data. Please check the data format and try again.,"{
+    ""python_code"": ""result = df[df['manager_id'].isnull()]['employee_id'].tolist()"",
+    ""final_answer"": ""Employees at the top of the organization chart are: ['E2001', 'E2002', 'E2003', 'E2004', 'E2005', 'E2006', 'E2007', 'E2008', 'E2009', 'E2010', 'E2011', 'E2012', 'E2013', 'E2014', 'E2015', 'E2016', 'E2017', 'E2018', 'E2019', 'E2020', 'E2021', 'E2022', 'E2023', 'E2024', 'E2025', 'E2026', 'E2027', 'E2028', 'E2029', 'E2030', 'E2031', 'E2032', 'E2033', 'E2034', 'E2035', 'E2036', 'E2037', 'E2038', 'E2039', 'E2040', 'E2041', 'E2042', 'E2043', 'E2044', 'E2045', 'E2046', 'E2047', 'E2048', 'E2049', 'E2050', 'E2051', 'E2052', 'E2053', 'E2054', 'E2055', 'E2056', 'E2057', 'E2058', 'E2059', 'E2060', 'E2061', 'E2062', 'E2063', 'E2064', 'E2065', 'E2066', 'E2067', 'E2068', 'E2069', 'E2070', 'E2071', 'E2072', 'E2073', 'E2074', 'E2075', 'E2076', 'E2077', 'E2078', 'E2079', 'E2080', 'E2081', 'E2082', 'E2083', 'E2084', 'E2085', 'E2086', 'E2087', 'E2088', 'E2089', 'E2090', 'E2091', 'E2092', 'E2093', 'E2094', 'E2095', 'E2096', 'E2097', 'E2098', 'E2099', 'E2100', 'E2101', 'E2102', 'E2103', 'E2104', 'E2105', 'E2106', 'E2107', 'E2108', 'E2109', 'E2110', 'E2111', 'E2112', 'E2113', 'E2114', 'E2115', 'E2116', 'E2117', 'E2118', 'E2119', 'E2120', 'E2121', 'E2122', 'E2123', 'E2124', 'E2125', 'E2126', 'E2127', 'E2128', 'E2129', 'E2130', 'E2131', 'E2132', 'E2133', 'E2134', 'E2135', 'E2136', 'E2137', 'E2138', 'E2139', 'E2140', 'E2141', 'E2142', 'E2143', 'E2144', 'E2145', 'E2146', 'E2147', 'E2148', 'E2149', 'E2150', 'E2151', 'E2152', 'E2153', 'E2154', 'E2155', 'E2156', 'E2157', 'E2158', 'E2159', 'E2160', 'E2161', 'E2162', 'E2163', 'E2164', 'E2165', 'E2166', 'E2167', 'E2168', 'E2169', 'E2170', 'E2171', 'E2172', 'E2173', 'E2174', 'E2175', 'E2176', 'E2177', 'E2178', 'E2179', 'E2180', 'E2181', 'E2182', 'E2183', 'E2184', 'E2185', 'E2186', 'E2187', 'E2188', 'E2189', 'E2190', 'E2191', 'E2192', 'E2193', 'E2194', 'E2195', 'E2196', 'E2197', 'E2198', 'E2199', 'E2200', 'E2201', 'E2202', 'E2203', 'E2204', 'E2205', 'E2206', 'E2207', 'E2208', 'E2209', 'E2210', 'E2211', 'E2212', 'E2213', 'E2214', 'E2215', 'E2216', 'E2217', 'E2218', 'E2219', 'E2220', 'E2221', 'E2222', 'E2223', 'E2224', 'E2225', 'E2226', 'E2227', 'E2228', 'E2229', 'E2230', 'E2231', 'E2232",,,"SyntaxError: unterminated string literal (detected at line 3) (<string>, line 3)",2,19.94,,1776672287.1775181
+hr_employees_questions.csv,hr_employees,Q15,Who is at the top of the organization chart? (Identify employees with no manager).,openai/gpt-3.5-turbo,CoT,ok,"Employees at the top of the organization chart are: E2176, E2010, E2003, E2018, E2023, E2011, E2008, E2021, E2027, E2013, E2022, E2029, E2017, E2020, E2156, E2015, E2025, E2019, E2024, E2001, E2004, E2028, E2016, E2006, E2002, E2030, E2007, E2005, E2014, E2012, E2009, E2026.",result = df[df['manager_id'].isnull()]['employee_id'].tolist(),"[""E2176"", ""E2010"", ""E2003"", ""E2018"", ""E2023"", ""E2011"", ""E2008"", ""E2021"", ""E2027"", ""E2013"", ""E2022"", ""E2029"", ""E2017"", ""E2020"", ""E2156"", ""E2015"", ""E2025"", ""E2019"", ""E2024"", ""E2001"", ""E2004"", ""E2028"", ""E2016"", ""E2006"", ""E2002"", ""E2030"", ""E2007"", ""E2005"", ""E2014"", ""E2012"", ""E2009"", ""E2026""]",,,2,6.373,,1776672307.1175098
+hr_employees_questions.csv,hr_employees,Q15,Who is at the top of the organization chart? (Identify employees with no manager).,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.355,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672313.4901223
+hr_employees_questions.csv,hr_employees,Q15,Who is at the top of the organization chart? (Identify employees with no manager).,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.328,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672313.8454988
+hr_employees_questions.csv,hr_employees,Q15,Who is at the top of the organization chart? (Identify employees with no manager).,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.333,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672314.1736925
+hr_employees_questions.csv,hr_employees,Q15,Who is at the top of the organization chart? (Identify employees with no manager).,qwen/qwen3-coder:free,baseline,error,,,,,,,0.45,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672314.5084822
+hr_employees_questions.csv,hr_employees,Q15,Who is at the top of the organization chart? (Identify employees with no manager).,qwen/qwen3-coder:free,structured,error,,,,,,,0.356,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672314.9580858
+hr_employees_questions.csv,hr_employees,Q15,Who is at the top of the organization chart? (Identify employees with no manager).,qwen/qwen3-coder:free,CoT,error,,,,,,,0.399,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672315.3145719
+hr_employees_questions.csv,hr_employees,Q15,Who is at the top of the organization chart? (Identify employees with no manager).,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.249,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672315.7276018
+hr_employees_questions.csv,hr_employees,Q15,Who is at the top of the organization chart? (Identify employees with no manager).,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.228,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672315.9762733
+hr_employees_questions.csv,hr_employees,Q15,Who is at the top of the organization chart? (Identify employees with no manager).,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.243,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672316.204134
+hr_employees_questions.csv,hr_employees,Q16,"If we paid out all bonuses today, how much total budget would we need for active employees?",openai/gpt-3.5-turbo,baseline,ok,"To pay out all bonuses today for active employees, the total budget needed would be $16,846,247.17.",result = df[df['status'] == 'Active']['salary'].sum() + (df[df['status'] == 'Active']['salary'] * df[df['status'] == 'Active']['bonus_pct']).sum(),16846247.17,,,2,5.839,,1776672316.4484668
+hr_employees_questions.csv,hr_employees,Q16,"If we paid out all bonuses today, how much total budget would we need for active employees?",openai/gpt-3.5-turbo,structured,ok,"To pay out all bonuses today for active employees, the total budget needed would be $2,885,685,040.48.",result = df[df['status'] == 'Active']['salary'].sum() + df[df['status'] == 'Active']['salary'] * df[df['status'] == 'Active']['bonus_pct'].sum(),"0      16718934.52
+1      17726951.32
+2      16087523.32
+3      17206719.16
+5      17105495.24
+          ...     
+175    16532174.52
+176    17712530.20
+177    16288249.72
+178    17156976.04
+179    16331366.92
+Name: salary, Length: 168, dtype: float64",,,2,5.353,,1776672322.2872896
+hr_employees_questions.csv,hr_employees,Q16,"If we paid out all bonuses today, how much total budget would we need for active employees?",openai/gpt-3.5-turbo,CoT,ok,"To pay out all bonuses today for active employees, the total budget needed would be $28,731,660.94.",result = df[df['status'] == 'Active']['salary'].sum() + df[df['status'] == 'Active']['salary'] * df[df['status'] == 'Active']['bonus_pct'].sum(),"0      16718934.52
+1      17726951.32
+2      16087523.32
+3      17206719.16
+5      17105495.24
+          ...     
+175    16532174.52
+176    17712530.20
+177    16288249.72
+178    17156976.04
+179    16331366.92
+Name: salary, Length: 168, dtype: float64",,,2,5.427,,1776672327.640356
+hr_employees_questions.csv,hr_employees,Q16,"If we paid out all bonuses today, how much total budget would we need for active employees?",meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.363,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672333.0677385
+hr_employees_questions.csv,hr_employees,Q16,"If we paid out all bonuses today, how much total budget would we need for active employees?",meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.388,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672333.4306588
+hr_employees_questions.csv,hr_employees,Q16,"If we paid out all bonuses today, how much total budget would we need for active employees?",meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.361,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672333.818557
+hr_employees_questions.csv,hr_employees,Q16,"If we paid out all bonuses today, how much total budget would we need for active employees?",qwen/qwen3-coder:free,baseline,error,,,,,,,0.399,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672334.1797378
+hr_employees_questions.csv,hr_employees,Q16,"If we paid out all bonuses today, how much total budget would we need for active employees?",qwen/qwen3-coder:free,structured,error,,,,,,,0.337,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672334.5791504
+hr_employees_questions.csv,hr_employees,Q16,"If we paid out all bonuses today, how much total budget would we need for active employees?",qwen/qwen3-coder:free,CoT,error,,,,,,,0.33,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672334.916192
+hr_employees_questions.csv,hr_employees,Q16,"If we paid out all bonuses today, how much total budget would we need for active employees?",nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.229,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672335.2600524
+hr_employees_questions.csv,hr_employees,Q16,"If we paid out all bonuses today, how much total budget would we need for active employees?",nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.25,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672335.4892838
+hr_employees_questions.csv,hr_employees,Q16,"If we paid out all bonuses today, how much total budget would we need for active employees?",nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,1.492,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672335.7539165
+hr_employees_questions.csv,hr_employees,Q17,Compare the salaries of Full-time staff vs. Contractors for the same roles.,openai/gpt-3.5-turbo,baseline,ok,The comparison between the salaries of Full-time staff and Contractors for the same roles could not be performed due to missing 'Full-time' and 'Contractor' columns in the dataset.,"result = df.groupby(['role', 'employment_type'])['salary'].mean().unstack().T[['Full-time', 'Contractor']]",,,"KeyError: ""None of [Index(['Full-time', 'Contractor'], dtype='object', name='role')] are in the [columns]""",2,5.189,,1776672337.2469213
+hr_employees_questions.csv,hr_employees,Q17,Compare the salaries of Full-time staff vs. Contractors for the same roles.,openai/gpt-3.5-turbo,structured,ok,The comparison of salaries between Full-time staff and Contractors for the same roles shows that Full-time staff generally have higher salaries than Contractors.,"result = df.groupby(['role', 'employment_type'])['salary'].mean().unstack().reset_index()","employment_type                     role  ...    Intern
+0                      Account Executive  ...       NaN
+1                             Accountant  ...       NaN
+2                     Content Strategist  ...   65855.0
+3                          Data Engineer  ...  126719.0
+4                  Demand Gen Specialist  ...       NaN
+5                    Engineering Manager  ...  167702.0
+6                           FP&A Analyst  ...       NaN
+7                        Finance Manager  ...       NaN
+8                         Growth Manager  ...  100929.0
+9                      Marketing Analyst  ...       NaN
+10                    Operations Analyst  ...   78682.0
+11                           Ops Manager  ...       NaN
+12                    Payroll Specialist  ...   83423.0
+13                   Program Coordinator  ...       NaN
+14                           QA Engineer  ...  141336.0
+15                 Sales Development Rep  ...   80184.5
+16                         Sales Manager  ...       NaN
+17                     Software Engineer  ...  126370.0
+18                  Solutions Consultant  ...       NaN
+19               Supply Chain Specialist  ...       NaN
+20                         Support Agent  ...       NaN
+21                          Support Lead  ...   64116.0
+22                     Technical Support  ...       NaN
+
+[23 rows x 4 columns]",,,2,5.153,,1776672342.4444606
+hr_employees_questions.csv,hr_employees,Q17,Compare the salaries of Full-time staff vs. Contractors for the same roles.,openai/gpt-3.5-turbo,CoT,ok,Full-time staff generally have higher salaries compared to Contractors for the same roles.,"result = df.groupby(['employment_type', 'role'])['salary'].mean().unstack()","role             Account Executive  Accountant  ...  Support Lead  Technical Support
+employment_type                                 ...                                 
+Contractor                     NaN         NaN  ...           NaN           52321.00
+Full-time             77112.928571    90516.75  ...       61364.7           61611.75
+Intern                         NaN         NaN  ...       64116.0                NaN
+
+[3 rows x 23 columns]",,,2,4.498,,1776672347.5975466
+hr_employees_questions.csv,hr_employees,Q17,Compare the salaries of Full-time staff vs. Contractors for the same roles.,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.507,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672352.0957184
+hr_employees_questions.csv,hr_employees,Q17,Compare the salaries of Full-time staff vs. Contractors for the same roles.,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.332,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672352.6027648
+hr_employees_questions.csv,hr_employees,Q17,Compare the salaries of Full-time staff vs. Contractors for the same roles.,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.231,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672352.9382362
+hr_employees_questions.csv,hr_employees,Q17,Compare the salaries of Full-time staff vs. Contractors for the same roles.,qwen/qwen3-coder:free,baseline,error,,,,,,,0.33,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672353.169443
+hr_employees_questions.csv,hr_employees,Q17,Compare the salaries of Full-time staff vs. Contractors for the same roles.,qwen/qwen3-coder:free,structured,error,,,,,,,0.378,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672353.510002
+hr_employees_questions.csv,hr_employees,Q17,Compare the salaries of Full-time staff vs. Contractors for the same roles.,qwen/qwen3-coder:free,CoT,error,,,,,,,0.262,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672353.8884435
+hr_employees_questions.csv,hr_employees,Q17,Compare the salaries of Full-time staff vs. Contractors for the same roles.,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.256,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672354.150271
+hr_employees_questions.csv,hr_employees,Q17,Compare the salaries of Full-time staff vs. Contractors for the same roles.,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.293,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672354.4062703
+hr_employees_questions.csv,hr_employees,Q17,Compare the salaries of Full-time staff vs. Contractors for the same roles.,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.222,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672354.7154684
+hr_employees_questions.csv,hr_employees,Q18,List all employees with low performance ratings (1 or 2) so we can review their progress.,openai/gpt-3.5-turbo,baseline,ok,There are 28 employees with low performance ratings (1 or 2) that need a progress review.,"result = df[df['performance_rating'].isin([1, 2])]","    employee_id   department  ... manager_id            status
+0         E2155      Finance  ...      E2014            Active
+11        E2120      Finance  ...      E2008            Active
+17        E2136  Engineering  ...      E2019            Active
+29        E2098        Sales  ...      E2007            Active
+33        E2110        Sales  ...      E2022            Active
+43        E2050      Finance  ...      E2030            Active
+44        E2119      Support  ...      E2010            Active
+47        E2157        Sales  ...      E2006            Active
+53        E2043    Marketing  ...      E2024            Active
+55        E2049    Marketing  ...      E2022            Active
+56        E2029    Marketing  ...        NaN            Active
+64        E2079    Marketing  ...      E2019            Active
+70        E2166  Engineering  ...      E2028            Active
+72        E2067  Engineering  ...      E2010            Active
+80        E2167   Operations  ...      E2004            Active
+87        E2158    Marketing  ...      E2026        Terminated
+112       E2090        Sales  ...      E2019            Active
+131       E2062      Support  ...      E2022  Leave of Absence
+132       E2114   Operations  ...      E2003            Active
+134       E2007        Sales  ...        NaN            Active
+137       E2133  Engineering  ...      E2014            Active
+146       E2135        Sales  ...      E2021            Active
+158       E2124   Operations  ...      E2001            Active
+159       E2129        Sales  ...      E2028            Active
+162       E2035  Engineering  ...      E2001            Active
+164       E2092      Finance  ...      E2021            Active
+165       E2117  Engineering  ...      E2008            Active
+168       E2063        Sales  ...      E2014            Active
+
+[28 rows x 13 columns]",,,2,3.761,,1776672354.9376063
+hr_employees_questions.csv,hr_employees,Q18,List all employees with low performance ratings (1 or 2) so we can review their progress.,openai/gpt-3.5-turbo,structured,ok,There are 28 employees with low performance ratings (1 or 2) that need a progress review.,"result = df[df['performance_rating'].isin([1, 2])]","    employee_id   department  ... manager_id            status
+0         E2155      Finance  ...      E2014            Active
+11        E2120      Finance  ...      E2008            Active
+17        E2136  Engineering  ...      E2019            Active
+29        E2098        Sales  ...      E2007            Active
+33        E2110        Sales  ...      E2022            Active
+43        E2050      Finance  ...      E2030            Active
+44        E2119      Support  ...      E2010            Active
+47        E2157        Sales  ...      E2006            Active
+53        E2043    Marketing  ...      E2024            Active
+55        E2049    Marketing  ...      E2022            Active
+56        E2029    Marketing  ...        NaN            Active
+64        E2079    Marketing  ...      E2019            Active
+70        E2166  Engineering  ...      E2028            Active
+72        E2067  Engineering  ...      E2010            Active
+80        E2167   Operations  ...      E2004            Active
+87        E2158    Marketing  ...      E2026        Terminated
+112       E2090        Sales  ...      E2019            Active
+131       E2062      Support  ...      E2022  Leave of Absence
+132       E2114   Operations  ...      E2003            Active
+134       E2007        Sales  ...        NaN            Active
+137       E2133  Engineering  ...      E2014            Active
+146       E2135        Sales  ...      E2021            Active
+158       E2124   Operations  ...      E2001            Active
+159       E2129        Sales  ...      E2028            Active
+162       E2035  Engineering  ...      E2001            Active
+164       E2092      Finance  ...      E2021            Active
+165       E2117  Engineering  ...      E2008            Active
+168       E2063        Sales  ...      E2014            Active
+
+[28 rows x 13 columns]",,,2,4.11,,1776672358.69855
+hr_employees_questions.csv,hr_employees,Q18,List all employees with low performance ratings (1 or 2) so we can review their progress.,openai/gpt-3.5-turbo,CoT,ok,There are 28 employees with low performance ratings (1 or 2) that need a progress review.,"result = df[df['performance_rating'].isin([1, 2])]","    employee_id   department  ... manager_id            status
+0         E2155      Finance  ...      E2014            Active
+11        E2120      Finance  ...      E2008            Active
+17        E2136  Engineering  ...      E2019            Active
+29        E2098        Sales  ...      E2007            Active
+33        E2110        Sales  ...      E2022            Active
+43        E2050      Finance  ...      E2030            Active
+44        E2119      Support  ...      E2010            Active
+47        E2157        Sales  ...      E2006            Active
+53        E2043    Marketing  ...      E2024            Active
+55        E2049    Marketing  ...      E2022            Active
+56        E2029    Marketing  ...        NaN            Active
+64        E2079    Marketing  ...      E2019            Active
+70        E2166  Engineering  ...      E2028            Active
+72        E2067  Engineering  ...      E2010            Active
+80        E2167   Operations  ...      E2004            Active
+87        E2158    Marketing  ...      E2026        Terminated
+112       E2090        Sales  ...      E2019            Active
+131       E2062      Support  ...      E2022  Leave of Absence
+132       E2114   Operations  ...      E2003            Active
+134       E2007        Sales  ...        NaN            Active
+137       E2133  Engineering  ...      E2014            Active
+146       E2135        Sales  ...      E2021            Active
+158       E2124   Operations  ...      E2001            Active
+159       E2129        Sales  ...      E2028            Active
+162       E2035  Engineering  ...      E2001            Active
+164       E2092      Finance  ...      E2021            Active
+165       E2117  Engineering  ...      E2008            Active
+168       E2063        Sales  ...      E2014            Active
+
+[28 rows x 13 columns]",,,2,4.035,,1776672362.808602
+hr_employees_questions.csv,hr_employees,Q18,List all employees with low performance ratings (1 or 2) so we can review their progress.,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.335,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672366.844035
+hr_employees_questions.csv,hr_employees,Q18,List all employees with low performance ratings (1 or 2) so we can review their progress.,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.334,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672367.179085
+hr_employees_questions.csv,hr_employees,Q18,List all employees with low performance ratings (1 or 2) so we can review their progress.,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.369,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672367.513022
+hr_employees_questions.csv,hr_employees,Q18,List all employees with low performance ratings (1 or 2) so we can review their progress.,qwen/qwen3-coder:free,baseline,error,,,,,,,0.348,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672367.8818533
+hr_employees_questions.csv,hr_employees,Q18,List all employees with low performance ratings (1 or 2) so we can review their progress.,qwen/qwen3-coder:free,structured,error,,,,,,,0.399,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672368.229377
+hr_employees_questions.csv,hr_employees,Q18,List all employees with low performance ratings (1 or 2) so we can review their progress.,qwen/qwen3-coder:free,CoT,error,,,,,,,0.346,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672368.6285937
+hr_employees_questions.csv,hr_employees,Q18,List all employees with low performance ratings (1 or 2) so we can review their progress.,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.227,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672368.9750607
+hr_employees_questions.csv,hr_employees,Q18,List all employees with low performance ratings (1 or 2) so we can review their progress.,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.236,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672369.202418
+hr_employees_questions.csv,hr_employees,Q18,List all employees with low performance ratings (1 or 2) so we can review their progress.,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.247,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672369.4381711
+hr_employees_questions.csv,hr_employees,Q19,Which department is the most "Remote-friendly" based on headcount?,openai/gpt-3.5-turbo,baseline,ok,The Sales department is the most 'Remote-friendly' based on headcount.,result = df[df['work_mode'] == 'Remote']['department'].value_counts().idxmax(),Sales,,,2,4.573,,1776672369.6893995
+hr_employees_questions.csv,hr_employees,Q19,Which department is the most "Remote-friendly" based on headcount?,openai/gpt-3.5-turbo,structured,ok,The Sales department is the most 'Remote-friendly' based on headcount.,result = df[df['work_mode'] == 'Remote']['department'].value_counts().idxmax(),Sales,,,2,4.254,,1776672374.2620819
+hr_employees_questions.csv,hr_employees,Q19,Which department is the most "Remote-friendly" based on headcount?,openai/gpt-3.5-turbo,CoT,ok,The Sales department is the most 'Remote-friendly' based on headcount.,result = df[df['work_mode'] == 'Remote']['department'].value_counts().idxmax(),Sales,,,2,5.104,,1776672378.5162723
+hr_employees_questions.csv,hr_employees,Q19,Which department is the most "Remote-friendly" based on headcount?,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.369,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672383.6212058
+hr_employees_questions.csv,hr_employees,Q19,Which department is the most "Remote-friendly" based on headcount?,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.313,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672383.99019
+hr_employees_questions.csv,hr_employees,Q19,Which department is the most "Remote-friendly" based on headcount?,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.332,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672384.3027225
+hr_employees_questions.csv,hr_employees,Q19,Which department is the most "Remote-friendly" based on headcount?,qwen/qwen3-coder:free,baseline,error,,,,,,,0.316,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672384.634512
+hr_employees_questions.csv,hr_employees,Q19,Which department is the most "Remote-friendly" based on headcount?,qwen/qwen3-coder:free,structured,error,,,,,,,0.341,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672384.9507537
+hr_employees_questions.csv,hr_employees,Q19,Which department is the most "Remote-friendly" based on headcount?,qwen/qwen3-coder:free,CoT,error,,,,,,,0.3,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672385.2918243
+hr_employees_questions.csv,hr_employees,Q19,Which department is the most "Remote-friendly" based on headcount?,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.218,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672385.5922723
+hr_employees_questions.csv,hr_employees,Q19,Which department is the most "Remote-friendly" based on headcount?,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.264,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672385.8106098
+hr_employees_questions.csv,hr_employees,Q19,Which department is the most "Remote-friendly" based on headcount?,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.243,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672386.0762324
+hr_employees_questions.csv,hr_employees,Q20,Generate a report showing each manager's name and how many direct reports they have.,openai/gpt-3.5-turbo,baseline,ok,The report shows the number of direct reports each manager has.,result = df['manager_id'].value_counts(),"manager_id
+E2022    12
+E2010     8
+E2015     8
+E2020     7
+E2029     7
+E2014     7
+E2026     7
+E2017     6
+E2025     6
+E2023     6
+E2024     6
+E2007     6
+E2011     5
+E2008     5
+E2018     5
+E2013     5
+E2001     4
+E2021     4
+E2003     4
+E2005     4
+E2028     4
+E2019     3
+E2016     3
+E2004     3
+E2030     3
+E2006     3
+E2002     3
+E2027     2
+E2012     1
+E2009     1
+Name: count, dtype: int64",,,2,3.934,,1776672386.318924
+hr_employees_questions.csv,hr_employees,Q20,Generate a report showing each manager's name and how many direct reports they have.,openai/gpt-3.5-turbo,structured,ok,The report shows the number of direct reports each manager has.,result = df['manager_id'].value_counts(),"manager_id
+E2022    12
+E2010     8
+E2015     8
+E2020     7
+E2029     7
+E2014     7
+E2026     7
+E2017     6
+E2025     6
+E2023     6
+E2024     6
+E2007     6
+E2011     5
+E2008     5
+E2018     5
+E2013     5
+E2001     4
+E2021     4
+E2003     4
+E2005     4
+E2028     4
+E2019     3
+E2016     3
+E2004     3
+E2030     3
+E2006     3
+E2002     3
+E2027     2
+E2012     1
+E2009     1
+Name: count, dtype: int64",,,2,4.91,,1776672390.2531931
+hr_employees_questions.csv,hr_employees,Q20,Generate a report showing each manager's name and how many direct reports they have.,openai/gpt-3.5-turbo,CoT,ok,The report shows the number of direct reports each manager has.,result = df['manager_id'].value_counts(),"manager_id
+E2022    12
+E2010     8
+E2015     8
+E2020     7
+E2029     7
+E2014     7
+E2026     7
+E2017     6
+E2025     6
+E2023     6
+E2024     6
+E2007     6
+E2011     5
+E2008     5
+E2018     5
+E2013     5
+E2001     4
+E2021     4
+E2003     4
+E2005     4
+E2028     4
+E2019     3
+E2016     3
+E2004     3
+E2030     3
+E2006     3
+E2002     3
+E2027     2
+E2012     1
+E2009     1
+Name: count, dtype: int64",,,2,3.756,,1776672395.1655579
+hr_employees_questions.csv,hr_employees,Q20,Generate a report showing each manager's name and how many direct reports they have.,meta-llama/llama-3.3-70b-instruct:free,baseline,error,,,,,,,0.367,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672398.9217513
+hr_employees_questions.csv,hr_employees,Q20,Generate a report showing each manager's name and how many direct reports they have.,meta-llama/llama-3.3-70b-instruct:free,structured,error,,,,,,,0.358,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672399.289015
+hr_employees_questions.csv,hr_employees,Q20,Generate a report showing each manager's name and how many direct reports they have.,meta-llama/llama-3.3-70b-instruct:free,CoT,error,,,,,,,0.225,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672399.6608078
+hr_employees_questions.csv,hr_employees,Q20,Generate a report showing each manager's name and how many direct reports they have.,qwen/qwen3-coder:free,baseline,error,,,,,,,0.341,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672399.8858733
+hr_employees_questions.csv,hr_employees,Q20,Generate a report showing each manager's name and how many direct reports they have.,qwen/qwen3-coder:free,structured,error,,,,,,,0.348,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672400.2308948
+hr_employees_questions.csv,hr_employees,Q20,Generate a report showing each manager's name and how many direct reports they have.,qwen/qwen3-coder:free,CoT,error,,,,,,,0.303,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672400.5788267
+hr_employees_questions.csv,hr_employees,Q20,Generate a report showing each manager's name and how many direct reports they have.,nvidia/nemotron-3-super-120b-a12b:free,baseline,error,,,,,,,0.239,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672400.8815317
+hr_employees_questions.csv,hr_employees,Q20,Generate a report showing each manager's name and how many direct reports they have.,nvidia/nemotron-3-super-120b-a12b:free,structured,error,,,,,,,0.25,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672401.120175
+hr_employees_questions.csv,hr_employees,Q20,Generate a report showing each manager's name and how many direct reports they have.,nvidia/nemotron-3-super-120b-a12b:free,CoT,error,,,,,,,0.251,500 Server Error: Internal Server Error for url: http://127.0.0.1:8000/api/chat,1776672401.3700287
