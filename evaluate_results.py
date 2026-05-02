@@ -484,7 +484,9 @@ def main():
         return
 
     all_df = pd.concat(all_dfs, ignore_index=True)
-
+    all_df["elapsed_sec"] = pd.to_numeric(all_df["elapsed_sec"], errors="coerce")
+    all_df["eval_correct"] = pd.to_numeric(all_df["eval_correct"], errors="coerce")
+    
     Path(OUTPUT_CSV).parent.mkdir(parents=True, exist_ok=True)
     all_df.to_csv(OUTPUT_CSV, index=False, encoding="utf-8-sig")
     logger.log(f"\n💾 Detailed results saved: {OUTPUT_CSV}")

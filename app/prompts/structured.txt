@@ -21,4 +21,5 @@ Requirements:
 - The code must be correct and executable
 - Use only pandas
 - Do not include any explanation outside the JSON
+- Before answering, perform any necessary data cleaning
 

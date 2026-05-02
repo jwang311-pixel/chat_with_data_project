@@ -7,7 +7,10 @@ Use the dataset context and user question to generate ONLY JSON with:
 Rules:
 - Generate valid pandas code only.
 - The code must assign the final answer to a variable named result.
+- Do NOT write any import statements. pandas is already imported as pd, and the dataframe is already loaded as df.
 - Do not include markdown or explanations outside JSON.
+- The dataframe is already loaded as variable df. Do NOT use pd.read_csv() or open any files.
+- Before answering, perform any necessary data cleaning.
 
 Dataset context:
 {dataset_context}

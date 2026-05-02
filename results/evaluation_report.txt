@@ -3,9 +3,9 @@
 
 =======================================================
   Dataset: hr_employees
-  Total rows   : 240
-  Exec success : 60 (25.0%)
-  Exec error   : 180 (75.0%)
+  Total rows   : 60
+  Exec success : 60 (100.0%)
+  Exec error   : 0 (0.0%)
   Evaluating   : 60 successful rows
   [  1] ✅ [openai/gpt-3.5-turbo|baseline    ] What is our current total headcount
   [  2] ✅ [openai/gpt-3.5-turbo|structured  ] What is our current total headcount
@@ -70,9 +70,9 @@
 
 =======================================================
   Dataset: sales_orders
-  Total rows   : 240
-  Exec success : 60 (25.0%)
-  Exec error   : 180 (75.0%)
+  Total rows   : 60
+  Exec success : 60 (100.0%)
+  Exec error   : 0 (0.0%)
   Evaluating   : 60 successful rows
   [  1] ✅ [openai/gpt-3.5-turbo|baseline    ] What is the total gross revenue acr
   [  2] ✅ [openai/gpt-3.5-turbo|structured  ] What is the total gross revenue acr
@@ -116,7 +116,7 @@
   [ 40] ❌ [openai/gpt-3.5-turbo|baseline    ] Does the order_total always equal t
   [ 41] ❌ [openai/gpt-3.5-turbo|structured  ] Does the order_total always equal t
   [ 42] ❌ [openai/gpt-3.5-turbo|CoT         ] Does the order_total always equal t
-  [ 43] ❌ [openai/gpt-3.5-turbo|baseline    ] Show me the monthly sales trend for
+  [ 43] ✅ [openai/gpt-3.5-turbo|baseline    ] Show me the monthly sales trend for
   [ 44] ✅ [openai/gpt-3.5-turbo|structured  ] Show me the monthly sales trend for
   [ 45] ✅ [openai/gpt-3.5-turbo|CoT         ] Show me the monthly sales trend for
   [ 46] ✅ [openai/gpt-3.5-turbo|baseline    ] What is the total tax amount collec
@@ -128,85 +128,84 @@
   [ 52] ✅ [openai/gpt-3.5-turbo|baseline    ] Find any "Shipping Heavy" orders wh
   [ 53] ✅ [openai/gpt-3.5-turbo|structured  ] Find any "Shipping Heavy" orders wh
   [ 54] ✅ [openai/gpt-3.5-turbo|CoT         ] Find any "Shipping Heavy" orders wh
-  [ 55] ✅ [openai/gpt-3.5-turbo|baseline    ] Calculate the ROI of our promotions
-  [ 56] ✅ [openai/gpt-3.5-turbo|structured  ] Calculate the ROI of our promotions
-  [ 57] ✅ [openai/gpt-3.5-turbo|CoT         ] Calculate the ROI of our promotions
+  [ 55] ❌ [openai/gpt-3.5-turbo|baseline    ] Calculate the ROI of our promotions
+  [ 56] ❌ [openai/gpt-3.5-turbo|structured  ] Calculate the ROI of our promotions
+  [ 57] ❌ [openai/gpt-3.5-turbo|CoT         ] Calculate the ROI of our promotions
   [ 58] ❌ [openai/gpt-3.5-turbo|baseline    ] Who is our most valuable customer (
   [ 59] ❌ [openai/gpt-3.5-turbo|structured  ] Who is our most valuable customer (
   [ 60] ❌ [openai/gpt-3.5-turbo|CoT         ] Who is our most valuable customer (
 
 =======================================================
   Dataset: finance_expenses
-  Total rows   : 240
-  Exec success : 60 (25.0%)
-  Exec error   : 180 (75.0%)
-  Evaluating   : 60 successful rows
+  Total rows   : 60
+  Exec success : 59 (98.3%)
+  Exec error   : 1 (1.7%)
+  Evaluating   : 59 successful rows
   [  1] ❌ [openai/gpt-3.5-turbo|baseline    ] What was our total company spend in
   [  2] ❌ [openai/gpt-3.5-turbo|structured  ] What was our total company spend in
   [  3] ❌ [openai/gpt-3.5-turbo|CoT         ] What was our total company spend in
   [  4] ❌ [openai/gpt-3.5-turbo|baseline    ] How much did we spend on Notion acr
-  [  5] ❌ [openai/gpt-3.5-turbo|structured  ] How much did we spend on Notion acr
-  [  6] ❌ [openai/gpt-3.5-turbo|CoT         ] How much did we spend on Notion acr
-  [  7] ❌ [openai/gpt-3.5-turbo|baseline    ] Which month had the highest total s
-  [  8] ❌ [openai/gpt-3.5-turbo|structured  ] Which month had the highest total s
-  [  9] ❌ [openai/gpt-3.5-turbo|CoT         ] Which month had the highest total s
-  [ 10] ❌ [openai/gpt-3.5-turbo|baseline    ] For Q1 2025, what were the top 5 ve
-  [ 11] ❌ [openai/gpt-3.5-turbo|structured  ] For Q1 2025, what were the top 5 ve
-  [ 12] ❌ [openai/gpt-3.5-turbo|CoT         ] For Q1 2025, what were the top 5 ve
-  [ 13] ❌ [openai/gpt-3.5-turbo|baseline    ] Which department is closest to exce
-  [ 14] ❌ [openai/gpt-3.5-turbo|structured  ] Which department is closest to exce
-  [ 15] ❌ [openai/gpt-3.5-turbo|CoT         ] Which department is closest to exce
-  [ 16] ❌ [openai/gpt-3.5-turbo|baseline    ] Identify any "Pending" transactions
-  [ 17] ❌ [openai/gpt-3.5-turbo|structured  ] Identify any "Pending" transactions
-  [ 18] ❌ [openai/gpt-3.5-turbo|CoT         ] Identify any "Pending" transactions
-  [ 19] ❌ [openai/gpt-3.5-turbo|baseline    ] What is the breakdown of our spendi
-  [ 20] ❌ [openai/gpt-3.5-turbo|structured  ] What is the breakdown of our spendi
-  [ 21] ❌ [openai/gpt-3.5-turbo|CoT         ] What is the breakdown of our spendi
-  [ 22] ❌ [openai/gpt-3.5-turbo|baseline    ] Who is the most frequent approver f
-  [ 23] ❌ [openai/gpt-3.5-turbo|structured  ] Who is the most frequent approver f
-  [ 24] ❌ [openai/gpt-3.5-turbo|CoT         ] Who is the most frequent approver f
-  [ 25] ❌ [openai/gpt-3.5-turbo|baseline    ] Compare the total cost of reimbursa
-  [ 26] ✅ [openai/gpt-3.5-turbo|structured  ] Compare the total cost of reimbursa
-  [ 27] ❌ [openai/gpt-3.5-turbo|CoT         ] Compare the total cost of reimbursa
-  [ 28] ❌ [openai/gpt-3.5-turbo|baseline    ] Are there any approved expenses tha
-  [ 29] ❌ [openai/gpt-3.5-turbo|structured  ] Are there any approved expenses tha
-  [ 30] ❌ [openai/gpt-3.5-turbo|CoT         ] Are there any approved expenses tha
-  [ 31] ❌ [openai/gpt-3.5-turbo|baseline    ] What is the average spend per trans
-  [ 32] ❌ [openai/gpt-3.5-turbo|structured  ] What is the average spend per trans
-  [ 33] ❌ [openai/gpt-3.5-turbo|CoT         ] What is the average spend per trans
-  [ 34] ❌ [openai/gpt-3.5-turbo|baseline    ] Which payment method is used most f
-  [ 35] ❌ [openai/gpt-3.5-turbo|structured  ] Which payment method is used most f
-  [ 36] ❌ [openai/gpt-3.5-turbo|CoT         ] Which payment method is used most f
-  [ 37] ❌ [openai/gpt-3.5-turbo|baseline    ] Which project (Project Code) has be
-  [ 38] ❌ [openai/gpt-3.5-turbo|structured  ] Which project (Project Code) has be
-  [ 39] ❌ [openai/gpt-3.5-turbo|CoT         ] Which project (Project Code) has be
-  [ 40] ❌ [openai/gpt-3.5-turbo|baseline    ] Can you find any duplicate-looking 
-  [ 41] ❌ [openai/gpt-3.5-turbo|structured  ] Can you find any duplicate-looking 
-  [ 42] ❌ [openai/gpt-3.5-turbo|CoT         ] Can you find any duplicate-looking 
-  [ 43] ❌ [openai/gpt-3.5-turbo|baseline    ] Our spending spiked in a specific m
-  [ 44] ❌ [openai/gpt-3.5-turbo|structured  ] Our spending spiked in a specific m
-  [ 45] ❌ [openai/gpt-3.5-turbo|CoT         ] Our spending spiked in a specific m
-  [ 46] ❌ [openai/gpt-3.5-turbo|baseline    ] What is the total annual cost for "
-  [ 47] ❌ [openai/gpt-3.5-turbo|structured  ] What is the total annual cost for "
-  [ 48] ❌ [openai/gpt-3.5-turbo|CoT         ] What is the total annual cost for "
-  [ 49] ✅ [openai/gpt-3.5-turbo|baseline    ] What is the average transaction amo
-  [ 50] ✅ [openai/gpt-3.5-turbo|structured  ] What is the average transaction amo
-  [ 51] ✅ [openai/gpt-3.5-turbo|CoT         ] What is the average transaction amo
-  [ 52] ❌ [openai/gpt-3.5-turbo|baseline    ] Flag any single transaction that ta
-  [ 53] ❌ [openai/gpt-3.5-turbo|structured  ] Flag any single transaction that ta
-  [ 54] ❌ [openai/gpt-3.5-turbo|CoT         ] Flag any single transaction that ta
-  [ 55] ❌ [openai/gpt-3.5-turbo|baseline    ] Which vendor has issued the most re
-  [ 56] ❌ [openai/gpt-3.5-turbo|structured  ] Which vendor has issued the most re
-  [ 57] ❌ [openai/gpt-3.5-turbo|CoT         ] Which vendor has issued the most re
-  [ 58] ❌ [openai/gpt-3.5-turbo|baseline    ] Give me a summary of the top 3 vend
-  [ 59] ❌ [openai/gpt-3.5-turbo|structured  ] Give me a summary of the top 3 vend
-  [ 60] ❌ [openai/gpt-3.5-turbo|CoT         ] Give me a summary of the top 3 vend
+  [  5] ❌ [openai/gpt-3.5-turbo|CoT         ] How much did we spend on Notion acr
+  [  6] ❌ [openai/gpt-3.5-turbo|baseline    ] Which month had the highest total s
+  [  7] ❌ [openai/gpt-3.5-turbo|structured  ] Which month had the highest total s
+  [  8] ❌ [openai/gpt-3.5-turbo|CoT         ] Which month had the highest total s
+  [  9] ❌ [openai/gpt-3.5-turbo|baseline    ] For Q1 2025, what were the top 5 ve
+  [ 10] ❌ [openai/gpt-3.5-turbo|structured  ] For Q1 2025, what were the top 5 ve
+  [ 11] ❌ [openai/gpt-3.5-turbo|CoT         ] For Q1 2025, what were the top 5 ve
+  [ 12] ❌ [openai/gpt-3.5-turbo|baseline    ] Which department is closest to exce
+  [ 13] ❌ [openai/gpt-3.5-turbo|structured  ] Which department is closest to exce
+  [ 14] ❌ [openai/gpt-3.5-turbo|CoT         ] Which department is closest to exce
+  [ 15] ❌ [openai/gpt-3.5-turbo|baseline    ] Identify any "Pending" transactions
+  [ 16] ❌ [openai/gpt-3.5-turbo|structured  ] Identify any "Pending" transactions
+  [ 17] ❌ [openai/gpt-3.5-turbo|CoT         ] Identify any "Pending" transactions
+  [ 18] ✅ [openai/gpt-3.5-turbo|baseline    ] What is the breakdown of our spendi
+  [ 19] ✅ [openai/gpt-3.5-turbo|structured  ] What is the breakdown of our spendi
+  [ 20] ✅ [openai/gpt-3.5-turbo|CoT         ] What is the breakdown of our spendi
+  [ 21] ❌ [openai/gpt-3.5-turbo|baseline    ] Who is the most frequent approver f
+  [ 22] ❌ [openai/gpt-3.5-turbo|structured  ] Who is the most frequent approver f
+  [ 23] ❌ [openai/gpt-3.5-turbo|CoT         ] Who is the most frequent approver f
+  [ 24] ❌ [openai/gpt-3.5-turbo|baseline    ] Compare the total cost of reimbursa
+  [ 25] ❌ [openai/gpt-3.5-turbo|structured  ] Compare the total cost of reimbursa
+  [ 26] ❌ [openai/gpt-3.5-turbo|CoT         ] Compare the total cost of reimbursa
+  [ 27] ❌ [openai/gpt-3.5-turbo|baseline    ] Are there any approved expenses tha
+  [ 28] ❌ [openai/gpt-3.5-turbo|structured  ] Are there any approved expenses tha
+  [ 29] ❌ [openai/gpt-3.5-turbo|CoT         ] Are there any approved expenses tha
+  [ 30] ❌ [openai/gpt-3.5-turbo|baseline    ] What is the average spend per trans
+  [ 31] ❌ [openai/gpt-3.5-turbo|structured  ] What is the average spend per trans
+  [ 32] ❌ [openai/gpt-3.5-turbo|CoT         ] What is the average spend per trans
+  [ 33] ❌ [openai/gpt-3.5-turbo|baseline    ] Which payment method is used most f
+  [ 34] ❌ [openai/gpt-3.5-turbo|structured  ] Which payment method is used most f
+  [ 35] ❌ [openai/gpt-3.5-turbo|CoT         ] Which payment method is used most f
+  [ 36] ❌ [openai/gpt-3.5-turbo|baseline    ] Which project (Project Code) has be
+  [ 37] ❌ [openai/gpt-3.5-turbo|structured  ] Which project (Project Code) has be
+  [ 38] ❌ [openai/gpt-3.5-turbo|CoT         ] Which project (Project Code) has be
+  [ 39] ❌ [openai/gpt-3.5-turbo|baseline    ] Can you find any duplicate-looking 
+  [ 40] ❌ [openai/gpt-3.5-turbo|structured  ] Can you find any duplicate-looking 
+  [ 41] ❌ [openai/gpt-3.5-turbo|CoT         ] Can you find any duplicate-looking 
+  [ 42] ❌ [openai/gpt-3.5-turbo|baseline    ] Our spending spiked in a specific m
+  [ 43] ❌ [openai/gpt-3.5-turbo|structured  ] Our spending spiked in a specific m
+  [ 44] ❌ [openai/gpt-3.5-turbo|CoT         ] Our spending spiked in a specific m
+  [ 45] ❌ [openai/gpt-3.5-turbo|baseline    ] What is the total annual cost for "
+  [ 46] ❌ [openai/gpt-3.5-turbo|structured  ] What is the total annual cost for "
+  [ 47] ✅ [openai/gpt-3.5-turbo|CoT         ] What is the total annual cost for "
+  [ 48] ✅ [openai/gpt-3.5-turbo|baseline    ] What is the average transaction amo
+  [ 49] ✅ [openai/gpt-3.5-turbo|structured  ] What is the average transaction amo
+  [ 50] ✅ [openai/gpt-3.5-turbo|CoT         ] What is the average transaction amo
+  [ 51] ❌ [openai/gpt-3.5-turbo|baseline    ] Flag any single transaction that ta
+  [ 52] ❌ [openai/gpt-3.5-turbo|structured  ] Flag any single transaction that ta
+  [ 53] ❌ [openai/gpt-3.5-turbo|CoT         ] Flag any single transaction that ta
+  [ 54] ❌ [openai/gpt-3.5-turbo|baseline    ] Which vendor has issued the most re
+  [ 55] ❌ [openai/gpt-3.5-turbo|structured  ] Which vendor has issued the most re
+  [ 56] ❌ [openai/gpt-3.5-turbo|CoT         ] Which vendor has issued the most re
+  [ 57] ❌ [openai/gpt-3.5-turbo|baseline    ] Give me a summary of the top 3 vend
+  [ 58] ❌ [openai/gpt-3.5-turbo|structured  ] Give me a summary of the top 3 vend
+  [ 59] ❌ [openai/gpt-3.5-turbo|CoT         ] Give me a summary of the top 3 vend
 
 =======================================================
   Dataset: marketing_campaigns
-  Total rows   : 240
-  Exec success : 60 (25.0%)
-  Exec error   : 180 (75.0%)
+  Total rows   : 60
+  Exec success : 60 (100.0%)
+  Exec error   : 0 (0.0%)
   Evaluating   : 60 successful rows
   [  1] ❌ [openai/gpt-3.5-turbo|baseline    ] What is the overall ROAS for all ou
   [  2] ❌ [openai/gpt-3.5-turbo|structured  ] What is the overall ROAS for all ou
@@ -271,9 +270,9 @@
 
 =======================================================
   Dataset: customer_service
-  Total rows   : 240
-  Exec success : 60 (25.0%)
-  Exec error   : 180 (75.0%)
+  Total rows   : 60
+  Exec success : 60 (100.0%)
+  Exec error   : 0 (0.0%)
   Evaluating   : 60 successful rows
   [  1] ✅ [openai/gpt-3.5-turbo|baseline    ] What is the average time it takes f
   [  2] ✅ [openai/gpt-3.5-turbo|structured  ] What is the average time it takes f
@@ -313,13 +312,13 @@
   [ 36] ❌ [openai/gpt-3.5-turbo|CoT         ] Find any tickets that took more tha
   [ 37] ✅ [openai/gpt-3.5-turbo|baseline    ] Show me the ticket volume trend by 
   [ 38] ❌ [openai/gpt-3.5-turbo|structured  ] Show me the ticket volume trend by 
-  [ 39] ❌ [openai/gpt-3.5-turbo|CoT         ] Show me the ticket volume trend by 
+  [ 39] ✅ [openai/gpt-3.5-turbo|CoT         ] Show me the ticket volume trend by 
   [ 40] ✅ [openai/gpt-3.5-turbo|baseline    ] Does our response time get worse wh
   [ 41] ✅ [openai/gpt-3.5-turbo|structured  ] Does our response time get worse wh
   [ 42] ❌ [openai/gpt-3.5-turbo|CoT         ] Does our response time get worse wh
   [ 43] ✅ [openai/gpt-3.5-turbo|baseline    ] List all tickets where the customer
-  [ 44] ❌ [openai/gpt-3.5-turbo|structured  ] List all tickets where the customer
-  [ 45] ❌ [openai/gpt-3.5-turbo|CoT         ] List all tickets where the customer
+  [ 44] ✅ [openai/gpt-3.5-turbo|structured  ] List all tickets where the customer
+  [ 45] ✅ [openai/gpt-3.5-turbo|CoT         ] List all tickets where the customer
   [ 46] ❌ [openai/gpt-3.5-turbo|baseline    ] Which team is the most efficient at
   [ 47] ❌ [openai/gpt-3.5-turbo|structured  ] Which team is the most efficient at
   [ 48] ❌ [openai/gpt-3.5-turbo|CoT         ] Which team is the most efficient at
@@ -346,38 +345,35 @@
   1. EXECUTION SUCCESS RATE
 ───────────────────────────────────────────────────────
 
-  Overall: 300/1200 = 25.0%
+  Overall: 299/300 = 99.7%
 
   By Model:
-    meta-llama/llama-3.3-70b-instruct:free: 0/300 = 0.0%
-    nvidia/nemotron-3-super-120b-a12b:free: 0/300 = 0.0%
-    openai/gpt-3.5-turbo: 300/300 = 100.0%
-    qwen/qwen3-coder:free: 0/300 = 0.0%
+    openai/gpt-3.5-turbo: 299/300 = 99.7%
 
   By Prompt Mode:
-    CoT: 100/400 = 25.0%
-    baseline: 100/400 = 25.0%
-    structured: 100/400 = 25.0%
+    CoT: 100/100 = 100.0%
+    baseline: 100/100 = 100.0%
+    structured: 99/100 = 99.0%
 
 ───────────────────────────────────────────────────────
   2. ANSWER ACCURACY (successful rows only)
 ───────────────────────────────────────────────────────
 
-  Overall: 22.0%  (66/300)
+  Overall: 23.4%  (70/299)
 
   By Dataset:
                     Accuracy  Correct  Total
 dataset                                     
-customer_service       25.0%       15     60
-finance_expenses        6.7%        4     60
+customer_service       30.0%       18     60
+finance_expenses       11.9%        7     59
 hr_employees            5.0%        3     60
 marketing_campaigns    20.0%       12     60
-sales_orders           53.3%       32     60
+sales_orders           50.0%       30     60
 
   By Model:
                      Accuracy  Correct  Total
 model_id                                     
-openai/gpt-3.5-turbo    22.0%       66    300
+openai/gpt-3.5-turbo    23.4%       70    299
 
 ───────────────────────────────────────────────────────
   3. PROMPT MODE COMPARISON
@@ -386,14 +382,14 @@ openai/gpt-3.5-turbo    22.0%       66    300
   Accuracy by Prompt Mode:
             Accuracy  Correct  Total
 prompt_mode                         
-baseline       23.0%       23    100
-structured     23.0%       23    100
-CoT            20.0%       20    100
+baseline       24.0%       24    100
+structured     23.2%       23     99
+CoT            23.0%       23    100
 
   Model × Prompt Accuracy Matrix (%):
 prompt_mode            CoT  baseline  structured
 model_id                                        
-openai/gpt-3.5-turbo  20.0      23.0        23.0
+openai/gpt-3.5-turbo  23.0      24.0        23.2
 
 ───────────────────────────────────────────────────────
   4. PYTHON CODE EFFICIENCY
@@ -402,28 +398,28 @@ openai/gpt-3.5-turbo  20.0      23.0        23.0
   Average Lines of Code by Prompt Mode:
              Avg Lines  Min  Max
 prompt_mode                     
-CoT                1.1    1    9
-baseline           1.0    1    4
-structured         1.1    1    9
+CoT                1.1    1    4
+baseline           1.2    1    9
+structured         1.2    1    9
 
   Response Time by Prompt Mode (seconds):
              Avg (s)  Min (s)  Max (s)
 prompt_mode                           
-CoT             4.30     2.95     7.50
-baseline        4.42     3.09     9.42
-structured      4.56     3.03    19.94
+CoT             4.21     2.86    15.66
+baseline        4.17     2.73    17.06
+structured      4.04     2.86    11.83
 
   Response Time by Model (seconds):
                       Avg (s)  Min (s)  Max (s)
 model_id                                       
-openai/gpt-3.5-turbo     4.43     2.95    19.94
+openai/gpt-3.5-turbo     4.14     2.73    17.06
 
   Avg Lines of Code vs Accuracy by Prompt Mode:
             Accuracy  Avg_Lines  Avg_Time
 prompt_mode                              
-CoT            20.0%       1.10      4.30
-baseline       23.0%       1.03      4.42
-structured     23.0%       1.13      4.56
+CoT            23.0%       1.13      4.21
+baseline       24.0%       1.19      4.17
+structured     23.2%       1.19      4.04
 
 =======================================================
 

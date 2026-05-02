@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import time
+
 import requests
 
 from app.core.config import (
@@ -17,6 +19,7 @@ class OpenRouterClient:
         self.api_key = OPENROUTER_API_KEY
         self.base_url = OPENROUTER_BASE_URL
         self.timeout = LLM_TIMEOUT_SECONDS
+
     def chat(
         self,
         *,
@@ -46,13 +49,24 @@ class OpenRouterClient:
         print("MODEL:", model)
         print("PAYLOAD:", payload)
 
-        response = requests.post(url, headers=headers, json=payload, timeout=self.timeout)
+        # 429 自动重试，最多3次，等待时间递增
+        max_retries = 3
+        for attempt in range(max_retries):
+            response = requests.post(url, headers=headers, json=payload, timeout=self.timeout)
 
-        print("STATUS:", response.status_code)
-        print("BODY:", response.text)
+            print("STATUS:", response.status_code)
+            print("BODY:", response.text)
 
-        if response.status_code != 200:
-            raise RuntimeError(f"OpenRouter error {response.status_code}: {response.text}")
+            if response.status_code == 429:
+                wait = 30 * (attempt + 1)  # 30秒、60秒、90秒
+                print(f"  [429] rate limited, waiting {wait}s before retry ({attempt + 1}/{max_retries})...")
+                time.sleep(wait)
+                continue
 
-        data = response.json()
-        return data["choices"][0]["message"]["content"]
+            if response.status_code != 200:
+                raise RuntimeError(f"OpenRouter error {response.status_code}: {response.text}")
+
+            data = response.json()
+            return data["choices"][0]["message"]["content"]
+
+        raise RuntimeError("OpenRouter error 429: still rate limited after 3 retries")

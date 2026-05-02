@@ -38,6 +38,7 @@ def _safe_builtins():
         "sum": sum,
         "tuple": tuple,
         "zip": zip,
+        "__import__": __import__,
     }
 
 

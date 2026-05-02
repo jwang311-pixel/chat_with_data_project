@@ -17,9 +17,6 @@ RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
 MODELS = [
     "openai/gpt-3.5-turbo",
-    "meta-llama/llama-3.3-70b-instruct:free",
-    "qwen/qwen3-coder:free",
-    "nvidia/nemotron-3-super-120b-a12b:free",
 ]
 
 PROMPT_MODES = [
@@ -197,6 +194,13 @@ def main() -> None:
 
                     record["elapsed_sec"] = round(time.time() - started, 3)
                     append_csv(output_file, record)
+
+                    # 限速控制：免费模型等5秒，付费模型等1秒
+                    if ":free" in model_id:
+                        print("  [rate limit] sleeping 5s for free model...")
+                        time.sleep(15)
+                    else:
+                        time.sleep(1)
 
     print(f"\nDone. {total_runs} runs total. Results saved to {RESULTS_DIR}/")
 

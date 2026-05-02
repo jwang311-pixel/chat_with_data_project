@@ -18,3 +18,4 @@ Requirements:
 - The code must correctly answer the question
 - Use only pandas
 - Do not include any explanation outside the JSON
+- Before answering, perform any necessary data cleaning

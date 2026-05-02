@@ -131,6 +131,28 @@ def _safe_text(value: Any) -> str:
         return str(value)
 
 
+def _fix_python_code(code: str) -> str:
+    """
+    Fix common issues with LLM-generated python code:
+    - Replace escaped newlines (\\n) with real newlines
+    - Remove pd.read_csv() calls since df is already loaded
+    """
+    # Fix escaped newlines from JSON serialization
+    code = code.replace("\\n", "\n")
+    code = code.replace("\\t", "\t")
+
+    # Remove lines that try to read CSV files
+    fixed_lines = []
+    for line in code.splitlines():
+        if "pd.read_csv(" in line or "open(" in line:
+            print(f"  [fix] removed line: {line.strip()}")
+            continue
+        fixed_lines.append(line)
+    code = "\n".join(fixed_lines)
+
+    return code.strip()
+
+
 class ChatService:
     """
     Two-stage chat service:
@@ -205,6 +227,10 @@ class ChatService:
         else:
             python_code = _strip_code_fences(str(raw_code)).strip()
             code_reason = ""
+
+        # Fix common issues: escaped newlines, read_csv calls
+        python_code = _fix_python_code(python_code)
+        print("FIXED PYTHON CODE:", python_code)
 
         if not python_code:
             return {
