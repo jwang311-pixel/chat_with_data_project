@@ -5,14 +5,14 @@
   },
   {
     "id": "google/gemma-3-27b-it",
-    "label": "Llama 3.3 70B (Free)"
+    "label": "Gemma 3 27B"
   },
   {
     "id": "openai/gpt-oss-120b:free",
-    "label": "Qwen3 Coder (Free)"
+    "label": "GPT OSS 120B (Free)"
   },
   {
     "id": "meta-llama/llama-3.3-70b-instruct",
-    "label": "Nemotron 3 Super (Free)"
+    "label": "Llama 3.3 70B"
   }
 ]
